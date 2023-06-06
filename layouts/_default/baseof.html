@@ -14,8 +14,6 @@
 
     {{ $style := resources.Get "/css/style.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $css.Permalink }}" />
-
-
 </head>
 
 <body id="top">
@@ -24,19 +22,9 @@
 
 	<div class="wrapper">
         {{ block "main" . }}{{ end }}
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="block">
-							<a href="#"><img src="img/logo.png" alt=""></a>
-							<p>All rights reserved © 2015</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
 	</div>
+
+    {{ partial "footer.html" . }}
 
 	<!-- load Js -->
 	<script src="js/jquery-1.11.3.min.js"></script>
