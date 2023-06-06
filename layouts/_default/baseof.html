@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>{{ print .Page.Title " | " .Site.Title }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- google fonts -->
+
+	<!-- Combine the CSS -->
+
+    {{ $css := resources.Match "/css/*.css" | resources.Concat "glob1.css" | resources.Minify | resources.Fingerprint }}
+
+    {{ $style := resources.Get "/css/style.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}" />
+
+
+</head>
+
+<body id="top">
+	<header id="navigation" class="navbar-fixed-top animated-header">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- responsive nav button -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- /responsive nav button -->
+
+				<!-- logo -->
+				<h1 class="navbar-brand">
+					<a href="#body"><img src="img/logo.png" height="40" width="164" alt=""></a>
+				</h1>
+				<!-- /logo -->
+			</div>
+
+			<!-- main nav -->
+			<nav class="collapse navbar-collapse navbar-right" role="navigation">
+				<ul id="nav" class="nav navbar-nav menu">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#features">Service</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#pricing-table">Price</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#testimonial">Testimonial</a></li>
+					<li><a href="#contact-form">Contact</a></li>
+				</ul>
+			</nav>
+			<!-- /main nav -->
+
+		</div>
+	</header>
+
+
+	<div class="wrapper">
+        {{ block "main" . }}{{ end }}
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<a href="#"><img src="img/logo.png" alt=""></a>
+							<p>All rights reserved © 2015</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- load Js -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&amp;sensor=false">
+	</script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/html5lightbox.js"></script>
+	<script src="js/jquery.mixitup.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.scrollUp.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
