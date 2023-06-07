@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "Hero"
   description: "Hero banner with title, text, background image and buttons"
-  icon: "wysiwyg"
+  icon: "title"
   tags: [hero]
 
 # Defines the structure of this component, as well as the default values
@@ -13,6 +13,8 @@ blueprint:
   text: 
   button1:
   button2: 
+  image:
+  image_alt:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -20,8 +22,8 @@ preview:
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   button1: "Purchase Now"
   button2: "View Features"
-  image_path:
-  image_alt:
+  image: '/img/banner.jpg'
+  image_alt: "Person working"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

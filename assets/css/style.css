@@ -224,7 +224,7 @@ header .navbar {
    Home page style
    ================= */
 #banner {
-  background: url('../img/banner.jpg');
+  /* background: url('../img/banner.jpg'); */
   background-size: cover;
   padding: 250px 0;
   position: relative;
@@ -342,7 +342,7 @@ header .navbar {
   margin-top: 40px;
 }
 #counter {
-  background: url(../img/counter-bg.jpg) no-repeat;
+  background: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;

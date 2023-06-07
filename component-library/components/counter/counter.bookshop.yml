@@ -1,0 +1,31 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Counter"
+  description:
+  icon: "pin"
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  text: "Hello World!"
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: "FUN FACTS"
+  subheading: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
+  counter_1: "136800 k"
+  counter_1_subheading: "Lines Coded"
+  counter_2: "7800 +"
+  counter_2_subheading: "Lines Deleted"
+  counter_3: "698"
+  counter_3_subheading: "Hours Spent"
+  counter_4: "432"
+  counter_4_subheading: "Cups of Coffee"
+  image: '/img/counter-bg.jpg'
+  image_alt:
+
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
