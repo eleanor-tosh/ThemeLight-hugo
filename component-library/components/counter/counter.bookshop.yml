@@ -9,7 +9,18 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  title:
+  subheading: 
+  counter_1: 
+  counter_1_subheading: 
+  counter_2: 
+  counter_2_subheading: 
+  counter_3: 
+  counter_3_subheading: 
+  counter_4: 
+  counter_4_subheading: 
+  image: 
+  image_alt:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -24,7 +35,7 @@ preview:
   counter_4: "432"
   counter_4_subheading: "Cups of Coffee"
   image: '/img/counter-bg.jpg'
-  image_alt:
+  image_alt: 'Birds eye view of table with desk items'
 
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
