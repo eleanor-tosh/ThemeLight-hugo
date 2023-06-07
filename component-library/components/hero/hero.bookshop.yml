@@ -1,0 +1,27 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Hero"
+  description: "Hero banner with title, text, background image and buttons"
+  icon: "wysiwyg"
+  tags: [hero]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: 
+  text: 
+  button1:
+  button2: 
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: "Clean and Flexible Business Template"
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  button1: "Purchase Now"
+  button2: "View Features"
+  image_path:
+  image_alt:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

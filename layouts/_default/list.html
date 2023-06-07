@@ -1,3 +1,5 @@
 {{ define "main" }}
- {{ .Content }}
+ {{ range .Params.content_blocks }}
+   {{ partial "bookshop" . }}
+ {{ end }}
 {{ end }}

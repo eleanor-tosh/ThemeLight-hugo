@@ -9,39 +9,28 @@
 	<!-- google fonts -->
 
 	<!-- Combine the CSS -->
+    <!-- The bookshop_scss partial returns a slice of all SCSS resources from your Bookshop -->
+    {{ $bookshop_scss_files := partial "bookshop_scss" . }}
+    <!-- resources.Concat converts all of the above SCSS resources into one logical CSS file -->
+    {{ $bookscss := $bookshop_scss_files | resources.Concat "css/bookshop.css" |
+    resources.ToCSS }}
 
     {{ $css := resources.Match "/css/*.css" | resources.Concat "glob1.css" | resources.Minify | resources.Fingerprint }}
+
+    {{ $css := slice $css $bookscss | resources.Concat "main.css"  }}
 
     {{ $style := resources.Get "/css/style.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $css.Permalink }}" />
 </head>
 
-<body id="top">
-    {{ partial "nav.html" . }}
+ {{ partial "nav.html" . }}
 
-
+ <body id="top">
 	<div class="wrapper">
         {{ block "main" . }}{{ end }}
 	</div>
-
-    {{ partial "footer.html" . }}
-
-	<!-- load Js -->
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&amp;sensor=false">
-	</script>
-	<script src="js/waypoints.min.js"></script>
-	<script src="js/lightbox.js"></script>
-	<script src="js/jquery.counterup.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/html5lightbox.js"></script>
-	<script src="js/jquery.mixitup.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/jquery.scrollUp.js"></script>
-	<script src="js/jquery.sticky.js"></script>
-	<script src="js/jquery.nav.js"></script>
-	<script src="js/main.js"></script>
 </body>
+
+{{ partial "footer.html" . }}
 
 </html>
