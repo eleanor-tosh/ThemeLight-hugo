@@ -254,7 +254,7 @@ header .navbar {
   line-height: 30px;
   font-weight: 300;
 }
-#banner .block .btn-learn {
+/* #banner .block .btn-learn {
   border: 1px solid #fff;
   color: #fff;
   border-radius: 25px;
@@ -266,7 +266,7 @@ header .navbar {
 #banner .block .btn-learn:hover {
   border-color: #80d6a3;
   color: #80d6a3;
-}
+} */
 #banner .block .buttons {
   margin-top: 40px;
 }

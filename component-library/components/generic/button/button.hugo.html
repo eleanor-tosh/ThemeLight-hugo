@@ -1,0 +1,8 @@
+{{ $c := "c-button" }}
+
+<a href="{{ .link_url }}" class="btn {{ $c }} {{ $c }}--{{ .variant | urlize | default "filled" }}" {{ if .open_in_new_tab }}
+target="_blank"
+{{ end }}>{{ .label }}</a>
+
+
+{{/*  <a href="{{ .link_url }}" class="btn btn-learn">{{ .label }}</a>  */}}

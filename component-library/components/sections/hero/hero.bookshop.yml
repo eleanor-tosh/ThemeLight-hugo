@@ -9,25 +9,23 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: 
-  text: 
-  button1:
-  button2: 
-  image:
-  image_alt:
+ title: "Clean and Flexible Business Template"
+
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   title: "Clean and Flexible Business Template"
-  title_color: 
+  title_color: ""
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  text_color:
-  button1: "Purchase Now"
-  button_1_color:
-  button2: "View Features"
-  button_2_color:
+  text_color: ""
   image: '/img/hero-banner.jpg'
   image_alt: "Person working"
+  button_1:
+    label: "Purchase Now"
+    variant: "transparent"
+  button_2:
+    label: "View Features"
+    variant: "transparent"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

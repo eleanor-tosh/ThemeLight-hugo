@@ -1,0 +1,5 @@
+:root {
+  --border-color: #fff;
+  --button-text: #fff;
+  --button-text-hover: #80d6a3;
+  --button-border-hover: #80d6a3; }

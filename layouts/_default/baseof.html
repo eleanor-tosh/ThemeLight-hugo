@@ -14,10 +14,14 @@
     <!-- resources.Concat converts all of the above SCSS resources into one logical CSS file -->
     {{ $bookscss := $bookshop_scss_files | resources.Concat "css/bookshop.css" |
     resources.ToCSS }}
+ <!-- fetch all *.scss files in the ./assets/scss/ folder and combine and convert to css -->
+    {{ $scss := resources.Match "/scss/*.scss" | resources.Concat "glob2.css" | resources.ToCSS }}
 
     {{ $css := resources.Match "/css/*.css" | resources.Concat "glob1.css" | resources.Minify | resources.Fingerprint }}
 
-    {{ $css := slice $css $bookscss | resources.Concat "main.css"  }}
+    {{ $css := slice $css $scss $bookscss | resources.Concat "main.css"  }}
+   
+
 
     {{ $style := resources.Get "/css/style.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $css.Permalink }}" />
