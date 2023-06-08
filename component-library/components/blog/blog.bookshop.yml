@@ -1,0 +1,20 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Blog"
+  description:
+  icon: "view_carousel"
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  text: "Hello World!"
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: "BLOG"
+  subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

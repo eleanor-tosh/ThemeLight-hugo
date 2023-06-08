@@ -1,0 +1,26 @@
+<section id="contact-form">
+    <div class="container">
+        <div class="row">
+            <div class="title">
+                <h2>{{ .title }}</h2>
+                <p>{{ .subtitle }}</p>
+            </div>
+            <div class="col-md-6 col">
+                <!-- map -->
+                <div class="map">
+                    <div id="googleMap"></div>
+                </div>
+                <!--/map-->
+
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Email">
+                    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                    <button class="btn btn-default" type="submit">{{ .button }}</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

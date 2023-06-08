@@ -681,13 +681,13 @@ header .navbar {
 }
 #pricing-table .title h2,
 #pricing-table .title p {
-  color: #fff;
+  /* color: #fff; */
 }
 #pricing-table .title h2:before, #pricing-table .title h2:after {
-  background: #fff;
+  /* background: #fff; */
 }
 #pricing-table .block {
-  color: #fff;
+  /* color: #fff; */
 }
 #pricing-table .block ul {
   border: 1px solid #fff;
@@ -716,19 +716,19 @@ header .navbar {
   font-weight: 300;
 }
 #pricing-table .block ul li:last-child {
-  color: #fff;
+  /* color: #fff; */
   margin-top: 25px;
 }
 #pricing-table .block .btn-buy {
   border-color: #fff;
   border-radius: 25px;
-  color: #fff;
+  color: #444;
   font-size: 16px;
   display: inline-block;
   font-weight: 600;
   transition: 0.3s;
   background: #fff;
-  color: #80d6a3;
+  /* color: #80d6a3; */
 }
 
 

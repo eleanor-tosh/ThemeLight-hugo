@@ -1,0 +1,51 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Team"
+  description:
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: 
+  subtitle: 
+  team_1: 
+  role_1: 
+  description_1: 
+  image_1: 
+  image_alt_1: 
+  team_2: 
+  role_2: 
+  description_2: 
+  image_2: 
+  image_alt_2: 
+  team_3: 
+  role_3: 
+  description_3: 
+  image_3: 
+  image_alt_3: 
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: "CREATIVE TEAM"
+  subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
+  team_1: "ROBERT SMITH"
+  role_1: "Product Designer"
+  description_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
+  image_1: "/img/team-img1.jpg"
+  image_alt_1: "Robert Smith"
+  team_2: "ROBERT SMITH"
+  role_2: "Product Designer"
+  description_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
+  image_2: "/img/team-img2.jpg"
+  image_alt_2: "Robert Smith"
+  team_3: "ROBERT SMITH"
+  role_3: "Product Designer"
+  description_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
+  image_3: "/img/team-img3.jpg"
+  image_alt_3: "Robert Smith"
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
