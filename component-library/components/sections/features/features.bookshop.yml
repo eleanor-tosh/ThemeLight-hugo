@@ -9,26 +9,42 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: 
-  subheading: 
-  heading_1: 
-  text_1: 
-  heading_2: 
-  text_2: 
-  heading_3: 
-  text_3: 
+  text: "Hello World!"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: "OUR BEST SERVICES"
-  subheading: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
-  heading_1: "Responsive Design"
-  text_1: "Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
-  heading_2: "Outstanding Animation"
-  text_2: "Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
-  heading_3: "Unlimited Colors"
-  text_3: "Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
-
+  heading: 
+    title: "OUR BEST SERVICES"
+    subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
+    title_color: "primary-2"
+    subtitle_color: "primary-3"
+    line_color: "primary-1"
+  features:
+    - icon_path:
+      heading: "Responsive Design"
+      text: "Now with range. Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+    - icon_path:
+      heading: "Outstanding Animation"
+      text: "Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+    - icon_path:
+      heading: "Unlimited Colors"
+      text: "Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
+  features_heading: "primary-1"
+  features_text: "primary-1"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  features_heading:
+    type: select~
+    options:
+      values:
+        - "primary-1"
+        - "primary-2"
+        - "primary-3"
+  features_text:
+    type: select~
+    options:
+      values:
+        - "primary-1"
+        - "primary-2"
+        - "primary-3"

@@ -1,41 +1,20 @@
+{{ $c := "c-features"}}
 <section id="features">
     <div class="container">
+        {{ partial "bookshop" (slice "generic/heading" .heading )}}
         <div class="row">
-            <div class="col-md-12">
-                <div class="title">
-                    <h2>{{ .title }}</h2>
-                    <p>{{ .subheading }}</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
+
+            {{ range .features }}
             <div class="col-md-4 col-xs-6 col-sm-6">
                 <div class="feature-block text-center">
                     <div class="icon-box">
                         <i class="ion-easel"></i>
                     </div>
-                    <h4 class="wow fadeInUp" data-wow-delay=".3s">{{ .heading_1 }}</h4>
-                    <p class="wow fadeInUp" data-wow-delay=".5s">{{ .text_1 }}</p>
+                    <h4 class="{{ $c }}--heading-{{ .features_heading | urlize | default "primary-2" }} wow fadeInUp" data-wow-delay=".3s">{{ .heading }}</h4>
+                    <p class="{{ $c }}--text-{{ .features_text | urlize | default "primary-2" }} wow fadeInUp" data-wow-delay=".5s">{{ .text }}</p>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-6 col-sm-6">
-                <div class="feature-block text-center">
-                    <div class="icon-box">
-                        <i class="ion-paintbucket"></i>
-                    </div>
-                    <h4 class="wow fadeInUp" data-wow-delay=".3s">{{ .heading_2 }}</h4>
-                    <p class="wow fadeInUp" data-wow-delay=".5s">{{ .text_2 }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-xs-6 col-sm-6">
-                <div class="feature-block text-center">
-                    <div class="icon-box">
-                        <i class="ion-paintbrush"></i>
-                    </div>
-                    <h4 class="wow fadeInUp" data-wow-delay=".3s">{{ .heading_3 }}</h4>
-                    <p class="wow fadeInUp" data-wow-delay=".5s">{{ .text_3 }}</p>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
 </section>

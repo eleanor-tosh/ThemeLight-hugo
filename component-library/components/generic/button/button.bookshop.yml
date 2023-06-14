@@ -17,15 +17,48 @@ blueprint:
 preview:
   label: "Get Started Free"
   link_url: "/sign-up/"
-  variant: "filled"
+  label_color: "label-color-2"
+  variant: "filled-color-1"
+  hover_background: "background-hover-color-2"
+  hover_label: "label-hover-color-3"
+  hover_border: "border-hover-color-3"
   open_in_new_tab: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  label_color:
+    type: select
+    options:
+      values:
+        - "label-color-1"
+        - "label-color-2"
+        - "label-color-3"
   variant:
     type: select
     options:
       values:
         - "transparent"
-        - "filled"
-        - "plain-text"
+        - "filled-color-1"
+        - "filled-color-2"
+        - "filled-color-3"
+  hover_background:
+      type: select
+      options:
+        values:
+          - "background-hover-color-1"
+          - "background-hover-color-2"
+          - "background-hover-color-3"
+  hover_label:
+      type: select
+      options:
+        values:
+          - "label-hover-color-1"
+          - "label-hover-color-2"
+          - "label-hover-color-3"
+  hover_border:
+      type: select
+      options:
+        values:
+          - "border-hover-color-1"
+          - "border-hover-color-2"
+          - "border-hover-color-3"

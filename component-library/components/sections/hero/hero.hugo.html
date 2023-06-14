@@ -1,17 +1,38 @@
     <section id="banner" style="background-image: url('{{ .image }}')" alt="{{ .image_alt }}">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1>{{ .title }}</h1>
-                        <h2>{{ .text }}</h2>
-                        <div class="buttons">
-                            {{ partial "bookshop" (slice "generic/button" .button_1 )}}
-                            {{ partial "bookshop" (slice "generic/button" .button_2 )}}
+
+            {{ if .reversed }}
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block-reversed">
+                            <h1>{{ .title }}</h1>
+                            <h2>{{ .text }}</h2>
+                            <div class="buttons">
+                                {{ partial "bookshop" (slice "generic/button" .button_1 )}}
+                                {{ partial "bookshop" (slice "generic/button" .button_2 )}}
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+          
+            {{ else }}
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h1>{{ .title }}</h1>
+                            <h2>{{ .text }}</h2>
+                            <div class="buttons">
+                                {{ partial "bookshop" (slice "generic/button" .button_1 )}}
+                                {{ partial "bookshop" (slice "generic/button" .button_2 )}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            {{ end }}
+            
         </div>
         <div class="scrolldown">
             <a id="scroll" href="#features" class="scroll"></a>

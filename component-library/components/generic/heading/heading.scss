@@ -1,0 +1,63 @@
+.c-heading {
+
+    .title h2 {
+        font-size: 25px;
+        padding-bottom: 25px;
+        text-transform: uppercase;
+        display: inline-block;
+        position: relative;
+      }
+      
+      .title h2:before {
+          content: '';
+          width: 40px;
+          height: 2px;
+          position: absolute;
+          top: 12px;
+          left: -60px;
+      }
+      .title h2:after {
+          content: '';
+          width: 40px;
+          height: 2px;
+          position: absolute;
+          top: 12px;
+          right: -60px;
+      }
+      .title p {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+      }
+
+      &--title-primary-1 {
+        color: var(--primary-1);
+      }
+      &--title-primary-2 {
+        color: var(--primary-2);
+      }
+      &--title-primary-2 {
+        color: var(--primary-2);
+      }
+
+      &--subtitle-primary-1 {
+        color: var(--primary-1);
+      }
+      &--subtitle-primary-2 {
+        color: var(--primary-2);
+      }
+      &--subtitle-primary-3 {
+        color: var(--primary-3);
+      }
+
+      &--line-primary-1:before, &--line-primary-1:after {
+        background: var(--primary-1);
+      }
+      &--line-primary-2:before, &--line-primary-2:after {
+        background: var(--primary-2);
+      }
+      &--line-primary-3:before, &--line-primary-3:after {
+        background: var(--primary-3);
+      }
+      
+}

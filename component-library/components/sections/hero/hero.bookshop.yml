@@ -15,9 +15,7 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   title: "Clean and Flexible Business Template"
-  title_color: ""
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  text_color: ""
   image: '/img/hero-banner.jpg'
   image_alt: "Person working"
   button_1:
@@ -26,6 +24,7 @@ preview:
   button_2:
     label: "View Features"
     variant: "transparent"
+  reversed: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

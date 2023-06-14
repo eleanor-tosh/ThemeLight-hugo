@@ -1,15 +1,86 @@
 .c-button {
-    border: 1px solid var(--border-color);
-    color: var(--button-text);
     border-radius: 25px;
     margin: 0 7px;
     padding: 10px 22px;
     font-size: 14px;
     transition: 0.3s;
       
+    // &:hover {
+    //     border-color: var(--button-border-hover);
+    //     color: var(--button-text-hover);
+    //   }
+//label
+    &--label-color-1 {
+        color: var(--button-option-1);
+        border: 1px solid var(--button-option-1);
+    }
+    &--label-color-2 {
+        color: var(--button-option-2);
+        border: 1px solid var(--button-option-2);
+    }
+    &--label-color-3 {
+        color: var(--button-option-3);
+        border: 1px solid var(--button-option-3);
+    }
+//fill
+    &--filled-color-1 {
+        background-color: var(--button-option-1);
+    }
+    &--filled-color-2 {
+        background-color: var(--button-option-2);
+    }
+    &--filled-color-3 {
+        background-color: var(--button-option-3);
+    }
+//label hover
+    &--label-hover-color-1 {
+        &:hover {
+            color: var(--button-option-1);
+          }
+    }
+    &--label-hover-color-2 {
+        &:hover {
+            color: var(--button-option-2);
+          }
+    }
+    &--label-hover-color-3 {
+        &:hover {
+            color: var(--button-option-3);
+            }
+    }
+
+//background hover
+    &--background-hover-color-1 {
+        &:hover {
+            background-color: var(--button-option-1);
+          }
+    }
+    &--background-hover-color-2 {
+        &:hover {
+            background-color: var(--button-option-2);
+          }
+    }
+    &--background-hover-color-3 {
     &:hover {
-        border-color: var(--button-border-hover);
-        color: var(--button-text-hover);
-      }
+        background-color: var(--button-option-3);
+        }
+    }
+
+//border hover
+    &--border-hover-color-1 {
+        &:hover {
+            border-color: var(--button-option-1);
+          }
+    }    
+    &--border-hover-color-2 {
+        &:hover {
+            border-color: var(--button-option-2);
+          }
+    }   
+    &--border-hover-color-3 {
+        &:hover {
+            border-color: var(--button-option-3);
+          }
+    }   
 
 }

@@ -1,0 +1,11 @@
+{{ $c := "c-heading"}}
+<div class="{{ $c }}">
+    <div class="row" >
+        <div class="col-md-12">
+            <div class="title">
+                <h2 class="{{ $c }}--title-{{ .title_color | urlize | default "primary-1" }} {{ $c }}--line-{{ .line_color | urlize | default "primary-1" }}">{{ .title }}</h2>
+                <p class=" {{ $c }}--subtitle-{{ .subtitle_color | urlize | default "primary-1" }}">{{ .subtitle }}</p>
+            </div>
+        </div>
+    </div>
+</div>
