@@ -13,4 +13,23 @@ content_blocks:
       label: Learn Less
       variant: transparent
     reversed: false
+  - _bookshop_name: sections/counter
+    heading:
+      title: Counter area
+      subtitle: Some numbers to enjou
+      title_color: '#100f0f'
+      subtitle_color: '#615c5c'
+      line_color: '#28cf31'
+    numbers:
+      - number: 233
+        prefix:
+        suffix:
+        text: Dog biscuits
+      - number: 4
+        prefix:
+        suffix: best
+        text: dogs we currently have
+    number_color:
+    image: /img/desk.jpg
+    image_alt: desk
 ---
