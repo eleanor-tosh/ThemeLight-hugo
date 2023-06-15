@@ -15,21 +15,29 @@ content_blocks:
     reversed: false
   - _bookshop_name: sections/counter
     heading:
-      title: Counter area
-      subtitle: Some numbers to enjou
-      title_color: '#100f0f'
-      subtitle_color: '#615c5c'
-      line_color: '#28cf31'
+      title:
+      subtitle:
+      title_color:
+      subtitle_color:
+      line_color:
     numbers:
-      - number: 233
+      - number:
         prefix:
         suffix:
-        text: Dog biscuits
-      - number: 4
-        prefix:
-        suffix: best
-        text: dogs we currently have
+        text:
     number_color:
-    image: /img/desk.jpg
-    image_alt: desk
+    image:
+    image_alt:
+  - _bookshop_name: sections/testimonial
+    heading:
+      title: Testimonials
+      subtitle: From clients. Selected to be positive.
+      title_color: '#c81010'
+      subtitle_color: '#e51b1b'
+      line_color: '#e61212'
+    testimonials:
+      - name: Bob
+        text: Awesome
+        image: /img/testimonial3.jpg
+        image_alt: Bob
 ---
