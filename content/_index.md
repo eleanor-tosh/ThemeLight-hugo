@@ -12,5 +12,5 @@ content_blocks:
     button_2:
       label: Learn less
       variant: transparent
-    reversed: true
+    reversed: false
 ---
