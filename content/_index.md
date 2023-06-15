@@ -15,8 +15,8 @@ content_blocks:
     reversed: false
   - _bookshop_name: sections/counter
     heading:
-      title:
-      subtitle:
+      title: Counting stuff
+      subtitle: Mainly Siren
       title_color:
       subtitle_color:
       line_color:
