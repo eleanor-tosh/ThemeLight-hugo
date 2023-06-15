@@ -21,13 +21,13 @@ content_blocks:
       subtitle_color:
       line_color:
     numbers:
-      - number:
+      - number: 1
         prefix:
         suffix:
-        text:
+        text: Complaining dog
     number_color:
-    image:
-    image_alt:
+    image: /img/desk.jpg
+    image_alt: desk
   - _bookshop_name: sections/testimonial
     heading:
       title: Testimonials
