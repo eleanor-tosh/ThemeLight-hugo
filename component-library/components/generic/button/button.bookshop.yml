@@ -16,12 +16,12 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   label: "Get Started Free"
-  link_url: "/sign-up/"
-  label_color: "label-color-2"
-  variant: "filled-color-1"
-  hover_background: "background-hover-color-2"
-  hover_label: "label-hover-color-3"
-  hover_border: "border-hover-color-3"
+  link_url: '/components'
+  label_color: "white"
+  variant: "primary-1"
+  hover_background: "white"
+  hover_label: "primary-2"
+  hover_border: "primary-2"
   open_in_new_tab: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
@@ -30,35 +30,45 @@ _inputs:
     type: select
     options:
       values:
-        - "label-color-1"
-        - "label-color-2"
-        - "label-color-3"
+        - "primary-1"
+        - "priamry-2"
+        - "primary-3"
+        - "white"
+        - "black"
   variant:
     type: select
     options:
       values:
         - "transparent"
-        - "filled-color-1"
-        - "filled-color-2"
-        - "filled-color-3"
+        - "primary-1"
+        - "priamry-2"
+        - "primary-3"
+        - "white"
+        - "black"
   hover_background:
       type: select
       options:
         values:
-          - "background-hover-color-1"
-          - "background-hover-color-2"
-          - "background-hover-color-3"
+        - "primary-1"
+        - "priamry-2"
+        - "primary-3"
+        - "white"
+        - "black"
   hover_label:
       type: select
       options:
         values:
-          - "label-hover-color-1"
-          - "label-hover-color-2"
-          - "label-hover-color-3"
+        - "primary-1"
+        - "priamry-2"
+        - "primary-3"
+        - "white"
+        - "black"
   hover_border:
       type: select
       options:
         values:
-          - "border-hover-color-1"
-          - "border-hover-color-2"
-          - "border-hover-color-3"
+        - "primary-1"
+        - "priamry-2"
+        - "primary-3"
+        - "white"
+        - "black"

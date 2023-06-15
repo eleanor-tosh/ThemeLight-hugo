@@ -1,0 +1,52 @@
+.c-blog-card {
+    .card {
+        background: #fff;
+        margin:0 5px;
+        width: 30%;
+        height: auto;
+      }
+      
+      .content {
+        padding:30px 25px; 
+        text-align: center;
+      }
+      .content h4 {
+        text-transform: capitalize;
+        position: relative;
+        margin: 20px 0 10px;
+        padding: 10px 0;
+      }
+      .content h4 a {
+        color: #333;
+      }
+    //   .content h4 a:hover {
+    //    color: #80d6a3; 
+    //   }
+      .content h4::before {
+          content: '';
+          position: absolute;
+          left: 45%;
+          top: -6px;
+          width: 30px;
+          height: 2px;
+          background-color: #80d6a3;
+          -webkit-transition: .3s all;
+          -o-transition: .3s all;
+          transition: .3s all;
+      }
+      .content small {
+        color: #999;
+      }
+      .content p {
+        margin-top: 10px;
+        color: #777;
+      }
+      .content .btn-read {
+        background: #80d6a3;
+        color: #fff;
+        padding:10px 20px;
+        font-size: 13px;
+        margin-top: 15px;
+        border-radius: 25px;
+      }
+}

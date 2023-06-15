@@ -13,12 +13,30 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: "TESTIMONIAL"
-  subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
-  image: "/img/service-img.png"
-  image_alt: "person"
-  heading: "Jonathon Andrew"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo"
+  heading: 
+    title: "TESTIMONIALS"
+    subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
+    title_color: "primary-2"
+    subtitle_color: "primary-3"
+    line_color: "primary-1"
+  testimonials:
+    - name: "Jonathon Andrew"
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo"
+      image: "/img/testimonial1.jpg"
+      image_alt: "Jonathon"
+    - name: "Amelia Scott"
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo"
+      image: "/img/testimonial2.jpg"
+      image_alt: "Amelia"
+    - name: "Harry Potter"
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo"
+      image: "/img/testimonial3.jpg"
+      image_alt: "Harry"
+    - name: "Anne Lewis"
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo"
+      image: "/img/testimonial4.jpg"
+      image_alt: "Anne"
+      
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

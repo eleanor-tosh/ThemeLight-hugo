@@ -1,5 +1,5 @@
 {{ $c := "c-button" }}
 
-<a href="{{ .link_url }}" class="btn {{ $c }} {{ $c }}--{{ .label_color | urlize | default "label-color-2" }} {{ $c }}--{{ .variant | urlize | default "filled-color-1" }} {{ $c }}--{{ .hover_background | urlize | default "hover-background-color-2" }} {{ $c }}--{{ .hover_label | urlize | default "label-hover-color-3" }} {{ $c }}--{{ .hover_border | urlize | default "hover-border-color-3" }}" {{ if .open_in_new_tab }}
+<a href="{{ .link_url }}" class="btn {{ $c }} {{ $c }}--label-{{ .label_color | urlize | default "primary-1" }} {{ $c }}--filled-{{ .variant | urlize | default "filled-primary-1" }} {{ $c }}--background-hover-{{ .hover_background | urlize | default "primary-2" }} {{ $c }}--label-hover-{{ .hover_label | urlize | default "primary-3" }} {{ $c }}--border-hover-{{ .hover_border | urlize | default "hover-border-color-3" }}" {{ if .open_in_new_tab }}
 target="_blank"
 {{ end }}>{{ .label }}</a>

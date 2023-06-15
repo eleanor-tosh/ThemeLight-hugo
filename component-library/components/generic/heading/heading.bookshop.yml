@@ -30,6 +30,8 @@ _inputs:
         - "primary-1"
         - "primary-2"
         - "primary-3"
+        - "white"
+        - "black"
   subtitle_color:
     type: select
     options:
@@ -37,6 +39,8 @@ _inputs:
         - "primary-1"
         - "primary-2"
         - "primary-3"
+        - "white"
+        - "black"
   line_color:
     type: select
     options:
@@ -44,4 +48,6 @@ _inputs:
         - "primary-1"
         - "primary-2"
         - "primary-3"
+        - "white"
+        - "black"
      

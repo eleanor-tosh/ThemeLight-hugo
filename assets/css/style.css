@@ -370,7 +370,7 @@ header .navbar {
 #counter .block span {
   line-height: 1;
   display: inline-block;
-  color: #fff;
+  /* color: #fff; */
 }
 #counter .block .count-text {
   font-size: 36px;
@@ -378,7 +378,7 @@ header .navbar {
 #counter .block p {
   font-size: 18px;
   font-weight: 300;
-  color: #fff;
+  /* color: #fff; */
   padding-top: 20px;
 }
 #portfolio {

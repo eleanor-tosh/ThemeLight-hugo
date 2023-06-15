@@ -1,40 +1,19 @@
 <section id="team">
     <div class="container">
         <div class="row">
-            <div class="title">
-                <h2>{{ .title }}</h2>
-                <p>{{ .subtitle }}</p>
-            </div>
+                {{ partial "bookshop" (slice "generic/heading" .heading )}}
+            {{ range .team }}   
             <div class="col-md-4 col-sm-4 col-xs-6">
                 <div class="block wow fadeInLeft" data-wow-delay=".3s">
-                    <img src="{{ .image_1 }}" alt="{{ .image_alt_1 }}">
+                    <img src="{{ .image }}" alt="{{ .image_alt }}">
                     <div class="team-overlay">
-                        <h3>{{ .team_1 }} <span>{{ .role_1 }}</span></h3>
+                        <h3>{{ .name }} <span>{{ .role }}</span></h3>
                         <span class="icon"><i class="ion-quote"></i></span>
-                        <p>{{ .description_1 }}</p>
+                        <p>{{ .description }}</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4  col-sm-4 col-xs-6">
-                <div class="block wow fadeInLeft" data-wow-delay=".6s">
-                    <img src="{{ .image_2 }}" alt="{{ .image_alt_2 }}">
-                    <div class="team-overlay">
-                        <h3>{{ .team_2 }} <span>{{ .role_2 }}</span></h3>
-                        <span class="icon"><i class="ion-quote"></i></span>
-                        <p>{{ .description_2 }}</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4  col-sm-4 col-xs-6">
-                <div class="block wow fadeInLeft" data-wow-delay=".9s">
-                    <img src="{{ .image_3 }}" alt="{{ .image_alt_3 }}">
-                    <div class="team-overlay">
-                        <h3>{{ .team_3 }} <span>{{ .role_3 }}</span></h3>
-                        <span class="icon"><i class="ion-quote"></i></span>
-                        <p>{{ .description_3 }}</p>
-                    </div>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
 </section>

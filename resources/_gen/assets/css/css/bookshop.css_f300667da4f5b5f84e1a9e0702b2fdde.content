@@ -1,42 +1,110 @@
+.c-blog-card .card {
+  background: #fff;
+  margin: 0 5px;
+  width: 30%;
+  height: auto; }
+
+.c-blog-card .content {
+  padding: 30px 25px;
+  text-align: center; }
+
+.c-blog-card .content h4 {
+  text-transform: capitalize;
+  position: relative;
+  margin: 20px 0 10px;
+  padding: 10px 0; }
+
+.c-blog-card .content h4 a {
+  color: #333; }
+
+.c-blog-card .content h4::before {
+  content: '';
+  position: absolute;
+  left: 45%;
+  top: -6px;
+  width: 30px;
+  height: 2px;
+  background-color: #80d6a3;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all; }
+
+.c-blog-card .content small {
+  color: #999; }
+
+.c-blog-card .content p {
+  margin-top: 10px;
+  color: #777; }
+
+.c-blog-card .content .btn-read {
+  background: #80d6a3;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 13px;
+  margin-top: 15px;
+  border-radius: 25px; }
+
 .c-button {
   border-radius: 25px;
   margin: 0 7px;
   padding: 10px 22px;
   font-size: 14px;
   transition: 0.3s; }
-  .c-button--label-color-1 {
-    color: var(--button-option-1);
-    border: 1px solid var(--button-option-1); }
-  .c-button--label-color-2 {
-    color: var(--button-option-2);
-    border: 1px solid var(--button-option-2); }
-  .c-button--label-color-3 {
-    color: var(--button-option-3);
-    border: 1px solid var(--button-option-3); }
-  .c-button--filled-color-1 {
-    background-color: var(--button-option-1); }
-  .c-button--filled-color-2 {
-    background-color: var(--button-option-2); }
-  .c-button--filled-color-3 {
-    background-color: var(--button-option-3); }
-  .c-button--label-hover-color-1:hover {
-    color: var(--button-option-1); }
-  .c-button--label-hover-color-2:hover {
-    color: var(--button-option-2); }
-  .c-button--label-hover-color-3:hover {
-    color: var(--button-option-3); }
-  .c-button--background-hover-color-1:hover {
-    background-color: var(--button-option-1); }
-  .c-button--background-hover-color-2:hover {
-    background-color: var(--button-option-2); }
-  .c-button--background-hover-color-3:hover {
-    background-color: var(--button-option-3); }
-  .c-button--border-hover-color-1:hover {
-    border-color: var(--button-option-1); }
-  .c-button--border-hover-color-2:hover {
-    border-color: var(--button-option-2); }
-  .c-button--border-hover-color-3:hover {
-    border-color: var(--button-option-3); }
+  .c-button--label-primary-1 {
+    color: var(--primary-1);
+    border: 1px solid var(--primary-1); }
+  .c-button--label-primary-2 {
+    color: var(--priamry-2);
+    border: 1px solid var(--primary-2); }
+  .c-button--label-primary-3 {
+    color: var(--primary-3);
+    border: 1px solid var(--primary-3); }
+  .c-button--label-white {
+    color: var(--white);
+    border: 1px solid var(--white); }
+  .c-button--label-black {
+    color: var(--black);
+    border: 1px solid var(--black); }
+  .c-button--filled-primary-1 {
+    background-color: var(--primary-1); }
+  .c-button--filled-primary-2 {
+    background-color: var(--primary-2); }
+  .c-button--filled-primary-3 {
+    background-color: var(--primary-3); }
+  .c-button--filled-white {
+    background-color: var(--white); }
+  .c-button--filled-black {
+    background-color: var(--black); }
+  .c-button--label-hover-primary-1:hover {
+    color: var(--primary-1); }
+  .c-button--label-hover-primary-2:hover {
+    color: var(--primary-2); }
+  .c-button--label-hover-primary-3:hover {
+    color: var(--primary-3); }
+  .c-button--label-hover-white:hover {
+    color: var(--white); }
+  .c-button--label-hover-black:hover {
+    color: var(--black); }
+  .c-button--background-hover-primary-1:hover {
+    background-color: var(--primary-1); }
+  .c-button--background-hover-primary-2:hover {
+    background-color: var(--primary-2); }
+  .c-button--background-hover-primary-3:hover {
+    background-color: var(--primary-3); }
+  .c-button--background-hover-white:hover {
+    background-color: var(--white); }
+  .c-button--background-hover-black:hover {
+    background-color: var(--black); }
+  .c-button--border-hover-primary-1:hover {
+    border-color: var(--primary-1); }
+  .c-button--border-hover-primary-2:hover {
+    border-color: var(--primary-2); }
+  .c-button--border-hover-primary-3:hover {
+    border-color: var(--primary-3); }
+  .c-button--border-hover-white:hover {
+    border-color: var(--white); }
+  .c-button--border-hover-black:hover {
+    border-color: var(--black); }
 
 .c-heading .title h2 {
   font-size: 25px;
@@ -64,7 +132,10 @@
 .c-heading .title p {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300; }
+  font-weight: 300;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
 
 .c-heading--title-primary-1 {
   color: var(--primary-1); }
@@ -72,8 +143,14 @@
 .c-heading--title-primary-2 {
   color: var(--primary-2); }
 
-.c-heading--title-primary-2 {
-  color: var(--primary-2); }
+.c-heading--title-primary-3 {
+  color: var(--primary-3); }
+
+.c-heading--title-white {
+  color: var(--white); }
+
+.c-heading--title-black {
+  color: var(--black); }
 
 .c-heading--subtitle-primary-1 {
   color: var(--primary-1); }
@@ -84,6 +161,12 @@
 .c-heading--subtitle-primary-3 {
   color: var(--primary-3); }
 
+.c-heading--subtitle-white {
+  color: var(--white); }
+
+.c-heading--subtitle-black {
+  color: var(--black); }
+
 .c-heading--line-primary-1:before, .c-heading--line-primary-1:after {
   background: var(--primary-1); }
 
@@ -92,6 +175,32 @@
 
 .c-heading--line-primary-3:before, .c-heading--line-primary-3:after {
   background: var(--primary-3); }
+
+.c-heading--line-white:before, .c-heading--line-white:after {
+  background: var(--white); }
+
+.c-heading--line-black:before, .c-heading--line-black:after {
+  background: var(--black); }
+
+.c-counter .block p {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 20px; }
+
+.c-counter--number-primary-1 {
+  color: var(--primary-1); }
+
+.c-counter--number-primary-2 {
+  color: var(--primary-2); }
+
+.c-counter--number-primary-3 {
+  color: var(--primary-3); }
+
+.c-counter--number-white {
+  color: var(--white); }
+
+.c-counter--number-black {
+  color: var(--black); }
 
 .c-features .feature-block h4 {
   font-size: 20px;
@@ -117,3 +226,9 @@
     color: var(--primary-2); }
   .c-features .feature-block p--text-primary-2 {
     color: var(--primary-2); }
+
+.c-testimonial img {
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; }

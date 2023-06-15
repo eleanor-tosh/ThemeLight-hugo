@@ -28,6 +28,9 @@
         font-size: 16px;
         line-height: 24px;
         font-weight: 300;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       &--title-primary-1 {
@@ -36,8 +39,14 @@
       &--title-primary-2 {
         color: var(--primary-2);
       }
-      &--title-primary-2 {
-        color: var(--primary-2);
+      &--title-primary-3 {
+        color: var(--primary-3);
+      }
+      &--title-white {
+        color: var(--white);
+      }
+      &--title-black {
+        color: var(--black);
       }
 
       &--subtitle-primary-1 {
@@ -49,6 +58,12 @@
       &--subtitle-primary-3 {
         color: var(--primary-3);
       }
+      &--subtitle-white {
+        color: var(--white);
+      }
+      &--subtitle-black {
+        color: var(--black);
+      }
 
       &--line-primary-1:before, &--line-primary-1:after {
         background: var(--primary-1);
@@ -58,6 +73,12 @@
       }
       &--line-primary-3:before, &--line-primary-3:after {
         background: var(--primary-3);
+      }
+      &--line-white:before, &--line-white:after {
+        background: var(--white);
+      }
+      &--line-black:before, &--line-black:after {
+        background: var(--black);
       }
       
 }

@@ -9,43 +9,44 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: 
-  subtitle: 
-  team_1: 
-  role_1: 
-  description_1: 
-  image_1: 
-  image_alt_1: 
-  team_2: 
-  role_2: 
-  description_2: 
-  image_2: 
-  image_alt_2: 
-  team_3: 
-  role_3: 
-  description_3: 
-  image_3: 
-  image_alt_3: 
+  heading: 
+    title: "CREATIVE TEAM"
+    subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
+    title_color: "primary-2"
+    subtitle_color: "primary-3"
+    line_color: "primary-1"
+  team:
+    - name:
+      role:
+      image:
+      image_alt:
+      description:
+
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: "CREATIVE TEAM"
-  subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
-  team_1: "ROBERT SMITH"
-  role_1: "Product Designer"
-  description_1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
-  image_1: "/img/team-img1.jpg"
-  image_alt_1: "Robert Smith"
-  team_2: "ROBERT SMITH"
-  role_2: "Product Designer"
-  description_2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
-  image_2: "/img/team-img2.jpg"
-  image_alt_2: "Robert Smith"
-  team_3: "ROBERT SMITH"
-  role_3: "Product Designer"
-  description_3: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
-  image_3: "/img/team-img3.jpg"
-  image_alt_3: "Robert Smith"
+  heading: 
+    title: "CREATIVE TEAM"
+    subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
+    title_color: "primary-2"
+    subtitle_color: "primary-3"
+    line_color: "primary-1"
+  team:
+    - name: Tania Roberts
+      role: Manager
+      image: "/img/team1.jpg"
+      image_alt: "Tania Roberts"
+      description: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
+    - name: Tania Roberts
+      role: Manager
+      image: "/img/team2.jpg"
+      image_alt: "Tania Roberts"
+      description: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
+    - name: Tania Roberts
+      role: Manager
+      image: "/img/team3.jpg"
+      image_alt: "Tania Roberts"
+      description: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

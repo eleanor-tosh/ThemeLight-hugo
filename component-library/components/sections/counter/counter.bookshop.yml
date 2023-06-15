@@ -11,32 +11,46 @@ spec:
 blueprint:
   title:
   subheading: 
-  counter_1: 
-  counter_1_subheading: 
-  counter_2: 
-  counter_2_subheading: 
-  counter_3: 
-  counter_3_subheading: 
-  counter_4: 
-  counter_4_subheading: 
-  image: 
-  image_alt:
+
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: "FUN FACTS"
-  subheading: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
-  counter_1: "136800 k"
-  counter_1_subheading: "Lines Coded"
-  counter_2: "7800 +"
-  counter_2_subheading: "Lines Deleted"
-  counter_3: "698"
-  counter_3_subheading: "Hours Spent"
-  counter_4: "432"
-  counter_4_subheading: "Cups of Coffee"
-  image: '/img/counter-bg.jpg'
+  heading: 
+    title: "FUN FACTS"
+    subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously Dantes remained confused and silent by this explanation of the thoughts which had unconsciously "
+    title_color: "primary-2"
+    subtitle_color: "primary-3"
+    line_color: "primary-1"
+  numbers:
+    - number: 136800
+      prefix: 
+      suffix: "K"
+      text: "Lines Coded"
+    - number: 7800
+      prefix: 
+      suffix: "+"
+      text: "Lines Deleted"
+    - number: 698
+      prefix: 
+      suffix: 
+      text: "Hours Spent"
+    - number: 432
+      prefix: 
+      suffix: "cups"
+      text: "Coffee Drunk"
+  number_color: "white"
+  image: '/img/desk.jpg'
   image_alt: 'Birds eye view of table with desk items'
 
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  number_color:
+    type: select~
+    options:
+      values:
+        - "primary-1"
+        - "primary-2"
+        - "primary-3"
+        - "white"
+        - "black"

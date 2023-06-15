@@ -13,8 +13,20 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: "BLOG"
-  subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
+  heading: 
+    title: "BLOG"
+    subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously Dantes remained confused and silent by this explanation of the thoughts which had unconsciously "
+    title_color: "primary-2"
+    subtitle_color: "primary-3"
+    line_color: "primary-1"
+  blog_card:
+    title: "Blog Card for Blogs"
+    image: "/img/blog/blog1.jpg"
+    image_alt: "green bird feathers"
+    author: "Admin"
+    date: "18th September, 2022"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque repudiandae nihil qui debitis atque necessitatibus aliquam, consequuntur autem!"
+
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

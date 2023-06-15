@@ -1,10 +1,7 @@
 <section id="contact-form">
     <div class="container">
         <div class="row">
-            <div class="title">
-                <h2>{{ .title }}</h2>
-                <p>{{ .subtitle }}</p>
-            </div>
+            {{ partial "bookshop" (slice "generic/heading" .heading )}}
             <div class="col-md-6 col">
                 <!-- map -->
                 <div class="map">
