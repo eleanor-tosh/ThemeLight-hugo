@@ -13,4 +13,6 @@ content_blocks:
       label: Learn less
       variant: transparent
     reversed: false
+  - _bookshop_name: sections/features
+    text: Hello World!
 ---
