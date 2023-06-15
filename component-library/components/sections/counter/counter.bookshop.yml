@@ -20,18 +20,6 @@ blueprint:
       prefix: 
       suffix: 
       text: 
-    - number: 
-      prefix: 
-      suffix: 
-      text: 
-    - number: 
-      prefix: 
-      suffix: 
-      text: 
-    - number: 
-      prefix: 
-      suffix: 
-      text: 
   number_color: 
   image: 
   image_alt: 

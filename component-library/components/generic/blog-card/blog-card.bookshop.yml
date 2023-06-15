@@ -9,7 +9,13 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  post:
+    title: 
+    image: 
+    image_alt: 
+    author: 
+    date: 
+    description: 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
