@@ -37,6 +37,10 @@ content_blocks:
         prefix:
         suffix:
         text: gfdfgdf
+      - number: 56756
+        prefix:
+        suffix:
+        text: extra
     number_color:
     image: /img/desk.jpg
     image_alt: desk
