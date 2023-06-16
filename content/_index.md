@@ -63,5 +63,5 @@ content_blocks:
       title_color:
       subtitle_color:
       line_color:
-    button: submit
+    button: click
 ---
