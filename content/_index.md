@@ -56,4 +56,12 @@ content_blocks:
         text: Awesome
         image: /img/testimonial3.jpg
         image_alt: Bob
+  - _bookshop_name: sections/form
+    heading:
+      title: contact
+      subtitle: contact us about stuff
+      title_color:
+      subtitle_color:
+      line_color:
+    button: submit
 ---
