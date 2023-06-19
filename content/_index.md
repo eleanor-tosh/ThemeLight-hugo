@@ -106,7 +106,7 @@ content_blocks:
     button_1:
       - _bookshop_name: generic/button
         label: Test button
-        link_url:
+        link_url: /
         label_color: priamry-2
         variant: priamry-2
         hover_background: black
