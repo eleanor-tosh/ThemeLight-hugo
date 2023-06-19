@@ -13,23 +13,74 @@ content_blocks:
       label: Learn Less
       variant: transparent
     reversed: false
+  - _bookshop_name: sections/features
+    heading:
+      title: OUR SERVICES
+      subtitle: All about it
+      title_color: '#d62626'
+      subtitle_color:
+      line_color:
+    features:
+      - icon_path:
+        heading: One
+        text: Text here
+      - icon_path:
+        heading: Two
+        text: Text here
+      - icon_path:
+        heading: Three
+        text: Text here
+    features_heading:
+    features_text:
   - _bookshop_name: sections/counter
     heading:
-      title: Counter area
-      subtitle: Some numbers to enjou
-      title_color: '#100f0f'
-      subtitle_color: '#615c5c'
-      line_color: '#28cf31'
+      title: Counting stuff
+      subtitle: Mainly Siren
+      title_color:
+      subtitle_color:
+      line_color:
     numbers:
-      - number: 233
+      - number: 1
         prefix:
         suffix:
-        text: Dog biscuits
-      - number: 4
+        text: Complaining dog
+      - number: 576
         prefix:
-        suffix: best
-        text: dogs we currently have
+        suffix:
+        text: fgff
+      - number: 6789
+        prefix:
+        suffix:
+        text: fgjhg
+      - number: 34543
+        prefix:
+        suffix:
+        text: gfdfgdf
+      - number: 56756
+        prefix:
+        suffix:
+        text: extra
     number_color:
     image: /img/desk.jpg
     image_alt: desk
+  - _bookshop_name: sections/testimonial
+    heading:
+      title: Testimonials
+      subtitle: From clients. Selected to be positive.
+      title_color: '#c81010'
+      subtitle_color: '#e51b1b'
+      line_color: '#e61212'
+    testimonials:
+      - name: Bob
+        text: Awesome
+        image: /img/testimonial3.jpg
+        image_alt: Bob
+  - _bookshop_name: sections/form
+    heading:
+      title: contact
+      subtitle: contact us about stuff
+      title_color:
+      subtitle_color:
+      line_color:
+    button: click
 ---
