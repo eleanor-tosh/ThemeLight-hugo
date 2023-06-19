@@ -96,6 +96,6 @@ content_blocks:
       - icon_path:
         heading: Three
         text: Three
-    features_heading: primary-1
-    features_text: primary-1
+    features_heading: primary-2
+    features_text: primary-3
 ---
