@@ -98,4 +98,20 @@ content_blocks:
         text: Three
     features_heading: primary-2
     features_text: primary-3
+  - _bookshop_name: sections/hero
+    title: test
+    text: test
+    image:
+    image_alt:
+    button_1:
+      - _bookshop_name: generic/button
+        label: test
+        label_color: primary-1
+        variant: primary-1
+        hover_background: black
+        hover_label: white
+        hover_border: white
+        open_in_new_tab: false
+    button_2: []
+    reversed: false
 ---
