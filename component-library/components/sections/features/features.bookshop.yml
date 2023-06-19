@@ -53,7 +53,7 @@ _inputs:
         - "primary-2"
         - "primary-3"
   features_text:
-    type: select~
+    type: select
     options:
       values:
         - "primary-1"
