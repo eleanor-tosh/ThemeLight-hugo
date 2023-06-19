@@ -83,7 +83,7 @@ content_blocks:
     heading:
       title: FEATURES
       subtitle: Subtitle area
-      title_color:
+      title_color: '#b61818'
       subtitle_color:
       line_color:
     features:
