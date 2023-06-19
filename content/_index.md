@@ -79,4 +79,23 @@ content_blocks:
       subtitle_color:
       line_color:
     button: click
+  - _bookshop_name: sections/features
+    heading:
+      title: FEATURES
+      subtitle: Subtitle area
+      title_color: '#b61818'
+      subtitle_color:
+      line_color:
+    features:
+      - icon_path:
+        heading: One
+        text: One
+      - icon_path:
+        heading: Two
+        text: Two
+      - icon_path:
+        heading: Three
+        text: Three
+    features_heading: primary-2
+    features_text: primary-3
 ---
