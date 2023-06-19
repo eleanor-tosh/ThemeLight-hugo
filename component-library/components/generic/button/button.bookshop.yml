@@ -22,7 +22,7 @@ preview:
   label: "Get Started Free"
   link_url: '/components'
   label_color: "white"
-  variant: "primary-1"
+  background_color: "primary-1"
   hover_background: "white"
   hover_label: "primary-2"
   hover_border: "primary-2"
