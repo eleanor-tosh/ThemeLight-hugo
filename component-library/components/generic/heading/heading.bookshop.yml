@@ -26,7 +26,7 @@ preview:
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   title_color:
-    type: select~
+    type: selects
     options:
       values:
         - "primary-1"
