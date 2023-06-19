@@ -64,4 +64,23 @@ content_blocks:
       subtitle_color:
       line_color:
     button: click
+  - _bookshop_name: sections/features
+    heading:
+      title: OUR SERVICES
+      subtitle: All about it
+      title_color: '#d62626'
+      subtitle_color:
+      line_color:
+    features:
+      - icon_path:
+        heading: One
+        text: Text here
+      - icon_path:
+        heading: Two
+        text: Text here
+      - icon_path:
+        heading: Three
+        text: Text here
+    features_heading:
+    features_text:
 ---
