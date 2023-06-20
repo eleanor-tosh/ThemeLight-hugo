@@ -17,8 +17,8 @@ preview:
   heading: 
     title: "PRICING TABLE"
     subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously Dantes remained confused and silent by this explanation of the thoughts which had unconsciously "
-    title_color: "primary-2"
-    subtitle_color: "primary-3"
+    title_color: "#333"
+    subtitle_color: "#333"
     line_color: "white"
   price_card:
     - title: "STARTER PACK"

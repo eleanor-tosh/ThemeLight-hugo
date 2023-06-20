@@ -23,11 +23,11 @@ preview:
   label: "Get Started Free"
   link_url: '/components'
   label_color: "white"
-  border_color: "white"
-  background_color: "black"
+  border_color: "#80d6a3"
+  background_color: "#80d6a3"
   hover_background: "white"
-  hover_label: "black"
-  hover_border: "black"
+  hover_label: "#6d6969"
+  hover_border: "#80d6a3"
   open_in_new_tab: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
