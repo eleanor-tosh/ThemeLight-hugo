@@ -8,9 +8,14 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  label: "Button"
-  link_url: 
-  variant: 
+  label: "Get Started Free"
+  link_url: '/components'
+  label_color: "white"
+  border_color: "white"
+  background_color: "black"
+  hover_background: "white"
+  hover_label: "black"
+  hover_border: "black"
   open_in_new_tab: false
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
