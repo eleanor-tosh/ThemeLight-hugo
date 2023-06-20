@@ -18,7 +18,8 @@ preview:
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   image: '/img/hero-banner.jpg'
   image_alt: "Person working"
-  button: bookshop:generic/button
+  button_1: bookshop:generic/button
+  button_2: bookshop:generic/button
   reversed: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

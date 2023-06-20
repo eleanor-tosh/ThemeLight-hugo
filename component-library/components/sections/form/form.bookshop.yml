@@ -19,7 +19,7 @@ preview:
     title_color: "primary-2"
     subtitle_color: "primary-3"
     line_color: "primary-1"
-  button: "SEND"
+  button: bookshop:generic/button
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

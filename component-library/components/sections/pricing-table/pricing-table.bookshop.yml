@@ -31,15 +31,7 @@ preview:
       list_4: "Email Forwards"
       list_5: "Cloud Storage"
       list_6: "Screen Share"
-      button: 
-        - label: "Buy Now"
-          link_url: '/components'
-          label_color: "primary-1"
-          variant: "white"
-          hover_background: "white"
-          hover_label: "primary-1"
-          hover_border: "white"
-          open_in_new_tab: false
+      button: bookshop:generic/button
     - title: "MEDIUM PACK"
       currency_unit: "$"
       price: 60
@@ -50,15 +42,7 @@ preview:
       list_4: "Email Forwards"
       list_5: "Cloud Storage"
       list_6: "Screen Share"
-      button: 
-        - label: "Buy Now"
-          link_url: '/components'
-          label_color: "primary-1"
-          variant: "white"
-          hover_background: "white"
-          hover_label: "primary-1"
-          hover_border: "white"
-          open_in_new_tab: false
+      button: bookshop:generic/button
     - title: "EXPERIENCED PACK"
       currency_unit: "$"
       price: 80
@@ -69,15 +53,7 @@ preview:
       list_4: "Email Forwards"
       list_5: "Cloud Storage"
       list_6: "Screen Share"
-      button: 
-        - label: "Buy Now"
-          link_url: '/components'
-          label_color: "primary-1"
-          variant: "white"
-          hover_background: "white"
-          hover_label: "primary-1"
-          hover_border: "white"
-          open_in_new_tab: false
+      button: bookshop:generic/button
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

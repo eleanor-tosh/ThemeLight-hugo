@@ -179,6 +179,9 @@
   .c-features .feature-block p--text-primary-2 {
     color: var(--primary-2); }
 
+.c-form--button {
+  float: right; }
+
 .c-testimonial img {
   object-fit: cover;
   width: 80px;

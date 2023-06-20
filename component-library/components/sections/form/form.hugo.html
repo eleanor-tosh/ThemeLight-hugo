@@ -1,3 +1,4 @@
+{{ $c := "c-form" }}
 <section id="contact-form">
     <div class="container">
         <div class="row">
@@ -15,7 +16,9 @@
                     <input type="text" class="form-control" placeholder="Name">
                     <input type="text" class="form-control" placeholder="Email">
                     <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                    <button class="btn btn-default" type="submit">{{ .button }}</button>
+                    <div class="{{ $c }}--button">
+                    {{ partial "bookshop" (slice "generic/button" .button )}}
+                    </div>
                 </form>
             </div>
         </div>
