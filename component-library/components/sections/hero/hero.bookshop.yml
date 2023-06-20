@@ -9,17 +9,7 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: 
-  text: 
-  image: 
-  image_alt: 
-  button_1:
-    label: 
-    variant: 
-  button_2:
-    label: 
-    variant: 
-  reversed: false
+ title: "Clean and Flexible Business Template"
 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
