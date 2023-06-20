@@ -13,9 +13,12 @@ blueprint:
   text: 
   image: 
   image_alt: 
-  button_1: [bookshop:generic/button]
-  button_2: [bookshop:generic/button]
-
+  button_1:
+    label: 
+    variant: 
+  button_2:
+    label: 
+    variant: 
   reversed: false
 
 
@@ -27,8 +30,10 @@ preview:
   image_alt: "Person working"
   button_1:
     label: "Purchase Now"
+    variant: "transparent"
   button_2:
     label: "View Features"
+    variant: "transparent"
   reversed: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

@@ -9,7 +9,7 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   label: 
-
+  link_url: 
   label_color: 
   variant: 
   hover_background: 
@@ -22,7 +22,7 @@ preview:
   label: "Get Started Free"
   link_url: '/components'
   label_color: "white"
-  background_color: "primary-1"
+  variant: "primary-1"
   hover_background: "white"
   hover_label: "primary-2"
   hover_border: "primary-2"
