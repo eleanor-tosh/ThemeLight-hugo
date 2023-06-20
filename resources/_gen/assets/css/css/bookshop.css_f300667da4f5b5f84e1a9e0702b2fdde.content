@@ -49,14 +49,62 @@
   margin: 0 7px;
   padding: 10px 22px;
   font-size: 14px;
-  transition: 0.3s;
-  color: var(--label_color);
-  border: 1px solid var(--border_color);
-  background-color: var(--background_color); }
-  .c-button:hover {
-    background-color: var(--hover_background);
-    color: var(--hover_label);
-    border: 1px solid var(--hover_border); }
+  transition: 0.3s; }
+  .c-button--label-primary-1 {
+    color: var(--primary-1);
+    border: 1px solid var(--primary-1); }
+  .c-button--label-primary-2 {
+    color: var(--priamry-2);
+    border: 1px solid var(--primary-2); }
+  .c-button--label-primary-3 {
+    color: var(--primary-3);
+    border: 1px solid var(--primary-3); }
+  .c-button--label-white {
+    color: var(--white);
+    border: 1px solid var(--white); }
+  .c-button--label-black {
+    color: var(--black);
+    border: 1px solid var(--black); }
+  .c-button--filled-primary-1 {
+    background-color: var(--primary-1); }
+  .c-button--filled-primary-2 {
+    background-color: var(--primary-2); }
+  .c-button--filled-primary-3 {
+    background-color: var(--primary-3); }
+  .c-button--filled-white {
+    background-color: var(--white); }
+  .c-button--filled-black {
+    background-color: var(--black); }
+  .c-button--label-hover-primary-1:hover {
+    color: var(--primary-1); }
+  .c-button--label-hover-primary-2:hover {
+    color: var(--primary-2); }
+  .c-button--label-hover-primary-3:hover {
+    color: var(--primary-3); }
+  .c-button--label-hover-white:hover {
+    color: var(--white); }
+  .c-button--label-hover-black:hover {
+    color: var(--black); }
+  .c-button--background-hover-primary-1:hover {
+    background-color: var(--primary-1); }
+  .c-button--background-hover-primary-2:hover {
+    background-color: var(--primary-2); }
+  .c-button--background-hover-primary-3:hover {
+    background-color: var(--primary-3); }
+  .c-button--background-hover-white:hover {
+    background-color: var(--white); }
+  .c-button--background-hover-black:hover {
+    background-color: var(--black); }
+  .c-button--border-hover-primary-1:hover {
+    border-color: var(--primary-1); }
+  .c-button--border-hover-primary-2:hover {
+    border-color: var(--primary-2); }
+  .c-button--border-hover-primary-3:hover {
+    border-color: var(--primary-3); }
+  .c-button--border-hover-white:hover {
+    border-color: var(--white); }
+  .c-button--border-hover-black:hover {
+    border-color: var(--black); }
 
 .c-heading .title h2 {
   font-size: 25px;
