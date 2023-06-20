@@ -18,57 +18,12 @@ preview:
   label: "Get Started Free"
   link_url: '/components'
   label_color: "white"
-  variant: "primary-1"
+  border_color: "white"
+  background_color: "black"
   hover_background: "white"
-  hover_label: "primary-2"
-  hover_border: "primary-2"
+  hover_label: "black"
+  hover_border: "black"
   open_in_new_tab: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  label_color:
-    type: select
-    options:
-      values:
-        - "primary-1"
-        - "priamry-2"
-        - "primary-3"
-        - "white"
-        - "black"
-  variant:
-    type: select
-    options:
-      values:
-        - "transparent"
-        - "primary-1"
-        - "priamry-2"
-        - "primary-3"
-        - "white"
-        - "black"
-  hover_background:
-      type: select
-      options:
-        values:
-        - "primary-1"
-        - "priamry-2"
-        - "primary-3"
-        - "white"
-        - "black"
-  hover_label:
-      type: select
-      options:
-        values:
-        - "primary-1"
-        - "priamry-2"
-        - "primary-3"
-        - "white"
-        - "black"
-  hover_border:
-      type: select
-      options:
-        values:
-        - "primary-1"
-        - "priamry-2"
-        - "primary-3"
-        - "white"
-        - "black"
