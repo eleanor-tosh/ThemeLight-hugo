@@ -21,13 +21,10 @@ preview:
     title_color: "#333"
     subtitle_color: "#333"
     line_color: "#80d6a3"
-  blog_card:
-    title: "Blog Card for Blogs"
-    image: "/img/blog/blog1.jpg"
-    image_alt: "green bird feathers"
-    author: "Admin"
-    date: "18th September, 2022"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque repudiandae nihil qui debitis atque necessitatibus aliquam, consequuntur autem!"
+  posts:
+    - bookshop:generic/blog-card
+    - bookshop:generic/blog-card
+    - bookshop:generic/blog-card
 
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

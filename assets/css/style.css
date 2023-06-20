@@ -605,7 +605,7 @@ header .navbar {
 }
 
 #team .block:hover {
-  border: 3px solid #80d6a3;
+  /* border: 3px solid #80d6a3; */
 
 }
 #team .block:hover .team-overlay {

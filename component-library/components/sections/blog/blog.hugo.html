@@ -5,9 +5,12 @@
                 {{ partial "bookshop" (slice "generic/heading" .heading )}}
                 
                 <div id="blog-post">
-                    {{ partial "bookshop" (slice "generic/blog-card" .blog_card )}}
-              
+                    {{ range .posts }}
+                    <div class="col-md-4 col">
+                    {{ partial "bookshop" (slice "generic/blog-card" . )}}</div>
+                    {{ end }}
                 </div>
+                
             </div>
         </div>
     </div>

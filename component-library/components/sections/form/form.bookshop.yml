@@ -22,6 +22,7 @@ preview:
     subtitle_color: "#333"
     line_color: "#80d6a3"
   button: bookshop:generic/button
+  border_color: "#80d6a3"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
