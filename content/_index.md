@@ -98,4 +98,17 @@ content_blocks:
         text: One text
     features_heading:
     features_text:
+  - _bookshop_name: sections/features
+    heading:
+      title: TEst
+      subtitle: test
+      title_color:
+      subtitle_color:
+      line_color:
+    features:
+      - icon_path:
+        heading: Feaute
+        text: One
+    features_heading_color: '#d21818'
+    features_text_color: '#1ca884'
 ---
