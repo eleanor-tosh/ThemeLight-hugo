@@ -56,4 +56,35 @@ content_blocks:
         image_alt:
         description: Assists with things
         hover_border_color: '#bce111'
+  - _bookshop_name: sections/hero
+    title: The Comapny
+    title_color: '#a3dcad'
+    text: Testing colours
+    text_color: '#e89595'
+    image: /img/hero-banner.jpg
+    image_alt:
+    button_1:
+      _bookshop_name: generic/button
+      label: Get Started Free
+      link_url: /
+      label_color: '#ffffff'
+      border_color: '#ffffff'
+      background_color: '#000000'
+      hover_background_color: '#ffffff'
+      hover_label_color: '#000000'
+      hover_border_color: '#000000'
+      open_in_new_tab: false
+    button_2:
+      _bookshop_name: generic/button
+      label: Or Pay
+      link_url: /
+      label_color: '#f16969'
+      border_color: '#9aa0e9'
+      background_color: rgba(0, 0, 0, 0)
+      hover_background_color: '#cbe730'
+      hover_label_color: '#4be76c'
+      hover_border_color: '#60d761'
+      open_in_new_tab: false
+    reversed: false
+    background_color:
 ---
