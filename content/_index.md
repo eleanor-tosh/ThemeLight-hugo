@@ -58,4 +58,15 @@ content_blocks:
         image_alt:
         description: Assists with things
         hover_border_color: '#bce111'
+  - _bookshop_name: sections/counter
+    heading:
+      title: Counter
+      subtitle: Counting stuff
+      title_color: '#e42323'
+      subtitle_color: '#7c3d3d'
+      line_color: '#7071d9'
+    numbers: []
+    number_color:
+    image:
+    image_alt:
 ---
