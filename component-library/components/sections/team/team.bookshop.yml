@@ -21,16 +21,19 @@ blueprint:
       image: 
       image_alt: 
       description: 
+      hover_border_color:
     - name: 
       role: 
       image: 
       image_alt: 
       description: 
+      hover_border_color:
     - name: 
       role: 
       image: 
       image_alt: 
       description:
+      hover_border_color:
 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
