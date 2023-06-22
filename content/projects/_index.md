@@ -1,5 +1,6 @@
 ---
 title: Projects
+url: /projects/
 content_blocks:
   - _bookshop_name: sections/pricing-table
     heading:
