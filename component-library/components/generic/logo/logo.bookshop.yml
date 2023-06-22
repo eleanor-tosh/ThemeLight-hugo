@@ -16,6 +16,7 @@ blueprint:
 preview:
   image: "/img/clientLogo/Generic_Logo.png"
   image_alt: "Client logo"
+  link: "/"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

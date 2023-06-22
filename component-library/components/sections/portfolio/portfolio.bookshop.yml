@@ -22,6 +22,9 @@ preview:
     title_color: "#333"
     subtitle_color: "#333"
     line_color: "#80d6a3"
+  projects: 
+    - bookshop:generic/projects-card
+
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

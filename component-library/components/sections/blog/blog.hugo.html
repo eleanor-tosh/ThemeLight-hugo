@@ -10,6 +10,14 @@
                     {{ partial "bookshop" (slice "generic/blog-card" . )}}</div>
                     {{ end }}
                 </div>
+
+                <div id="blog-post">
+                    {{ range where site.RegularPages "Section" "posts" | first 3 }}
+                    <div class="col-md-4 col">
+                    {{ partial "bookshop" (slice "blog-card" (dict "url" .RelPermalink "image" .Params.image "title" .Params.title "description" .Params.description "Summary" .Summary "date" .Date "tags" .Params.tags)) }}
+                  {{ end }}
+      
+                </div>
                 
             </div>
         </div>

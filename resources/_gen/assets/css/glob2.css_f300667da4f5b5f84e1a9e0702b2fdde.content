@@ -1,18 +1,4 @@
 :root {
-  --button-option-1: #80d6a3;
-  --button-option-2: #fff;
-  --button-option-3: #333;
-  --hero-title: #80d6a3;
-  --hero-text: #fff;
-  --heading-option-1: #80d6a3;
-  --heading-option-2: #fff;
-  --heading-option-3: #333;
-  --heading-option-4: #6d6969;
-  --title-color: #333;
-  --subtitle-color: #6d6969;
-  --line-color-1: #80d6a3;
-  --line-color-2: #fff;
-  --line-color-3: #333;
   --white: #fff;
   --black: #000;
   --primary-1: #80d6a3;

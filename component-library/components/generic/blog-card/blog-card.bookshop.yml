@@ -9,13 +9,33 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  title: 
+  title_color: "#333"
+  line_color: "#333"
+  image: 
+  image_alt: 
+  author: 
+  date: 
+  author_details_color: "#6d6969"
+  description: 
+  description_color: "#333"
+  button: 
+    _bookshop_name: generic/button
+    label: "Read More"
+    link_url: '/components'
+    label_color: "white"
+    border_color: "#333"
+    background_color: "#333"
+    hover_background: "white"
+    hover_label: "#333"
+    hover_border: "#333"
+    open_in_new_tab: false
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   title: "Blog Card for Blogs"
   title_color: "#333"
-  line_color: "#80d6a3"
+  line_color: "#333"
   image: "/img/blog/blog1.jpg"
   image_alt: "green bird feathers"
   author: "Admin"
@@ -28,11 +48,11 @@ preview:
     label: "Read More"
     link_url: '/components'
     label_color: "white"
-    border_color: "#80d6a3"
-    background_color: "#80d6a3"
+    border_color: "#333"
+    background_color: "#333"
     hover_background: "white"
-    hover_label: "#80d6a3"
-    hover_border: "#80d6a3"
+    hover_label: "#333"
+    hover_border: "#333"
     open_in_new_tab: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

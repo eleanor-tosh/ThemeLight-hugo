@@ -1,0 +1,15 @@
+{{ $c := "c-projects-card" }}
+
+<div class="{{ $c }}">
+    <div class="{{ $c }}__content">
+        <div class="{{ $c }}__image"><img src="{{ .image }}" alt="{{ .image_alt }}"></div>
+        <a href="{{ .url }}">
+            <div class="{{ $c }}__overlay" style="--overlay_color: {{ .overlay_color }}">
+                <h3 style="--title_color: {{ .title_color }}">{{ .title }}</h3>
+                {{ if .description }}
+                    <p style="--description_color: {{ .description_color }}">{{ .description }}</p>
+                {{ end }}
+            </div>
+        </a>
+    </div>
+</div>

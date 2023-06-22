@@ -34,7 +34,7 @@
 
 .c-blog-card .content p {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: var(--description_color); }
 
 .c-button {
@@ -85,6 +85,39 @@
   margin-left: auto;
   margin-right: auto;
   color: var(--subtitle_color); }
+
+.c-projects-card__content {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 15px; }
+
+.c-projects-card__overlay {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  vertical-align: middle;
+  transition: 0.3s;
+  background: var(--overlay_color); }
+  .c-projects-card__overlay:hover {
+    opacity: 0.9; }
+  .c-projects-card__overlay h3 {
+    margin: 50px 10px 20px;
+    text-transform: uppercase;
+    color: var(--title_color); }
+  .c-projects-card__overlay p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 10px;
+    color: var(--description_color); }
+
+.c-projects-card img {
+  width: 100%;
+  height: 100%; }
 
 .c-counter .block p {
   font-size: 18px;

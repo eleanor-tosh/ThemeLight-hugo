@@ -903,7 +903,7 @@ footer p {
     top: -6px;
     width: 30px;
     height: 2px;
-    background-color: #80d6a3;
+    /* background-color: #80d6a3; */
     -webkit-transition: .3s all;
     -o-transition: .3s all;
     transition: .3s all;
