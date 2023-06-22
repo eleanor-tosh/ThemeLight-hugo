@@ -9,10 +9,15 @@ content_blocks:
       subtitle_color: '#333333'
       line_color: '#80d6a3'
     team:
+      - name: Tania Roberts
+        role: Manger
+        image: /img/team1.jpg
+        image_alt:
+        description: Our manager, she likes to manage all the people and things.
+        hover_border_color: '#3a1ba8'
       - name:
         role:
         image:
         image_alt:
         description:
-        hover_border_color:
 ---
