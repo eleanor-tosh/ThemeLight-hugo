@@ -47,9 +47,9 @@
   border: 1px solid var(--border_color);
   background-color: var(--background_color); }
   .c-button:hover {
-    background-color: var(--hover_background);
-    color: var(--hover_label);
-    border: 1px solid var(--hover_border); }
+    background-color: var(--hover_background_color);
+    color: var(--hover_label_color);
+    border: 1px solid var(--hover_border_color); }
 
 .c-heading .title h2 {
   font-size: 25px;
@@ -166,6 +166,12 @@
 
 .c-form--button {
   float: right; }
+
+.c-hero h1 {
+  color: var(--title_color); }
+
+.c-hero h2 {
+  color: var(--text_color); }
 
 .c-team:hover {
   border: 3px solid var(--hover_border_color); }

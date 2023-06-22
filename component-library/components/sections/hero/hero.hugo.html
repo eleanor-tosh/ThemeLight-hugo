@@ -1,4 +1,5 @@
-    <section id="banner" style="background-image: url('{{ .image }}'); background: {{ .backgound_color }}" alt="{{ .image_alt }}">
+{{ $c := "c-hero" }}    
+    <section id="banner" class="{{ $c }}" style="background-image: url('{{ .image }}'); background: {{ .backgound_color }}" alt="{{ .image_alt }}">
         <div class="container">
 
             {{ if .reversed }}
@@ -6,8 +7,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block-reversed">
-                            <h1>{{ .title }}</h1>
-                            <h2>{{ .text }}</h2>
+                            <h1 style="--title_color: {{ .title_color }}">{{ .title }}</h1>
+                            <h2 style="--text_color: {{ .text_color }}">{{ .text }}</h2>
                             <div class="buttons">
                                 {{ partial "bookshop" (slice "generic/button" .button_1 )}}
                                 {{ partial "bookshop" (slice "generic/button" .button_2 )}}
@@ -21,8 +22,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block">
-                            <h1>{{ .title }}</h1>
-                            <h2>{{ .text }}</h2>
+                            <h1 style="--title_color: {{ .title_color }}">{{ .title }}</h1>
+                            <h2 style="--text_color: {{ .text_color }}">{{ .text }}</h2>
                             <div class="buttons">
                                 {{ partial "bookshop" (slice "generic/button" .button_1 )}}
                                 {{ partial "bookshop" (slice "generic/button" .button_2 )}}
