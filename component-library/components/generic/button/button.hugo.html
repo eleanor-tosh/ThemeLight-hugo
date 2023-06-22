@@ -1,5 +1,5 @@
 {{ $c := "c-button" }}
 
-<a href="{{ .link_url }}" class="btn {{ $c }}" style="--label_color: {{ .label_color }}; --border_color: {{ .border_color }}; --background_color: {{ .background_color }}; --hover_background: {{ .hover_background }}; --hover_label: {{ .hover_label }}; --hover_border: {{ .hover_border }}" {{ if .open_in_new_tab }}
+<a href="{{ .link_url }}" class="btn {{ $c }}" style="--label_color: {{ .label_color }}; --border_color: {{ .border_color }}; --background_color: {{ .background_color }}; --hover_background_color: {{ .hover_background_color }}; --hover_label_color: {{ .hover_label_color }}; --hover_border_color: {{ .hover_border_color }}" {{ if .open_in_new_tab }}
 target="_blank"
 {{ end }}>{{ .label }}</a>

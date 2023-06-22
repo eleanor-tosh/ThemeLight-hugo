@@ -10,7 +10,9 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   title:
+  title_color:
   text: 
+  text_color:
   image: 
   image_alt: 
   button_1: bookshop:generic/button
@@ -22,7 +24,9 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   title: "Clean and Flexible Business Template"
+  title_color: "white"
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  text_color: "white"
   image: '/img/hero-banner.jpg'
   image_alt: "Person working"
   button_1: bookshop:generic/button

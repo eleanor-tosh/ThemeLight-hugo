@@ -10,9 +10,9 @@
     background-color: var(--background_color);
 
     &:hover {
-        background-color: var(--hover_background);
-        color: var(--hover_label);
-        border: 1px solid var(--hover_border);
+        background-color: var(--hover_background_color);
+        color: var(--hover_label_color);
+        border: 1px solid var(--hover_border_color);
     }
 
 }
