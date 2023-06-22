@@ -133,25 +133,15 @@
   position: relative;
   text-transform: none;
   margin-bottom: 10px;
-  font-weight: 400; }
-  .c-features .feature-block h4--heading-primary-1 {
-    color: var(--primary-1); }
-  .c-features .feature-block h4--heading-primary-2 {
-    color: var(--primary-2); }
-  .c-features .feature-block h4--heading-primary-2 {
-    color: var(--primary-2); }
+  font-weight: 400;
+  color: var(--features_heading_color); }
 
 .c-features .feature-block p {
   font-size: 15px;
   line-height: 24px;
   font-weight: 300;
-  margin-top: 20px; }
-  .c-features .feature-block p--text-primary-1 {
-    color: var(--primary-1); }
-  .c-features .feature-block p--text-primary-2 {
-    color: var(--primary-2); }
-  .c-features .feature-block p--text-primary-2 {
-    color: var(--primary-2); }
+  margin-top: 20px;
+  color: var(--features_text_color); }
 
 .c-form--button {
   float: right; }

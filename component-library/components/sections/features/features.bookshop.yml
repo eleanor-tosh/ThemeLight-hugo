@@ -19,8 +19,8 @@ blueprint:
     - icon_path:
       heading: 
       text: 
-  features_heading: 
-  features_text: 
+  features_heading_color: 
+  features_text_color: 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -42,22 +42,8 @@ preview:
     - icon_path:
       heading: "Unlimited Colors"
       text: "Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
-  features_heading: "primary-1"
-  features_text: "primary-1"
+  features_heading_color: "white"
+  features_text_color: "white"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  features_heading:
-    type: select
-    options:
-      values:
-        - "primary-1"
-        - "primary-2"
-        - "primary-3"
-  features_text:
-    type: select
-    options:
-      values:
-        - "primary-1"
-        - "primary-2"
-        - "primary-3"
