@@ -18,6 +18,16 @@ content_blocks:
       hover_border: black
       open_in_new_tab: true
     button_2:
+      _bookshop_name: generic/button
+      label: Or Pay
+      link_url: /components
+      label_color: '#f5b0b0'
+      border_color: '#f5b0b0'
+      background_color: '#000000'
+      hover_background: white
+      hover_label: black
+      hover_border: black
+      open_in_new_tab: false
     reversed: false
     background_color:
   - _bookshop_name: sections/team
