@@ -85,4 +85,19 @@ content_blocks:
     number_color: '#ffffff'
     image: /img/desk.jpg
     image_alt:
+  - _bookshop_name: sections/counter
+    heading:
+      title: TEst
+      subtitle: test
+      title_color:
+      subtitle_color:
+      line_color:
+    numbers:
+      - number: 1
+        prefix:
+        suffix:
+        text: Test
+    number_color: '#c05f5f'
+    image:
+    image_alt:
 ---
