@@ -9,7 +9,18 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  heading: 
+    title: 
+    subtitle: 
+    title_color: 
+    subtitle_color: 
+    line_color: 
+  features:
+    - icon_path:
+      heading: 
+      text: 
+  features_heading: 
+  features_text: 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -37,14 +48,14 @@ preview:
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   features_heading:
-    type: select~
+    type: select
     options:
       values:
         - "primary-1"
         - "primary-2"
         - "primary-3"
   features_text:
-    type: select~
+    type: select
     options:
       values:
         - "primary-1"

@@ -1,5 +1,4 @@
 ---
-title: "Home"
-content_blocks: 
-
+title: Home
+content_blocks: []
 ---
