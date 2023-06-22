@@ -2,7 +2,7 @@
 title: Home
 content_blocks:
   - _bookshop_name: sections/hero
-    title: The Comapny
+    title: The Company
     title_color: '#a3dcad'
     text: Testing colours
     text_color: '#e89595'
