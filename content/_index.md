@@ -89,7 +89,7 @@ content_blocks:
     heading:
       title: Sevices
       subtitle: Bringing your the best services.
-      title_color: '#38c649'
+      title_color: '#2e4099'
       subtitle_color: '#650c0c'
       line_color: '#8e802d'
     features:
