@@ -85,4 +85,14 @@ content_blocks:
     number_color: '#ffffff'
     image: /img/desk.jpg
     image_alt:
+  - _bookshop_name: sections/features
+    heading:
+      title: Sevices
+      subtitle: Bringing your the best services.
+      title_color: '#38c649'
+      subtitle_color: '#650c0c'
+      line_color: '#8e802d'
+    features: []
+    features_heading:
+    features_text:
 ---
