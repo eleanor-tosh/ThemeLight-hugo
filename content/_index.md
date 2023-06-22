@@ -4,7 +4,7 @@ content_blocks:
   - _bookshop_name: sections/hero
     title: Our Company
     text: Some text about the company
-    image: /img/pencils.jpg
+    image: /img/hero-banner.jpg
     image_alt:
     button_1:
       _bookshop_name: generic/button
