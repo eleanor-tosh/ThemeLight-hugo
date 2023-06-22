@@ -92,7 +92,10 @@ content_blocks:
       title_color: '#38c649'
       subtitle_color: '#650c0c'
       line_color: '#8e802d'
-    features: []
+    features:
+      - icon_path: /img/map.jpg
+        heading: One
+        text: One text
     features_heading:
     features_text:
 ---
