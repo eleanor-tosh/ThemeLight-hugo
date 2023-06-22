@@ -6,10 +6,10 @@
                 {{ partial "bookshop" (slice "generic/heading" .heading )}}
             </div>
             {{ range .numbers }}
-            <div class="col-md-3 col-sm-6 col-xs-6 {{ $c }}" >
+            <div class="col-md-3 col-sm-6 col-xs-6 {{ $c }}" style="--number_color: {{ .number_color }}">
                 <div class="block wow fadeInRight " data-wow-delay=".3s">
                     <i class="ion-code"></i>
-                    <p class="count-text" style="--number_color: {{ .number_color}}">
+                    <p class="count-text" >
                         <span class="counter-digit">{{ if .prefix }}<span>{{ .prefix }}</span>{{ end }}
                             {{ .number }}
                             {{ if .suffix }}<span>{{ .suffix }}</span>{{ end }}
