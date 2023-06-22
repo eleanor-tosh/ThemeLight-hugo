@@ -85,19 +85,17 @@ content_blocks:
     number_color: '#ffffff'
     image: /img/desk.jpg
     image_alt:
-  - _bookshop_name: sections/counter
+  - _bookshop_name: sections/features
     heading:
-      title: TEst
-      subtitle: test
-      title_color:
-      subtitle_color:
-      line_color:
-    numbers:
-      - number: 1
-        prefix:
-        suffix:
-        text: Test
-    number_color: '#c05f5f'
-    image: /img/desk.jpg
-    image_alt:
+      title: Sevices
+      subtitle: Bringing you the best services.
+      title_color: '#2e4099'
+      subtitle_color: '#650c0c'
+      line_color: '#8e802d'
+    features:
+      - icon_path: /img/map.jpg
+        heading: One
+        text: One text
+    features_heading:
+    features_text:
 ---
