@@ -82,7 +82,18 @@ content_blocks:
         prefix:
         suffix:
         text: Four
-    number_color: white
+    number_color: '#ffffff'
     image: /img/desk.jpg
+    image_alt:
+  - _bookshop_name: sections/counter
+    heading:
+      title: Test colors
+      subtitle: TEst
+      title_color: '#de6666'
+      subtitle_color: '#eda9a9'
+      line_color: '#4c3b88'
+    numbers: []
+    number_color:
+    image:
     image_alt:
 ---
