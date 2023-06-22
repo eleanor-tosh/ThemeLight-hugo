@@ -15,12 +15,12 @@ content_blocks:
         image_alt:
         description: Our manager, she likes to manage all the people and things.
         hover_border_color: '#3a1ba8'
-      - name:
-        role:
-        image:
+      - name: Greg McGregor
+        role: Team Member
+        image: /img/team2.jpg
         image_alt:
-        description:
-        hover_border_color: '#3a1ba8'
+        description: Team member Greg. Very Greg-ish.
+        hover_border_color: '#df12ae'
       - name:
         role:
         image:
