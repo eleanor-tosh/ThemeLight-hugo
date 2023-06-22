@@ -88,7 +88,7 @@ content_blocks:
   - _bookshop_name: sections/features
     heading:
       title: Sevices
-      subtitle: Bringing your the best services.
+      subtitle: Bringing you the best services.
       title_color: '#2e4099'
       subtitle_color: '#650c0c'
       line_color: '#8e802d'
