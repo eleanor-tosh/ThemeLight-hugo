@@ -8,5 +8,11 @@ content_blocks:
       title_color: '#333333'
       subtitle_color: '#333333'
       line_color: '#80d6a3'
-    team: []
+    team:
+      - name:
+        role:
+        image:
+        image_alt:
+        description:
+        hover_border_color:
 ---
