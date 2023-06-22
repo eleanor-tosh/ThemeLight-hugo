@@ -21,10 +21,10 @@ content_blocks:
         image_alt:
         description: Team member Greg. Very Greg-ish.
         hover_border_color: '#df12ae'
-      - name:
-        role:
-        image:
+      - name: Ellen Allan
+        role: Assistant
+        image: /img/team3.jpg
         image_alt:
-        description:
-        hover_border_color: '#3a1ba8'
+        description: Assists with things
+        hover_border_color: '#bce111'
 ---
