@@ -1,6 +1,25 @@
 ---
 title: Home
 content_blocks:
+  - _bookshop_name: sections/hero
+    title: Our Company
+    text: Some text about the company
+    image: /img/pencils.jpg
+    image_alt:
+    button_1:
+      _bookshop_name: generic/button
+      label: Get Started Free
+      link_url: /components
+      label_color: '#2419d4'
+      border_color: '#2419d4'
+      background_color: rgba(0, 0, 0, 0)
+      hover_background: white
+      hover_label: black
+      hover_border: black
+      open_in_new_tab: true
+    button_2:
+    reversed: false
+    background_color:
   - _bookshop_name: sections/team
     heading:
       title: Creative Team
@@ -27,23 +46,4 @@ content_blocks:
         image_alt:
         description: Assists with things
         hover_border_color: '#bce111'
-  - _bookshop_name: sections/hero
-    title: Our Company
-    text: Some text about the company
-    image: /img/pencils.jpg
-    image_alt:
-    button_1:
-      _bookshop_name: generic/button
-      label: Get Started Free
-      link_url: /components
-      label_color: '#2419d4'
-      border_color: '#2419d4'
-      background_color: rgba(0, 0, 0, 0)
-      hover_background: white
-      hover_label: black
-      hover_border: black
-      open_in_new_tab: true
-    button_2:
-    reversed: false
-    background_color:
 ---
