@@ -4,21 +4,7 @@
         font-weight: 300;
         // color: #fff;
         padding-top: 20px;
-      }
-      &--number-primary-1 {
-        color: var(--primary-1);
-      }
-      &--number-primary-2 {
-        color: var(--primary-2);
-      }
-      &--number-primary-3 {
-        color: var(--primary-3);
-      }
-      &--number-white {
-        color: var(--white);
-      }
-      &--number-black {
-        color: var(--black);
+        color: var(--number_color);
       }
 
 }

@@ -355,7 +355,7 @@ header .navbar {
   position: relative;
 }
 #counter .title h2 ,#counter .title p {
-  color: #fff;
+  /* color: #fff; */
 }
 #counter .block {
   margin-bottom: 20px;

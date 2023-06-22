@@ -122,22 +122,8 @@
 .c-counter .block p {
   font-size: 18px;
   font-weight: 300;
-  padding-top: 20px; }
-
-.c-counter--number-primary-1 {
-  color: var(--primary-1); }
-
-.c-counter--number-primary-2 {
-  color: var(--primary-2); }
-
-.c-counter--number-primary-3 {
-  color: var(--primary-3); }
-
-.c-counter--number-white {
-  color: var(--white); }
-
-.c-counter--number-black {
-  color: var(--black); }
+  padding-top: 20px;
+  color: var(--number_color); }
 
 .c-features .feature-block h4 {
   font-size: 20px;
