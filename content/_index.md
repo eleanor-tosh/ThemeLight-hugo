@@ -1,6 +1,8 @@
 ---
 title: Home
 content_blocks:
+  - _bookshop_name: sections/hero
+    title: Clean and Flexible Business Template
   - _bookshop_name: sections/team
     heading:
       title: Creative Team
