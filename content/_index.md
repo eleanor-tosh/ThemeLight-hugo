@@ -20,4 +20,11 @@ content_blocks:
         image:
         image_alt:
         description:
+        hover_border_color: '#3a1ba8'
+      - name:
+        role:
+        image:
+        image_alt:
+        description:
+        hover_border_color: '#3a1ba8'
 ---
