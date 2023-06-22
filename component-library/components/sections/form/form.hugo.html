@@ -1,4 +1,5 @@
-<section id="contact-form">
+{{ $c := "c-form" }}
+<section id="contact-form" style="background: {{ .background_color }}">
     <div class="container">
         <div class="row">
             {{ partial "bookshop" (slice "generic/heading" .heading )}}
@@ -12,10 +13,12 @@
             </div>
             <div class="col-md-6">
                 <form>
-                    <input type="text" class="form-control" placeholder="Name">
-                    <input type="text" class="form-control" placeholder="Email">
-                    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                    <button class="btn btn-default" type="submit">{{ .button }}</button>
+                    <input style="border-color: {{ .border_color }}" type="text" class="form-control" placeholder="Name">
+                    <input style="border-color: {{ .border_color }}" type="text" class="form-control" placeholder="Email">
+                    <textarea style="border-color: {{ .border_color }}" class="form-control" rows="3" placeholder="Message"></textarea>
+                    <div class="{{ $c }}--button">
+                    {{ partial "bookshop" (slice "generic/button" .button )}}
+                    </div>
                 </form>
             </div>
         </div>

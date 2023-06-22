@@ -1,7 +1,7 @@
 .c-blog-card .card {
   background: #fff;
   margin: 0 5px;
-  width: 30%;
+  width: 100%;
   height: auto; }
 
 .c-blog-card .content {
@@ -15,7 +15,7 @@
   padding: 10px 0; }
 
 .c-blog-card .content h4 a {
-  color: #333; }
+  color: var(--title_color); }
 
 .c-blog-card .content h4::before {
   content: '';
@@ -24,94 +24,40 @@
   top: -6px;
   width: 30px;
   height: 2px;
-  background-color: #80d6a3;
+  background-color: var(--line_color);
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all; }
 
 .c-blog-card .content small {
-  color: #999; }
+  color: var(--author_details_color); }
 
 .c-blog-card .content p {
   margin-top: 10px;
-  color: #777; }
-
-.c-blog-card .content .btn-read {
-  background: #80d6a3;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 13px;
-  margin-top: 15px;
-  border-radius: 25px; }
+  margin-bottom: 20px;
+  color: var(--description_color); }
 
 .c-button {
   border-radius: 25px;
   margin: 0 7px;
   padding: 10px 22px;
   font-size: 14px;
-  transition: 0.3s; }
-  .c-button--label-primary-1 {
-    color: var(--primary-1);
-    border: 1px solid var(--primary-1); }
-  .c-button--label-primary-2 {
-    color: var(--priamry-2);
-    border: 1px solid var(--primary-2); }
-  .c-button--label-primary-3 {
-    color: var(--primary-3);
-    border: 1px solid var(--primary-3); }
-  .c-button--label-white {
-    color: var(--white);
-    border: 1px solid var(--white); }
-  .c-button--label-black {
-    color: var(--black);
-    border: 1px solid var(--black); }
-  .c-button--filled-primary-1 {
-    background-color: var(--primary-1); }
-  .c-button--filled-primary-2 {
-    background-color: var(--primary-2); }
-  .c-button--filled-primary-3 {
-    background-color: var(--primary-3); }
-  .c-button--filled-white {
-    background-color: var(--white); }
-  .c-button--filled-black {
-    background-color: var(--black); }
-  .c-button--label-hover-primary-1:hover {
-    color: var(--primary-1); }
-  .c-button--label-hover-primary-2:hover {
-    color: var(--primary-2); }
-  .c-button--label-hover-primary-3:hover {
-    color: var(--primary-3); }
-  .c-button--label-hover-white:hover {
-    color: var(--white); }
-  .c-button--label-hover-black:hover {
-    color: var(--black); }
-  .c-button--background-hover-primary-1:hover {
-    background-color: var(--primary-1); }
-  .c-button--background-hover-primary-2:hover {
-    background-color: var(--primary-2); }
-  .c-button--background-hover-primary-3:hover {
-    background-color: var(--primary-3); }
-  .c-button--background-hover-white:hover {
-    background-color: var(--white); }
-  .c-button--background-hover-black:hover {
-    background-color: var(--black); }
-  .c-button--border-hover-primary-1:hover {
-    border-color: var(--primary-1); }
-  .c-button--border-hover-primary-2:hover {
-    border-color: var(--primary-2); }
-  .c-button--border-hover-primary-3:hover {
-    border-color: var(--primary-3); }
-  .c-button--border-hover-white:hover {
-    border-color: var(--white); }
-  .c-button--border-hover-black:hover {
-    border-color: var(--black); }
+  transition: 0.3s;
+  color: var(--label_color);
+  border: 1px solid var(--border_color);
+  background-color: var(--background_color); }
+  .c-button:hover {
+    background-color: var(--hover_background);
+    color: var(--hover_label);
+    border: 1px solid var(--hover_border); }
 
 .c-heading .title h2 {
   font-size: 25px;
   padding-bottom: 25px;
   text-transform: uppercase;
   display: inline-block;
-  position: relative; }
+  position: relative;
+  color: var(--title_color); }
 
 .c-heading .title h2:before {
   content: '';
@@ -119,7 +65,8 @@
   height: 2px;
   position: absolute;
   top: 12px;
-  left: -60px; }
+  left: -60px;
+  background: var(--line_color); }
 
 .c-heading .title h2:after {
   content: '';
@@ -127,7 +74,8 @@
   height: 2px;
   position: absolute;
   top: 12px;
-  right: -60px; }
+  right: -60px;
+  background: var(--line_color); }
 
 .c-heading .title p {
   font-size: 16px;
@@ -135,52 +83,41 @@
   font-weight: 300;
   max-width: 50%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  color: var(--subtitle_color); }
 
-.c-heading--title-primary-1 {
-  color: var(--primary-1); }
+.c-projects-card__content {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 15px; }
 
-.c-heading--title-primary-2 {
-  color: var(--primary-2); }
+.c-projects-card__overlay {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  vertical-align: middle;
+  transition: 0.3s;
+  background: var(--overlay_color); }
+  .c-projects-card__overlay:hover {
+    opacity: 0.9; }
+  .c-projects-card__overlay h3 {
+    margin: 50px 10px 20px;
+    text-transform: uppercase;
+    color: var(--title_color); }
+  .c-projects-card__overlay p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 10px;
+    color: var(--description_color); }
 
-.c-heading--title-primary-3 {
-  color: var(--primary-3); }
-
-.c-heading--title-white {
-  color: var(--white); }
-
-.c-heading--title-black {
-  color: var(--black); }
-
-.c-heading--subtitle-primary-1 {
-  color: var(--primary-1); }
-
-.c-heading--subtitle-primary-2 {
-  color: var(--primary-2); }
-
-.c-heading--subtitle-primary-3 {
-  color: var(--primary-3); }
-
-.c-heading--subtitle-white {
-  color: var(--white); }
-
-.c-heading--subtitle-black {
-  color: var(--black); }
-
-.c-heading--line-primary-1:before, .c-heading--line-primary-1:after {
-  background: var(--primary-1); }
-
-.c-heading--line-primary-2:before, .c-heading--line-primary-2:after {
-  background: var(--primary-2); }
-
-.c-heading--line-primary-3:before, .c-heading--line-primary-3:after {
-  background: var(--primary-3); }
-
-.c-heading--line-white:before, .c-heading--line-white:after {
-  background: var(--white); }
-
-.c-heading--line-black:before, .c-heading--line-black:after {
-  background: var(--black); }
+.c-projects-card img {
+  width: 100%;
+  height: 100%; }
 
 .c-counter .block p {
   font-size: 18px;
@@ -226,6 +163,12 @@
     color: var(--primary-2); }
   .c-features .feature-block p--text-primary-2 {
     color: var(--primary-2); }
+
+.c-form--button {
+  float: right; }
+
+.c-team:hover {
+  border: 3px solid var(--hover_border_color); }
 
 .c-testimonial img {
   object-fit: cover;

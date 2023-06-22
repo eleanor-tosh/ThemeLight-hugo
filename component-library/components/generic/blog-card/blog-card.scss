@@ -2,7 +2,7 @@
     .card {
         background: #fff;
         margin:0 5px;
-        width: 30%;
+        width: 100%;
         height: auto;
       }
       
@@ -17,7 +17,7 @@
         padding: 10px 0;
       }
       .content h4 a {
-        color: #333;
+        color: var(--title_color);
       }
     //   .content h4 a:hover {
     //    color: #80d6a3; 
@@ -29,24 +29,18 @@
           top: -6px;
           width: 30px;
           height: 2px;
-          background-color: #80d6a3;
+          background-color: var(--line_color);
           -webkit-transition: .3s all;
           -o-transition: .3s all;
           transition: .3s all;
       }
       .content small {
-        color: #999;
+        color: var(--author_details_color);
       }
       .content p {
         margin-top: 10px;
-        color: #777;
+        margin-bottom: 20px;
+        color: var(--description_color);
       }
-      .content .btn-read {
-        background: #80d6a3;
-        color: #fff;
-        padding:10px 20px;
-        font-size: 13px;
-        margin-top: 15px;
-        border-radius: 25px;
-      }
+
 }

@@ -4,127 +4,15 @@
     padding: 10px 22px;
     font-size: 14px;
     transition: 0.3s;
-      
-    // &:hover {
-    //     border-color: var(--button-border-hover);
-    //     color: var(--button-text-hover);
-    //   }
-//label
-    &--label-primary-1 {
-        color: var(--primary-1);
-        border: 1px solid var(--primary-1);
-    }
-    &--label-primary-2 {
-        color: var(--priamry-2);
-        border: 1px solid var(--primary-2);
-    }
-    &--label-primary-3 {
-        color: var(--primary-3);
-        border: 1px solid var(--primary-3);
-    }
-    &--label-white {
-        color: var(--white);
-        border: 1px solid var(--white);
-    }
-    &--label-black {
-        color: var(--black);
-        border: 1px solid var(--black);
-    }
-//fill
-    &--filled-primary-1 {
-        background-color: var(--primary-1);
-    }
-    &--filled-primary-2 {
-        background-color: var(--primary-2);
-    }
-    &--filled-primary-3 {
-        background-color: var(--primary-3);
-    }
-    &--filled-white {
-        background-color: var(--white);
-    }
-    &--filled-black {
-        background-color: var(--black);
-    }
-//label hover
-    &--label-hover-primary-1 {
-        &:hover {
-            color: var(--primary-1);
-          }
-    }
-    &--label-hover-primary-2 {
-        &:hover {
-            color: var(--primary-2);
-          }
-    }
-    &--label-hover-primary-3 {
-        &:hover {
-            color: var(--primary-3);
-            }
-    }
-    &--label-hover-white {
-        &:hover {
-            color: var(--white);
-            }
-    }
-    &--label-hover-black {
-        &:hover {
-            color: var(--black);
-            }
-    }
 
-//background hover
-    &--background-hover-primary-1 {
-        &:hover {
-            background-color: var(--primary-1);
-          }
-    }
-    &--background-hover-primary-2 {
-        &:hover {
-            background-color: var(--primary-2);
-          }
-    }
-    &--background-hover-primary-3 {
-    &:hover {
-        background-color: var(--primary-3);
-        }
-    }
-    &--background-hover-white {
-        &:hover {
-            background-color: var(--white);
-            }
-        }
-        &--background-hover-black {
-    &:hover {
-        background-color: var(--black);
-        }
-    }
+    color: var(--label_color);
+    border: 1px solid var(--border_color);
+    background-color: var(--background_color);
 
-//border hover
-    &--border-hover-primary-1 {
-        &:hover {
-            border-color: var(--primary-1);
-          }
-    }    
-    &--border-hover-primary-2 {
-        &:hover {
-            border-color: var(--primary-2);
-          }
-    }   
-    &--border-hover-primary-3 {
-        &:hover {
-            border-color: var(--primary-3);
-          }
-    }   
-    &--border-hover-white {
-        &:hover {
-            border-color: var(--white);
-          }
-    }  
-    &--border-hover-black {
-        &:hover {
-            border-color: var(--black);
-          }
-    }  
+    &:hover {
+        background-color: var(--hover_background);
+        color: var(--hover_label);
+        border: 1px solid var(--hover_border);
+    }
 
 }

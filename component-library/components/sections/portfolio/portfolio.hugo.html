@@ -1,79 +1,32 @@
-<section id="portfolio">
+<section id="portfolio" style="background: {{ .background_color }}">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="title">
                     {{ partial "bookshop" (slice "generic/heading" .heading )}}
                 </div>
-                <div class="block">
-                    <div class="recent-work-mixMenu">
-                        <ul>
-                            <li><button class="filter" data-filter="all">All</button></li>
-                            <li><button class="filter" data-filter=".category-2">Printing</button></li>
-                            <li><button class="filter" data-filter=".category-1">Web</button></li>
-                            <li><button class="filter" data-filter=".category-2">Illustration</button></li>
-                            <li><button class="filter" data-filter=".category-1">Media</button></li>
-                        </ul>
-                    </div>
-                    <div class="recent-work-pic">
-                        <ul id="mixed-items">
-                            <li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
-                                <a class="example-image-link" href="img/work1.jpg" data-lightbox="example-set">
-                                    <img class="img-responsive" src="img/work1.jpg" alt="">
-                                    <div class="overlay">
-                                        <h3>Web design</h3>
-                                        <i class="ion-ios-plus-empty"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="mix category-2 col-md-4 col-xs-6" data-my-order="2">
-                                <a class="example-image-link" href="img/work2.jpg" data-lightbox="example-set">
-                                    <img class="img-responsive" src="img/work2.jpg" alt="">
-                                    <div class="overlay">
-                                        <h3>Web design</h3>
-                                        <i class="ion-ios-plus-empty"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="mix category-1 col-md-4 col-xs-6" data-my-order="3">
-                                <a class="example-image-link" href="img/work3.jpg" data-lightbox="example-set">
-                                    <img class="img-responsive" src="img/work3.jpg" alt="">
-                                    <div class="overlay">
-                                        <h3>Web design</h3>
-                                        <i class="ion-ios-plus-empty"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="mix category-2 col-md-4 col-xs-6" data-my-order="4">
-                                <a class="example-image-link" href="img/work4.jpg" data-lightbox="example-set">
-                                    <img class="img-responsive" src="img/work4.jpg" alt="">
-                                    <div class="overlay">
-                                        <h3>Web design</h3>
-                                        <i class="ion-ios-plus-empty"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="mix category-1 col-md-4 col-xs-6" data-my-order="5">
-                                <a class="example-image-link" href="img/work5.jpg" data-lightbox="example-set">
-                                    <img class="img-responsive" src="img/work5.jpg" alt="">
-                                    <div class="overlay">
-                                        <h3>Web design</h3>
-                                        <i class="ion-ios-plus-empty"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="mix category-2 col-md-4 col-xs-6" data-my-order="6">
-                                <a class="example-image-link" href="img/work6.jpg" data-lightbox="example-set">
-                                    <img class="img-responsive" src="img/work6.jpg" alt="">
-                                    <div class="overlay">
-                                        <h3>Web design</h3>
-                                        <i class="ion-ios-plus-empty"></i>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
+{{/*  
+                {{ range .projects }}
+               <div class="block ">
+                  <div class="col-md-4 col">
+                       <div class="row">
+                         {{ partial "bookshop" (slice "generic/projects-card" . ) }}
+                       </div>
+                   </div>
+               </div>
+               {{ end }}  */}}
+
+                 {{ range (where site.RegularPages "section" "projects" | first 6) }}
+                <div class="block ">
+                   <div class="col-md-4 col">
+                        <div class="row">
+                            <p>images</p>
+                          {{ partial "bookshop" (slice "generic/projects-card" (dict "url" .RelPermalink "image" .Params.image "title" .Params.title "description" .Params.description)) }}
+                        </div>
                     </div>
                 </div>
+                {{ end }}
+
             </div>
         </div>
     </div>

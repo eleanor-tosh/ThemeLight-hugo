@@ -77,11 +77,12 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
+  background_color: "#80d6a3"
   heading: 
     title: "PRICING TABLE"
     subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously Dantes remained confused and silent by this explanation of the thoughts which had unconsciously "
-    title_color: "primary-2"
-    subtitle_color: "primary-3"
+    title_color: "#333"
+    subtitle_color: "#333"
     line_color: "white"
   price_card:
     - title: "STARTER PACK"
@@ -94,15 +95,7 @@ preview:
       list_4: "Email Forwards"
       list_5: "Cloud Storage"
       list_6: "Screen Share"
-      button: 
-        - label: "Buy Now"
-          link_url: '/components'
-          label_color: "primary-1"
-          variant: "white"
-          hover_background: "white"
-          hover_label: "primary-1"
-          hover_border: "white"
-          open_in_new_tab: false
+      button: bookshop:generic/button
     - title: "MEDIUM PACK"
       currency_unit: "$"
       price: 60
@@ -113,15 +106,7 @@ preview:
       list_4: "Email Forwards"
       list_5: "Cloud Storage"
       list_6: "Screen Share"
-      button: 
-        - label: "Buy Now"
-          link_url: '/components'
-          label_color: "primary-1"
-          variant: "white"
-          hover_background: "white"
-          hover_label: "primary-1"
-          hover_border: "white"
-          open_in_new_tab: false
+      button: bookshop:generic/button
     - title: "EXPERIENCED PACK"
       currency_unit: "$"
       price: 80
@@ -132,15 +117,7 @@ preview:
       list_4: "Email Forwards"
       list_5: "Cloud Storage"
       list_6: "Screen Share"
-      button: 
-        - label: "Buy Now"
-          link_url: '/components'
-          label_color: "primary-1"
-          variant: "white"
-          hover_background: "white"
-          hover_label: "primary-1"
-          hover_border: "white"
-          open_in_new_tab: false
+      button: bookshop:generic/button
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

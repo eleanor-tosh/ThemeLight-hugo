@@ -35,12 +35,14 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
+  background_color: "#fff"
   heading: 
+    _bookshop_name: generic/heading
     title: "TESTIMONIALS"
     subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
-    title_color: "primary-2"
-    subtitle_color: "primary-3"
-    line_color: "primary-1"
+    title_color: "#333"
+    subtitle_color: "#333"
+    line_color: "#80d6a3"
   testimonials:
     - name: "Jonathon Andrew"
       text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo"

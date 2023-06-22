@@ -6,6 +6,7 @@
         text-transform: uppercase;
         display: inline-block;
         position: relative;
+        color: var(--title_color);
       }
       
       .title h2:before {
@@ -15,6 +16,7 @@
           position: absolute;
           top: 12px;
           left: -60px;
+          background: var(--line_color);
       }
       .title h2:after {
           content: '';
@@ -23,6 +25,7 @@
           position: absolute;
           top: 12px;
           right: -60px;
+          background: var(--line_color);
       }
       .title p {
         font-size: 16px;
@@ -31,54 +34,7 @@
         max-width: 50%;
         margin-left: auto;
         margin-right: auto;
-      }
-
-      &--title-primary-1 {
-        color: var(--primary-1);
-      }
-      &--title-primary-2 {
-        color: var(--primary-2);
-      }
-      &--title-primary-3 {
-        color: var(--primary-3);
-      }
-      &--title-white {
-        color: var(--white);
-      }
-      &--title-black {
-        color: var(--black);
-      }
-
-      &--subtitle-primary-1 {
-        color: var(--primary-1);
-      }
-      &--subtitle-primary-2 {
-        color: var(--primary-2);
-      }
-      &--subtitle-primary-3 {
-        color: var(--primary-3);
-      }
-      &--subtitle-white {
-        color: var(--white);
-      }
-      &--subtitle-black {
-        color: var(--black);
-      }
-
-      &--line-primary-1:before, &--line-primary-1:after {
-        background: var(--primary-1);
-      }
-      &--line-primary-2:before, &--line-primary-2:after {
-        background: var(--primary-2);
-      }
-      &--line-primary-3:before, &--line-primary-3:after {
-        background: var(--primary-3);
-      }
-      &--line-white:before, &--line-white:after {
-        background: var(--white);
-      }
-      &--line-black:before, &--line-black:after {
-        background: var(--black);
+        color: var(--subtitle_color);
       }
       
 }

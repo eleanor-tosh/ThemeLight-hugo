@@ -8,13 +8,14 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  label: 
-  link_url: 
-  label_color: 
-  variant: 
-  hover_background: 
-  hover_label: 
-  hover_border: 
+  label: "Get Started Free"
+  link_url: '/components'
+  label_color: "white"
+  border_color: "white"
+  background_color: "black"
+  hover_background: "white"
+  hover_label: "black"
+  hover_border: "black"
   open_in_new_tab: false
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -22,57 +23,12 @@ preview:
   label: "Get Started Free"
   link_url: '/components'
   label_color: "white"
-  variant: "primary-1"
+  border_color: "#80d6a3"
+  background_color: "#80d6a3"
   hover_background: "white"
-  hover_label: "primary-2"
-  hover_border: "primary-2"
+  hover_label: "#6d6969"
+  hover_border: "#80d6a3"
   open_in_new_tab: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  label_color:
-    type: select
-    options:
-      values:
-        - "primary-1"
-        - "priamry-2"
-        - "primary-3"
-        - "white"
-        - "black"
-  variant:
-    type: select
-    options:
-      values:
-        - "transparent"
-        - "primary-1"
-        - "priamry-2"
-        - "primary-3"
-        - "white"
-        - "black"
-  hover_background:
-      type: select
-      options:
-        values:
-        - "primary-1"
-        - "priamry-2"
-        - "primary-3"
-        - "white"
-        - "black"
-  hover_label:
-      type: select
-      options:
-        values:
-        - "primary-1"
-        - "priamry-2"
-        - "primary-3"
-        - "white"
-        - "black"
-  hover_border:
-      type: select
-      options:
-        values:
-        - "primary-1"
-        - "priamry-2"
-        - "primary-3"
-        - "white"
-        - "black"

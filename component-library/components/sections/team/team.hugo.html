@@ -1,4 +1,5 @@
-<section id="team">
+{{ $c := "c-team"}}
+<section id="team" style="background: {{ .background_color }}">
     <div class="container">
         <div class="row">
                 {{ partial "bookshop" (slice "generic/heading" .heading )}}
@@ -6,7 +7,7 @@
             <div class="col-md-4 col-sm-4 col-xs-6">
                 <div class="block wow fadeInLeft" data-wow-delay=".3s">
                     <img src="{{ .image }}" alt="{{ .image_alt }}">
-                    <div class="team-overlay">
+                    <div class="team-overlay {{ $c }}" style="--hover_border_color: {{ .hover_border_color }}">
                         <h3>{{ .name }} <span>{{ .role }}</span></h3>
                         <span class="icon"><i class="ion-quote"></i></span>
                         <p>{{ .description }}</p>

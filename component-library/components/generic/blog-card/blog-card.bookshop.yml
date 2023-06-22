@@ -9,23 +9,51 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  post:
-    title: 
-    image: 
-    image_alt: 
-    author: 
-    date: 
-    description: 
+  title: 
+  title_color: "#333"
+  line_color: "#333"
+  image: 
+  image_alt: 
+  author: 
+  date: 
+  author_details_color: "#6d6969"
+  description: 
+  description_color: "#333"
+  button: 
+    _bookshop_name: generic/button
+    label: "Read More"
+    link_url: '/components'
+    label_color: "white"
+    border_color: "#333"
+    background_color: "#333"
+    hover_background: "white"
+    hover_label: "#333"
+    hover_border: "#333"
+    open_in_new_tab: false
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  post:
-    title: "Blog Card for Blogs"
-    image: "/img/blog/blog1.jpg"
-    image_alt: "green bird feathers"
-    author: "Admin"
-    date: "18th September, 2022"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque repudiandae nihil qui debitis atque necessitatibus aliquam, consequuntur autem!"
+  title: "Blog Card for Blogs"
+  title_color: "#333"
+  line_color: "#333"
+  image: "/img/blog/blog1.jpg"
+  image_alt: "green bird feathers"
+  author: "Admin"
+  date: "18th September, 2022"
+  author_details_color: "#6d6969"
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque repudiandae nihil qui debitis atque necessitatibus aliquam, consequuntur autem!"
+  description_color: "#333"
+  button: 
+    _bookshop_name: generic/button
+    label: "Read More"
+    link_url: '/components'
+    label_color: "white"
+    border_color: "#333"
+    background_color: "#333"
+    hover_background: "white"
+    hover_label: "#333"
+    hover_border: "#333"
+    open_in_new_tab: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

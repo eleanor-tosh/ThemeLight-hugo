@@ -1,0 +1,33 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Projects-card"
+  description:
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: 
+  description: 
+  image: 
+  image_alt: 
+  url: 
+  title_color: "#333"
+  description_color: "#333"
+  overlay_color: "white"
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  title: "Example Project"
+  description: "A brief description of the project for potential clients to view before clicking into the project for more details"
+  image: "/img/work1.jpg"
+  image_alt: "alt text here"
+  url: "/"
+  title_color: "#333"
+  description_color: "#333"
+  overlay_color: "white"
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
