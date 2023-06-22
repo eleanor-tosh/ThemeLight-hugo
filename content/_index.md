@@ -65,8 +65,24 @@ content_blocks:
       title_color: '#e42323'
       subtitle_color: '#7c3d3d'
       line_color: '#7071d9'
-    numbers: []
-    number_color:
-    image:
+    numbers:
+      - number: 1
+        prefix:
+        suffix:
+        text: One
+      - number: 2
+        prefix: $
+        suffix:
+        text: Two
+      - number: 3
+        prefix:
+        suffix:
+        text: Three
+      - number: 4
+        prefix:
+        suffix:
+        text: Four
+    number_color: white
+    image: /img/desk.jpg
     image_alt:
 ---
