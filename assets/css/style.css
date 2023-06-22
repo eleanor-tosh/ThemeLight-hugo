@@ -241,13 +241,13 @@ header .navbar {
 #banner .block {
   position: relative;
   z-index: 999;
-  color: #fff;
+  /* color: #fff; */
 }
 #banner .block h1 {
   padding-bottom: 25px;
   font-size: 55px;
   font-weight: 100;
-  color: #fff;
+  /* color: #fff; */
 }
 #banner .block h2 {
   font-size: 18px;
@@ -263,14 +263,14 @@ header .navbar {
 #banner .block-reversed {
   position: relative;
   z-index: 999;
-  color: #fff;
+  /* color: #fff; */
   text-align: right;
 }
 #banner .block-reversed h1 {
   padding-bottom: 25px;
   font-size: 55px;
   font-weight: 100;
-  color: #fff;
+  /* color: #fff; */
 }
 #banner .block-reversed h2 {
   font-size: 18px;
