@@ -2,8 +2,10 @@
     .block p {
         font-size: 18px;
         font-weight: 300;
-        // color: #fff;
         padding-top: 20px;
+        color: var(--number_color);
+      }
+      span {
         color: var(--number_color);
       }
 
