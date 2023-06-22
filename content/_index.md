@@ -98,6 +98,6 @@ content_blocks:
         suffix:
         text: Test
     number_color: '#c05f5f'
-    image:
+    image: /img/desk.jpg
     image_alt:
 ---
