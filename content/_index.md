@@ -58,15 +58,4 @@ content_blocks:
         image_alt:
         description: Assists with things
         hover_border_color: '#bce111'
-  - _bookshop_name: sections/hero
-    title: Test color
-    title_color: '#c63737'
-    text:
-    text_color:
-    image:
-    image_alt:
-    button_1:
-    button_2:
-    reversed: false
-    background_color:
 ---
