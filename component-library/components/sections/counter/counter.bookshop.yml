@@ -20,7 +20,7 @@ blueprint:
       prefix: 
       suffix: 
       text: 
-  number_color: 
+  number_color: "white"
   image: 
   image_alt: 
 
