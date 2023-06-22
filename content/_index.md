@@ -13,5 +13,5 @@ content_blocks:
         role: Role 1
         image: /img/team1.jpg
         image_alt:
-        description:
+        description: Team member doing team stuff
 ---
