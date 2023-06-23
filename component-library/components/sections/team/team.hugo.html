@@ -9,7 +9,11 @@
                     <img src="{{ .image }}" alt="{{ .image_alt }}">
                     <div class="team-overlay {{ $c }}" style="--hover_border_color: {{ .hover_border_color }}">
                         <h3>{{ .name }} <span>{{ .role }}</span></h3>
-                        <span class="icon"><i class="ion-quote"></i></span>
+                        {{ if .icon }}
+                        {{/*  <span class="icon">  */}}
+                            <ion-icon name="{{ .icon }}" style="color: {{ .icon_color }}"></ion-icon>
+                        {{/*  </span>  */}}
+                        {{ end }}
                         <p>{{ .description }}</p>
                     </div>
                 </div>

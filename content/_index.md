@@ -92,21 +92,29 @@ content_blocks:
         suffix: K
         text: Lines Coded
         number_color: '#fff'
+        icon: "code-sharp"
+        icon_color: "#80d6a3"
       - number: 7800
         prefix:
         suffix: +
         text: Lines Deleted
         number_color: '#fff'
+        icon: "cut-sharp"
+        icon_color: "#80d6a3"
       - number: 698
         prefix:
         suffix:
         text: Hours Spent
         number_color: '#fff'
+        icon: "alarm-sharp"
+        icon_color: "#80d6a3"
       - number: 432
         prefix:
         suffix: cups
         text: Coffee Drunk
         number_color: '#fff'
+        icon: "cafe-sharp"
+        icon_color: "#80d6a3"
     number_color: '#ffffff'
     image: /img/desk.jpg
     image_alt:
@@ -119,7 +127,7 @@ content_blocks:
       line_color: '#1d27cb'
   - _bookshop_name: sections/team
     heading:
-      title: Creative Team
+      title: Our Team
       subtitle: Our creative team bring your ideas to life
       title_color: '#333333'
       subtitle_color: '#333333'
@@ -131,16 +139,22 @@ content_blocks:
         image_alt:
         description: Our manager, she likes to manage all the people and things.
         hover_border_color: '#80d6a3'
+        icon: "sparkles-sharp"
+        icon_color: "#80d6a3"
       - name: Greg McGregor
         role: Team Member
         image: /img/team2.jpg
         image_alt:
         description: Team member Greg. Very Greg-ish.
         hover_border_color: '#6d6969'
+        icon: "sparkles-sharp"
+        icon_color: '#6d6969'
       - name: Ellen Allan
         role: Assistant
         image: /img/team3.jpg
         image_alt:
         description: Assists with things
         hover_border_color: '#80d6a3'
+        icon: "sparkles-sharp"
+        icon_color: "#80d6a3"
 ---

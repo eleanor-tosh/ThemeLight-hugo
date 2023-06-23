@@ -23,18 +23,24 @@ blueprint:
       image_alt: 
       description: 
       hover_border_color: "#80d6a3"
+      icon:
+      icon_color: "#80d6a3"
     - name: 
       role: 
       image: 
       image_alt: 
       description: 
       hover_border_color: "#80d6a3"
+      icon:
+      icon_color: "#80d6a3"
     - name: 
       role: 
       image: 
       image_alt: 
       description:
       hover_border_color: "#80d6a3"
+      icon:
+      icon_color: "#80d6a3"
 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -54,18 +60,24 @@ preview:
       image_alt: "Tania Roberts smiling at the camers, weraing a black and white striped blazer over a black top. Gold necklace with small round pendant. A glass door or wall can be seen in the background."
       description: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
       hover_border_color: "#80d6a3"
+      icon: "sparkles-sharp"
+      icon_color: "#80d6a3"
     - name: Greg McGregor
       role: Team Member
       image: "/img/team2.jpg"
       image_alt: "Greg McGregor slightly smiling at the camera. He is wearing thick framed glasses, nazy dress jackets and a white shirt."
       description: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
       hover_border_color: "#80d6a3"
+      icon: "sparkles-sharp"
+      icon_color: "#80d6a3"
     - name: Ellen Allan
       role: Assistant
       image: "/img/team3.jpg"
       image_alt: "Ellen Allan smiling at the camera. She is wearing a grey jacket with white shirt. She is holding a silver laptop in her lap, sitting in a window frame with an orange wall behind her on one side and the window on the other showing a view of an office building."
       description: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously"
       hover_border_color: "#80d6a3"
+      icon: "sparkles-sharp"
+      icon_color: "#80d6a3"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

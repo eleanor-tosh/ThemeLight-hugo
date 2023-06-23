@@ -8,7 +8,7 @@
             {{ range .numbers }}
             <div class="col-md-3 col-sm-6 col-xs-6 " style="--number_color: {{ .number_color }}">
                 <div class="block wow fadeInRight " data-wow-delay=".3s">
-                    <i class="ion-code"></i>
+                    <ion-icon name="{{ .icon }}" style="color: {{ .icon_color }}"></ion-icon>
                     <p class="count-text" >
                         <span class="counter-digit">{{ if .prefix }}<span>{{ .prefix }}</span>{{ end }}
                             {{ .number }}
