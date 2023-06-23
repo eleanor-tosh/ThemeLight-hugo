@@ -85,37 +85,4 @@ content_blocks:
     number_color: '#ffffff'
     image: /img/desk.jpg
     image_alt:
-  - _bookshop_name: sections/features
-    heading:
-      title: Features
-      subtitle: The amazing features offered by the company.
-      title_color: '#cc2121'
-      subtitle_color: '#ef6a6a'
-      line_color: '#1fc547'
-    features:
-      - icon_path:
-        heading: Feature
-        text: One
-    features_heading_color: '#d21818'
-    features_text_color: '#1ca884'
-  - _bookshop_name: sections/features
-    heading:
-      title: Feature color
-      subtitle: test
-      title_color: '#27de57'
-      subtitle_color: '#9ab22b'
-      line_color: '#463f3f'
-    features:
-      - icon_path:
-        heading: One
-        text: Text
-        features_heading_color: '#da2d2d'
-        features_text_color: '#9c1313'
-      - icon_path:
-        heading: Two
-        text: test
-        features_heading_color: '#9420a9'
-        features_text_color: '#361d44'
-    features_heading_color:
-    features_text_color:
 ---
