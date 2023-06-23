@@ -48,8 +48,7 @@ content_blocks:
       subtitle_color: '#6d6969'
       line_color: '#80d6a3'
     features:
-      - icon: "easel-sharp"
-        icon_color: "#80d6a3"
+      - icon_path:
         heading: Responsive Design
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do
@@ -57,8 +56,7 @@ content_blocks:
           minim
         features_heading_color: '#333333'
         features_text_color: '#6d6969'
-      - icon: "color-fill-sharp"
-        icon_color: "#80d6a3"
+      - icon_path:
         heading: Outstanding Animation
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do
@@ -66,8 +64,7 @@ content_blocks:
           minim
         features_heading_color: '#333333'
         features_text_color: '#6d6969'
-      - icon: "brush-sharp"
-        icon_color: "#80d6a3"
+      - icon_path:
         heading: Unlimited Colors
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do
@@ -92,29 +89,21 @@ content_blocks:
         suffix: K
         text: Lines Coded
         number_color: '#fff'
-        icon: "code-sharp"
-        icon_color: "#80d6a3"
       - number: 7800
         prefix:
         suffix: +
         text: Lines Deleted
         number_color: '#fff'
-        icon: "cut-sharp"
-        icon_color: "#80d6a3"
       - number: 698
         prefix:
         suffix:
         text: Hours Spent
         number_color: '#fff'
-        icon: "alarm-sharp"
-        icon_color: "#80d6a3"
       - number: 432
         prefix:
         suffix: cups
         text: Coffee Drunk
         number_color: '#fff'
-        icon: "cafe-sharp"
-        icon_color: "#80d6a3"
     number_color: '#ffffff'
     image: /img/desk.jpg
     image_alt:
@@ -127,7 +116,7 @@ content_blocks:
       line_color: '#1d27cb'
   - _bookshop_name: sections/team
     heading:
-      title: Our Team
+      title: Creative Team
       subtitle: Our creative team bring your ideas to life
       title_color: '#333333'
       subtitle_color: '#333333'
@@ -139,22 +128,43 @@ content_blocks:
         image_alt:
         description: Our manager, she likes to manage all the people and things.
         hover_border_color: '#80d6a3'
-        icon: "sparkles-sharp"
-        icon_color: "#80d6a3"
       - name: Greg McGregor
         role: Team Member
         image: /img/team2.jpg
         image_alt:
         description: Team member Greg. Very Greg-ish.
         hover_border_color: '#6d6969'
-        icon: "sparkles-sharp"
-        icon_color: '#6d6969'
       - name: Ellen Allan
         role: Assistant
         image: /img/team3.jpg
         image_alt:
         description: Assists with things
         hover_border_color: '#80d6a3'
-        icon: "sparkles-sharp"
-        icon_color: "#80d6a3"
+  - _bookshop_name: sections/pricing-table
+    heading:
+      title:
+      subtitle:
+      title_color:
+      subtitle_color:
+      line_color:
+    price_card:
+      - title: starter pack
+        currency_unit: $
+        price: '20'
+        frequency: /month
+        list_1: test
+        list_2: test
+        list_3: test
+        list_4: test
+        list_5:
+        list_6:
+        button:
+          - label: Buy Now
+            link_url: /
+            label_color: '#e70a0a'
+            variant:
+            hover_background:
+            hover_label:
+            hover_border:
+            open_in_new_tab: false
 ---
