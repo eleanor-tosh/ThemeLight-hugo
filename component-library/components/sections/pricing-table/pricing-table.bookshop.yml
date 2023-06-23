@@ -12,9 +12,9 @@ blueprint:
   heading: 
     title: 
     subtitle: 
-    title_color: 
-    subtitle_color: 
-    line_color: 
+    title_color: "#333"
+    subtitle_color: "#333"
+    line_color: "#fff"
   price_card:
     - title: 
       currency_unit: 
@@ -38,7 +38,7 @@ preview:
     subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously Dantes remained confused and silent by this explanation of the thoughts which had unconsciously "
     title_color: "#333"
     subtitle_color: "#333"
-    line_color: "white"
+    line_color: "#fff"
   price_card:
     - title: "STARTER PACK"
       currency_unit: "$"
