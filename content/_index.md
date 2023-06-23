@@ -140,5 +140,12 @@ content_blocks:
         image_alt:
         description: Assists with things
         hover_border_color: '#80d6a3'
- 
+  - _bookshop_name: sections/pricing-table
+    heading:
+      title: pricing
+      subtitle: pricing table
+      title_color: '#0e0d0d'
+      subtitle_color: '#181616'
+      line_color: '#ea0e0e'
+    price_card: []
 ---
