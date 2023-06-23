@@ -3,12 +3,13 @@ spec:
   structures:
     - content_blocks
   label: "Pricing-table"
-  description:
+  description: "Three columns to display pricing details of three plans"
   icon: "view_week"
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  background_color: "#80d6a3"
   heading: 
     title: 
     subtitle: 
@@ -27,6 +28,8 @@ blueprint:
       list_5: 
       list_6: 
       button: bookshop:generic/button
+      text_color: "#fff"
+      border_color: "#fff"
 
 
 
@@ -51,6 +54,8 @@ preview:
       list_5: "Cloud Storage"
       list_6: "Screen Share"
       button: bookshop:generic/button
+      text_color: "pink"
+      border_color: "purple"
     - title: "MEDIUM PACK"
       currency_unit: "$"
       price: 60
@@ -62,6 +67,8 @@ preview:
       list_5: "Cloud Storage"
       list_6: "Screen Share"
       button: bookshop:generic/button
+      text_color: "pink"
+      border_color: "purple"
     - title: "EXPERIENCED PACK"
       currency_unit: "$"
       price: 80
@@ -73,6 +80,8 @@ preview:
       list_5: "Cloud Storage"
       list_6: "Screen Share"
       button: bookshop:generic/button
+      text_color: "pink"
+      border_color: "purple"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

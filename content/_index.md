@@ -141,6 +141,7 @@ content_blocks:
         description: Assists with things
         hover_border_color: '#80d6a3'
   - _bookshop_name: sections/pricing-table
+    background_color: "#80d6a3"
     heading:
       title: pricing
       subtitle: pricing table
@@ -169,4 +170,6 @@ content_blocks:
           hover_label_color: '#000000'
           hover_border_color: '#000000'
           open_in_new_tab: false
+        text_color: "pink"
+        border_color: "purple"
 ---

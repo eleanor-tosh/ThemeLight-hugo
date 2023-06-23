@@ -670,8 +670,8 @@ header .navbar {
   color: #80d6a3;
 }
 #pricing-table {
-  padding: 100px 0 127px;
-  background: #80d6a3;
+  /* padding: 100px 0 127px;
+  background: #80d6a3; */
 }
 #pricing-table .title h2,
 #pricing-table .title p {
@@ -714,9 +714,9 @@ header .navbar {
   margin-top: 25px;
 }
 #pricing-table .block .btn-buy {
-  border-color: #fff;
+  /* border-color: #fff; */
   border-radius: 25px;
-  color: #444;
+  /* color: #444; */
   font-size: 16px;
   display: inline-block;
   font-weight: 600;

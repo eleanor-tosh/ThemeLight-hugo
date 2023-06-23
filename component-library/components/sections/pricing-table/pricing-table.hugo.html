@@ -1,15 +1,16 @@
-<section id="pricing-table" style="background: {{ .background_color }}">
+{{ $c := "c-pricing-table" }}
+<section id="pricing-table" class="{{ $c }}" style="--background_color: {{ .background_color }}">
     <div class="container">
         <div class="row">
             {{ partial "bookshop" (slice "generic/heading" .heading )}}
             {{ range .price_card }}
-            <div class="col-md-4 col">
+            <div class="col-md-4 col" >
                 
-                <div class="block text-center wow fadeInLeft" data-wow-delay=".3s">
-                    <ul>
+                <div class="block text-center wow fadeInLeft" data-wow-delay=".3s" style="--text_color: {{ .text_color }}">
+                    <ul style="border-color: {{ .border_color }}">
                         <li>
                             <h4>{{ .title }}</h4>
-                            <p>{{.currency_unit }}{{ .price }}<span>{{ .frequency }}</span></p>
+                            <p>{{.currency_unit }}{{ .price }}<span> {{ .frequency }}</span></p>
                         </li>
                         <li>
                             <p>{{ .list_1 }}</p>
