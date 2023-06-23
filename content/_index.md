@@ -148,7 +148,7 @@ content_blocks:
       subtitle_color: '#181616'
       line_color: '#ea0e0e'
     price_card:
-      - title: test
+      - title: STARTER PACK
         currency_unit: $
         price: '30'
         frequency: /month
@@ -159,4 +159,14 @@ content_blocks:
         list_5:
         list_6:
         button:
+          _bookshop_name: generic/button
+          label: Buy Now
+          link_url: /
+          label_color: '#ffffff'
+          border_color: '#ffffff'
+          background_color: '#000000'
+          hover_background_color: '#ffffff'
+          hover_label_color: '#000000'
+          hover_border_color: '#000000'
+          open_in_new_tab: false
 ---
