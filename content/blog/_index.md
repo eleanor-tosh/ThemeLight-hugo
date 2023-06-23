@@ -2,6 +2,12 @@
 title: Blog
 url: /blog/
 content_blocks:
+  - _bookshop_name: generic/heading
+    title: Blog
+    subtitle: The blog posts for this company
+    title_color: '#d62a2a'
+    subtitle_color: '#1d976a'
+    line_color: '#322490'
   - _bookshop_name: sections/hero
     title: Blog
     text: >-
@@ -11,10 +17,4 @@ content_blocks:
     image: /img/hero-banner.jpg
     image_alt: Person working
     background_color: '#6d6969'
-  - _bookshop_name: generic/heading
-    title: Blog
-    subtitle: The blog posts for this company
-    title_color: '#d62a2a'
-    subtitle_color: '#1d976a'
-    line_color: '#322490'
 ---
