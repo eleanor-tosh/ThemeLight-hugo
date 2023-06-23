@@ -9,31 +9,32 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  background_color: "#fff"
   heading: 
     title: 
     subtitle: 
-    title_color: 
-    subtitle_color: 
-    line_color: 
+    title_color: "#333"
+    subtitle_color: "#6d6969"
+    line_color: "#80d6a3"
   team:
     - name: 
       role: 
       image: 
       image_alt: 
       description: 
-      hover_border_color:
+      hover_border_color: "#80d6a3"
     - name: 
       role: 
       image: 
       image_alt: 
       description: 
-      hover_border_color:
+      hover_border_color: "#80d6a3"
     - name: 
       role: 
       image: 
       image_alt: 
       description:
-      hover_border_color:
+      hover_border_color: "#80d6a3"
 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser

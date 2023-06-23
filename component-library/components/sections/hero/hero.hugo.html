@@ -1,9 +1,8 @@
 {{ $c := "c-hero" }}    
     <section id="banner" class="{{ $c }}" style="background-image: url('{{ .image }}'); background: {{ .backgound_color }}" alt="{{ .image_alt }}">
-        <div class="container">
-
-            {{ if .reversed }}
-
+        
+        {{ if .reversed }}
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block-reversed">
@@ -16,9 +15,16 @@
                         </div>
                     </div>
                 </div>
-          
-            {{ else }}
+            </div>
+                {{ if .scrolldown_to }}
+                    <div class="scrolldown">
+                        <a id="scroll" href="{{ .scrolldown_to }}" class="scroll"></a>
+                    </div>
+                {{ end }}
 
+        {{ else }}
+
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block">
@@ -31,11 +37,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
+            {{ if .scrolldown_to }}
+                <div class="scrolldown">
+                    <a id="scroll" href="{{ .scrolldown_to }}" class="scroll"></a>
+                </div>
             {{ end }}
-            
-        </div>
-        <div class="scrolldown">
-            <a id="scroll" href="#features" class="scroll"></a>
-        </div>
+        {{ end }}
     </section>
