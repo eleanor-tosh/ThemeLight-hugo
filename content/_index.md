@@ -111,6 +111,11 @@ content_blocks:
         text: Text
         features_heading_color: '#da2d2d'
         features_text_color: '#9c1313'
+      - icon_path:
+        heading: Two
+        text: test
+        features_heading_color: '#9420a9'
+        features_text_color: '#361d44'
     features_heading_color:
     features_text_color:
 ---
