@@ -142,8 +142,8 @@ content_blocks:
         hover_border_color: '#80d6a3'
   - _bookshop_name: sections/pricing-table
     heading:
-      title:
-      subtitle:
+      title: Pricing
+      subtitle: subtitle
       title_color:
       subtitle_color:
       line_color:
