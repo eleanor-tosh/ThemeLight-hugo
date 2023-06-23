@@ -88,25 +88,32 @@ content_blocks:
         prefix:
         suffix: K
         text: Lines Coded
-        number_color: "#fff"
+        number_color: '#fff'
       - number: 7800
         prefix:
         suffix: +
         text: Lines Deleted
-        number_color: "#fff"
+        number_color: '#fff'
       - number: 698
         prefix:
         suffix:
         text: Hours Spent
-        number_color: "#fff"
+        number_color: '#fff'
       - number: 432
         prefix:
         suffix: cups
         text: Coffee Drunk
-        number_color: "#fff"
+        number_color: '#fff'
     number_color: '#ffffff'
     image: /img/desk.jpg
     image_alt:
+  - _bookshop_name: sections/portfolio
+    heading:
+      title: Latest Works
+      subtitle: Test
+      title_color: '#161313'
+      subtitle_color: '#bc9696'
+      line_color: '#1d27cb'
   - _bookshop_name: sections/team
     heading:
       title: Creative Team
@@ -133,11 +140,4 @@ content_blocks:
         image_alt:
         description: Assists with things
         hover_border_color: '#80d6a3'
-  - _bookshop_name: sections/portfolio
-    heading:
-      title: Latest Works
-      subtitle: Test
-      title_color: '#161313'
-      subtitle_color: '#bc9696'
-      line_color: '#1d27cb'
 ---
