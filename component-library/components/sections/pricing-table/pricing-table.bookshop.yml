@@ -26,8 +26,7 @@ blueprint:
       list_4: 
       list_5: 
       list_6: 
-      button: 
-        - bookshop:generic/button
+      button: bookshop:generic/button
 
 
 
