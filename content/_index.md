@@ -172,6 +172,6 @@ content_blocks:
           hover_label_color: '#000000'
           hover_border_color: '#000000'
           open_in_new_tab: false
-        text_color: '#ffffff'
-        border_color: '#ffffff'
+        text_color: '#ea0b0b'
+        border_color: '#ea0b0b'
 ---
