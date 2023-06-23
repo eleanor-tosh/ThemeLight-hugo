@@ -19,8 +19,9 @@ blueprint:
     - icon_path:
       heading: 
       text: 
-  features_heading_color: 
-  features_text_color: 
+      features_heading_color: "white"
+      features_text_color: "white"
+
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
