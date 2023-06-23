@@ -80,8 +80,8 @@ content_blocks:
         Dantes remained confused and silent by this explanation of the thoughts
         which had unconsciously Dantes remained confused and silent by this
         explanation of the thoughts.
-      title_color: '#333333'
-      subtitle_color: '#333333'
+      title_color: '#ffffff'
+      subtitle_color: '#ffffff'
       line_color: '#80d6a3'
     numbers:
       - number: 136
