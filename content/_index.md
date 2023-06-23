@@ -204,5 +204,9 @@ content_blocks:
       title_color: '#100e0e'
       subtitle_color: '#5e4646'
       line_color: '#c31212'
-    testimonials: []
+    testimonials:
+      - name: Bob
+        text: test
+        image: /img/testimonial4.jpg
+        image_alt:
 ---
