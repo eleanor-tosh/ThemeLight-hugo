@@ -121,4 +121,29 @@ content_blocks:
           minim
         features_heading_color: '#333333'
         features_text_color: '#6d6969'
+  - _bookshop_name: sections/hero
+    title: Clean and Flexible Business Template
+    title_color: '#ffffff'
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam.
+    text_color: '#ffffff'
+    image: /img/hero-banner.jpg
+    image_alt:
+    button_1:
+      _bookshop_name: generic/button
+      label: PURCHASE NOW
+      link_url: /
+      label_color: '#ffffff'
+      border_color: '#ffffff'
+      background_color: rgba(0, 0, 0, 0)
+      hover_background_color: rgba(0, 0, 0, 0)
+      hover_label_color: '#80d6a3'
+      hover_border_color: '#80d6a3'
+      open_in_new_tab: false
+    button_2:
+    reversed: false
+    background_color: '#6d6969'
+    scrolldown_to: /
 ---
