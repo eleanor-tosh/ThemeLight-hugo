@@ -13,15 +13,15 @@ blueprint:
   heading: 
     title: 
     subtitle: 
-    title_color: "#333"
-    subtitle_color: "#333"
+    title_color: "#fff"
+    subtitle_color: "#fff"
     line_color: "#80d6a3"
   numbers:
     - number: 
       prefix: 
       suffix: 
       text: 
-  number_color: "#333"
+  number_color: "#fff"
   image: 
   image_alt: 
 
@@ -37,7 +37,7 @@ preview:
     subtitle_color: "#333"
     line_color: "#80d6a3"
   numbers:
-    - number: 136800
+    - number: 136
       prefix: 
       suffix: "K"
       text: "Lines Coded"

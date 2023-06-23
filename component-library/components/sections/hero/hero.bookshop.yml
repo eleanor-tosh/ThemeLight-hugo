@@ -10,7 +10,7 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   title:
-  title_color: "white"
+  title_color: "#80d6a3"
   text: 
   text_color: "white"
   image: 
