@@ -174,4 +174,27 @@ content_blocks:
           open_in_new_tab: false
         text_color: '#ea0b0b'
         border_color: '#ea0b0b'
+      - title: MEDIUM PACK
+        currency_unit: $
+        price: '40'
+        frequency: /month
+        list_1: Unlimited Data
+        list_2: Unlimited Data
+        list_3: Unlimited Data
+        list_4: Unlimited Data
+        list_5: Unlimited Data
+        list_6:
+        button:
+          _bookshop_name: generic/button
+          label: Buy Now
+          link_url: /
+          label_color: '#ffffff'
+          border_color: '#ffffff'
+          background_color: '#000000'
+          hover_background_color: '#ffffff'
+          hover_label_color: '#000000'
+          hover_border_color: '#000000'
+          open_in_new_tab: false
+        text_color: '#a96deb'
+        border_color: '#a96deb'
 ---
