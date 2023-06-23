@@ -88,18 +88,22 @@ content_blocks:
         prefix:
         suffix: K
         text: Lines Coded
+        number_color: "#fff"
       - number: 7800
         prefix:
         suffix: +
         text: Lines Deleted
+        number_color: "#fff"
       - number: 698
         prefix:
         suffix:
         text: Hours Spent
+        number_color: "#fff"
       - number: 432
         prefix:
         suffix: cups
         text: Coffee Drunk
+        number_color: "#fff"
     number_color: '#ffffff'
     image: /img/desk.jpg
     image_alt:
