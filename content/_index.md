@@ -116,19 +116,19 @@ content_blocks:
         image: /img/team1.jpg
         image_alt:
         description: Our manager, she likes to manage all the people and things.
-        hover_border_color: '#3a1ba8'
+        hover_border_color: '#80d6a3'
       - name: Greg McGregor
         role: Team Member
         image: /img/team2.jpg
         image_alt:
         description: Team member Greg. Very Greg-ish.
-        hover_border_color: '#df12ae'
+        hover_border_color: '#6d6969'
       - name: Ellen Allan
         role: Assistant
         image: /img/team3.jpg
         image_alt:
         description: Assists with things
-        hover_border_color: '#bce111'
+        hover_border_color: '#80d6a3'
   - _bookshop_name: sections/portfolio
     heading:
       title: Latest Works
