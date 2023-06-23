@@ -2,36 +2,40 @@
 title: Home
 content_blocks:
   - _bookshop_name: sections/hero
-    title: The Company
-    title_color: '#a3dcad'
-    text: Testing colours
-    text_color: '#e89595'
+    title: Clean and Flexible Business Template
+    title_color: '#80d6a3'
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam.
+    text_color: '#ffffff'
     image: /img/hero-banner.jpg
     image_alt:
     button_1:
       _bookshop_name: generic/button
-      label: Get Started Free
+      label: PURCHASE NOW
       link_url: /
       label_color: '#ffffff'
       border_color: '#ffffff'
-      background_color: '#000000'
-      hover_background_color: '#ffffff'
-      hover_label_color: '#000000'
-      hover_border_color: '#000000'
+      background_color: rgba(0, 0, 0, 0)
+      hover_background_color: rgba(0, 0, 0, 0)
+      hover_label_color: '#80d6a3'
+      hover_border_color: '#80d6a3'
       open_in_new_tab: false
     button_2:
       _bookshop_name: generic/button
-      label: Or Pay
-      link_url: /
-      label_color: '#f16969'
-      border_color: '#9aa0e9'
+      label: VIEW FEATURES
+      link_url: '#features'
+      label_color: '#ffffff'
+      border_color: '#ffffff'
       background_color: rgba(0, 0, 0, 0)
-      hover_background_color: '#cbe730'
-      hover_label_color: '#4be76c'
-      hover_border_color: '#60d761'
+      hover_background_color: rgba(0, 0, 0, 0)
+      hover_label_color: '#80d6a3'
+      hover_border_color: '#80d6a3'
       open_in_new_tab: false
     reversed: false
-    background_color:
+    background_color: '#6d6969'
+    scrolldown_to: '#features'
   - _bookshop_name: sections/team
     heading:
       title: Creative Team
@@ -121,39 +125,4 @@ content_blocks:
           minim
         features_heading_color: '#333333'
         features_text_color: '#6d6969'
-  - _bookshop_name: sections/hero
-    title: Clean and Flexible Business Template
-    title_color: '#ffffff'
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam.
-    text_color: '#ffffff'
-    image: /img/hero-banner.jpg
-    image_alt:
-    button_1:
-      _bookshop_name: generic/button
-      label: PURCHASE NOW
-      link_url: /
-      label_color: '#ffffff'
-      border_color: '#ffffff'
-      background_color: rgba(0, 0, 0, 0)
-      hover_background_color: rgba(0, 0, 0, 0)
-      hover_label_color: '#80d6a3'
-      hover_border_color: '#80d6a3'
-      open_in_new_tab: false
-    button_2:
-      _bookshop_name: generic/button
-      label: VIEW FEATURES
-      link_url: '#features'
-      label_color: '#ffffff'
-      border_color: '#ffffff'
-      background_color: rgba(0, 0, 0, 0)
-      hover_background_color: rgba(0, 0, 0, 0)
-      hover_label_color: '#80d6a3'
-      hover_border_color: '#80d6a3'
-      open_in_new_tab: false
-    reversed: false
-    background_color: '#6d6969'
-    scrolldown_to: '#features'
 ---
