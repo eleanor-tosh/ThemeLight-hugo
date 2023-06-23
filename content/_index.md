@@ -141,36 +141,14 @@ content_blocks:
         description: Assists with things
         hover_border_color: '#80d6a3'
   - _bookshop_name: sections/pricing-table
+    background_color: '#80d6a3'
     heading:
       title: Pricing Table
       subtitle: >-
         Dantes remained confused and silent by this explanation of the thoughts
-        which
+        which.
       title_color: '#ffffff'
       subtitle_color: '#ffffff'
       line_color: '#80d6a3'
-    price_card:
-      - title: STARTER PACK
-        currency_unit: $
-        price: '40'
-        frequency: /month
-        list_1: '"Unlimited Downloads"'
-        list_2: '"Unlimited Downloads"'
-        list_3: '"Unlimited Downloads"'
-        list_4:
-        list_5:
-        list_6:
-        button:
-          _bookshop_name: generic/button
-          label: Buy Now
-          link_url: /
-          label_color: '#ffffff'
-          border_color: '#ffffff'
-          background_color: '#000000'
-          hover_background_color: '#ffffff'
-          hover_label_color: '#000000'
-          hover_border_color: '#000000'
-          open_in_new_tab: false
-        text_color: '#ffffff'
-        border_color: '#ffffff'
+    price_card: []
 ---
