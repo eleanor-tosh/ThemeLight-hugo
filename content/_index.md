@@ -141,21 +141,23 @@ content_blocks:
         description: Assists with things
         hover_border_color: '#80d6a3'
   - _bookshop_name: sections/pricing-table
-    background_color: "#80d6a3"
+    background_color: '#80d6a3'
     heading:
-      title: pricing
-      subtitle: pricing table
-      title_color: '#0e0d0d'
-      subtitle_color: '#181616'
-      line_color: '#ea0e0e'
+      title: Pricing Table
+      subtitle: >-
+        Dantes remained confused and silent by this explanation of the thoughts
+        which.
+      title_color: '#ffffff'
+      subtitle_color: '#ffffff'
+      line_color: '#333333'
     price_card:
       - title: STARTER PACK
         currency_unit: $
-        price: '30'
+        price: '20'
         frequency: /month
-        list_1: test
-        list_2: test
-        list_3:
+        list_1: Unlimited Downloads
+        list_2: Unlimited Downloads
+        list_3: Unlimited Downloads
         list_4:
         list_5:
         list_6:
@@ -170,6 +172,41 @@ content_blocks:
           hover_label_color: '#000000'
           hover_border_color: '#000000'
           open_in_new_tab: false
-        text_color: "pink"
-        border_color: "purple"
+        text_color: '#ea0b0b'
+        border_color: '#ea0b0b'
+      - title: MEDIUM PACK
+        currency_unit: $
+        price: '40'
+        frequency: /month
+        list_1: Unlimited Data
+        list_2: Unlimited Data
+        list_3: Unlimited Data
+        list_4: Unlimited Data
+        list_5: Unlimited Data
+        list_6:
+        button:
+          _bookshop_name: generic/button
+          label: Buy Now
+          link_url: /
+          label_color: '#ffffff'
+          border_color: '#ffffff'
+          background_color: '#000000'
+          hover_background_color: '#ffffff'
+          hover_label_color: '#000000'
+          hover_border_color: '#000000'
+          open_in_new_tab: false
+        text_color: '#a96deb'
+        border_color: '#a96deb'
+  - _bookshop_name: sections/testimonial
+    heading:
+      title: Testimonials
+      subtitle: Text here
+      title_color: '#100e0e'
+      subtitle_color: '#5e4646'
+      line_color: '#c31212'
+    testimonials:
+      - name: Bob
+        text: test
+        image: /img/testimonial4.jpg
+        image_alt:
 ---
