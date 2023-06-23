@@ -87,27 +87,14 @@ content_blocks:
     image_alt:
   - _bookshop_name: sections/features
     heading:
-      title: Sevices
-      subtitle: Bringing you the best services.
-      title_color: '#2e4099'
-      subtitle_color: '#650c0c'
-      line_color: '#8e802d'
-    features:
-      - icon_path: /img/map.jpg
-        heading: One
-        text: One text
-    features_heading:
-    features_text:
-  - _bookshop_name: sections/features
-    heading:
-      title: TEst
-      subtitle: test
-      title_color:
-      subtitle_color:
-      line_color:
+      title: Features
+      subtitle: The amazing features offered by the company.
+      title_color: '#cc2121'
+      subtitle_color: '#ef6a6a'
+      line_color: '#1fc547'
     features:
       - icon_path:
-        heading: Feaute
+        heading: Feature
         text: One
     features_heading_color: '#d21818'
     features_text_color: '#1ca884'
