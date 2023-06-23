@@ -121,10 +121,4 @@ content_blocks:
           minim
         features_heading_color: '#333333'
         features_text_color: '#6d6969'
-  - _bookshop_name: generic/heading
-    title: test
-    subtitle: test text here
-    title_color: '#d81c1c'
-    subtitle_color: '#340a0a'
-    line_color: '#1ac14a'
 ---
