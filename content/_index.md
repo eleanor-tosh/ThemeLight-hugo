@@ -87,15 +87,10 @@ content_blocks:
     image_alt:
   - _bookshop_name: sections/features
     heading:
-      title: Features
-      subtitle: The amazing features offered by the company.
-      title_color: '#cc2121'
-      subtitle_color: '#ef6a6a'
-      line_color: '#1fc547'
-    features:
-      - icon_path:
-        heading: Feature
-        text: One
-    features_heading_color: '#d21818'
-    features_text_color: '#1ca884'
+      title: Our Best Services
+      subtitle: The best services available to you.
+      title_color: '#333333'
+      subtitle_color: '#6d6969'
+      line_color: '#80d6a3'
+    features: []
 ---
