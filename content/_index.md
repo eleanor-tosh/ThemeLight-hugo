@@ -140,31 +140,4 @@ content_blocks:
         image_alt:
         description: Assists with things
         hover_border_color: '#80d6a3'
-  - _bookshop_name: sections/pricing-table
-    heading:
-      title: Pricing
-      subtitle: subtitle
-      title_color:
-      subtitle_color:
-      line_color:
-    price_card:
-      - title: starter pack
-        currency_unit: $
-        price: '20'
-        frequency: /month
-        list_1: test
-        list_2: test
-        list_3: test
-        list_4: test
-        list_5:
-        list_6:
-        button:
-          - label: Buy Now
-            link_url: /
-            label_color: '#e70a0a'
-            variant:
-            hover_background:
-            hover_label:
-            hover_border:
-            open_in_new_tab: false
 ---
