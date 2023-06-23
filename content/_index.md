@@ -197,4 +197,12 @@ content_blocks:
           open_in_new_tab: false
         text_color: '#a96deb'
         border_color: '#a96deb'
+  - _bookshop_name: sections/testimonial
+    heading:
+      title: Testimonials
+      subtitle: Text here
+      title_color: '#100e0e'
+      subtitle_color: '#5e4646'
+      line_color: '#c31212'
+    testimonials: []
 ---
