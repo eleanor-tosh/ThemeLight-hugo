@@ -98,4 +98,19 @@ content_blocks:
         text: One
     features_heading_color: '#d21818'
     features_text_color: '#1ca884'
+  - _bookshop_name: sections/features
+    heading:
+      title:
+      subtitle:
+      title_color:
+      subtitle_color:
+      line_color:
+    features:
+      - icon_path:
+        heading: One
+        text: Text
+        features_heading_color: '#da2d2d'
+        features_text_color: '#9c1313'
+    features_heading_color:
+    features_text_color:
 ---
