@@ -100,11 +100,11 @@ content_blocks:
     features_text:
   - _bookshop_name: sections/features
     heading:
-      title: TEst
-      subtitle: test
-      title_color:
-      subtitle_color:
-      line_color:
+      title: Features
+      subtitle: The amazing features offered by the company.
+      title_color: '#cc2121'
+      subtitle_color: '#ef6a6a'
+      line_color: '#1fc547'
     features:
       - icon_path:
         heading: Feaute
