@@ -21,7 +21,7 @@ blueprint:
       prefix: 
       suffix: 
       text: 
-  number_color: "#fff"
+      number_color: "#fff"
   image: 
   image_alt: 
 
@@ -41,10 +41,12 @@ preview:
       prefix: 
       suffix: "K"
       text: "Lines Coded"
+      number_color: "#fff"
     - number: 7800
       prefix: 
       suffix: "+"
       text: "Lines Deleted"
+      number_color: "#fff"
     - number: 698
       prefix: 
       suffix: 
@@ -53,7 +55,7 @@ preview:
       prefix: 
       suffix: "cups"
       text: "Coffee Drunk"
-  number_color: "white"
+      number_color: "#fff"
   image: '/img/desk.jpg'
   image_alt: 'Birds eye view of table with desk items'
 
