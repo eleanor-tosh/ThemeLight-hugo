@@ -27,52 +27,8 @@ blueprint:
       list_5: 
       list_6: 
       button: 
-        - label: 
-          link_url: 
-          label_color: 
-          variant: 
-          hover_background: 
-          hover_label: 
-          hover_border: 
-          open_in_new_tab: false
-    - title: 
-      currency_unit: 
-      price: 
-      frequency: 
-      list_1: 
-      list_2: 
-      list_3: 
-      list_4: 
-      list_5: 
-      list_6: 
-      button: 
-        - label: 
-          link_url: 
-          label_color: 
-          variant: 
-          hover_background: 
-          hover_label: 
-          hover_border: 
-          open_in_new_tab: false
-    - title: 
-      currency_unit: 
-      price: 
-      frequency: 
-      list_1: 
-      list_2: 
-      list_3: 
-      list_4: 
-      list_5: 
-      list_6: 
-      button: 
-        - label: 
-          link_url: 
-          label_color: 
-          variant: 
-          hover_background: 
-          hover_label: 
-          hover_border: 
-          open_in_new_tab: false
+        - bookshop:generic/button
+
 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
