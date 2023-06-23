@@ -129,4 +129,11 @@ content_blocks:
         image_alt:
         description: Assists with things
         hover_border_color: '#bce111'
+  - _bookshop_name: sections/portfolio
+    heading:
+      title: Latest Works
+      subtitle: Test
+      title_color: '#161313'
+      subtitle_color: '#bc9696'
+      line_color: '#1d27cb'
 ---
