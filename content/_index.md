@@ -147,5 +147,16 @@ content_blocks:
       title_color: '#0e0d0d'
       subtitle_color: '#181616'
       line_color: '#ea0e0e'
-    price_card: []
+    price_card:
+      - title: test
+        currency_unit: $
+        price: '30'
+        frequency: /month
+        list_1: test
+        list_2: test
+        list_3:
+        list_4:
+        list_5:
+        list_6:
+        button:
 ---
