@@ -17,4 +17,15 @@ content_blocks:
     image: /img/hero-banner.jpg
     image_alt: Person working
     background_color: '#6d6969'
+  - _bookshop_name: sections/hero
+    title: Blog
+    title_color: '#ffffff'
+    text: All our blog posts can be found here
+    text_color: '#ffffff'
+    image: /img/desk.jpg
+    image_alt:
+    button_1:
+    button_2:
+    reversed: false
+    background_color:
 ---
