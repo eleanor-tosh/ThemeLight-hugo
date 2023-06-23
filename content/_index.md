@@ -147,5 +147,26 @@ content_blocks:
       title_color:
       subtitle_color:
       line_color:
-    price_card: []
+    price_card:
+      - title: '1'
+        currency_unit: $
+        price: '40'
+        frequency: /month
+        list_1: test
+        list_2: test
+        list_3: test
+        list_4:
+        list_5:
+        list_6:
+        button:
+          - _bookshop_name: generic/button
+            label: Buy Now
+            link_url: /components
+            label_color: '#ffffff'
+            border_color: '#ffffff'
+            background_color: '#000000'
+            hover_background_color: '#ffffff'
+            hover_label_color: '#000000'
+            hover_border_color: '#000000'
+            open_in_new_tab: false
 ---
