@@ -100,11 +100,11 @@ content_blocks:
     features_text_color: '#1ca884'
   - _bookshop_name: sections/features
     heading:
-      title:
-      subtitle:
-      title_color:
-      subtitle_color:
-      line_color:
+      title: Feature color
+      subtitle: test
+      title_color: '#27de57'
+      subtitle_color: '#9ab22b'
+      line_color: '#463f3f'
     features:
       - icon_path:
         heading: One
