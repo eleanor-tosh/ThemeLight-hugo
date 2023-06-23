@@ -149,6 +149,6 @@ content_blocks:
         which.
       title_color: '#ffffff'
       subtitle_color: '#ffffff'
-      line_color: '#80d6a3'
+      line_color: '#333333'
     price_card: []
 ---
