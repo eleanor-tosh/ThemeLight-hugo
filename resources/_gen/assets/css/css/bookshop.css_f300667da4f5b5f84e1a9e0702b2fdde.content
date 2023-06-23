@@ -143,6 +143,9 @@
   margin-top: 20px;
   color: var(--features_text_color); }
 
+.c-features ion-icon {
+  font-size: 64px; }
+
 .c-form--button {
   float: right; }
 

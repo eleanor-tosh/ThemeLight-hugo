@@ -18,6 +18,7 @@ blueprint:
     line_color: "#80d6a3"
   features:
     - icon_path:
+      icon_color:
       heading: 
       text: 
       features_heading_color: "#333"
@@ -35,17 +36,20 @@ preview:
     subtitle_color: "#6d6969"
     line_color: "#80d6a3"
   features:
-    - icon_path:
+    - icon: "easel-sharp"
+      icon_color: "#80d6a3"
       heading: "Responsive Design"
       text: "Now with range. Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
       features_heading_color: "#333"
       features_text_color: "#6d6969"
-    - icon_path:
+    - icon: "paintbucket-sharp"
+      icon_color: "#80d6a3"
       heading: "Outstanding Animation"
       text: "Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
       features_heading_color: "#333"
       features_text_color: "#6d6969"
-    - icon_path:
+    - icon: "paintbrush-sharp"
+      icon_color: "#80d6a3"
       heading: "Unlimited Colors"
       text: "Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim"
       features_heading_color: "#333"

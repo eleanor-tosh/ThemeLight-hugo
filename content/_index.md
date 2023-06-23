@@ -48,7 +48,8 @@ content_blocks:
       subtitle_color: '#6d6969'
       line_color: '#80d6a3'
     features:
-      - icon_path:
+      - icon: "easel-sharp"
+        icon_color: "#80d6a3"
         heading: Responsive Design
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do
@@ -56,7 +57,8 @@ content_blocks:
           minim
         features_heading_color: '#333333'
         features_text_color: '#6d6969'
-      - icon_path:
+      - icon: "color-fill-sharp"
+        icon_color: "#80d6a3"
         heading: Outstanding Animation
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do
@@ -64,7 +66,8 @@ content_blocks:
           minim
         features_heading_color: '#333333'
         features_text_color: '#6d6969'
-      - icon_path:
+      - icon: "brush-sharp"
+        icon_color: "#80d6a3"
         heading: Unlimited Colors
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do
