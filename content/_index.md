@@ -75,14 +75,33 @@ content_blocks:
   - _bookshop_name: sections/counter
     background_color: '#444444'
     heading:
-      title:
-      subtitle:
-      title_color: '#333'
-      subtitle_color: '#333'
+      title: Fun Facts
+      subtitle: >-
+        Dantes remained confused and silent by this explanation of the thoughts
+        which had unconsciously Dantes remained confused and silent by this
+        explanation of the thoughts.
+      title_color: '#333333'
+      subtitle_color: '#333333'
       line_color: '#80d6a3'
-    numbers: []
-    number_color: '#333333'
-    image:
+    numbers:
+      - number: 136
+        prefix:
+        suffix: K
+        text: Lines Coded
+      - number: 7800
+        prefix:
+        suffix: +
+        text: Lines Deleted
+      - number: 698
+        prefix:
+        suffix:
+        text: Hours Spent
+      - number: 432
+        prefix:
+        suffix: cups
+        text: Coffee Drunk
+    number_color: '#ffffff'
+    image: /img/desk.jpg
     image_alt:
   - _bookshop_name: sections/team
     heading:
