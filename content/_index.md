@@ -85,4 +85,16 @@ content_blocks:
     number_color: '#ffffff'
     image: /img/desk.jpg
     image_alt:
+  - _bookshop_name: sections/features
+    background_color: '#ffffff'
+    heading:
+      title: Our Best Services
+      subtitle: >-
+        Lorem ipsum dolor sit amet, consectetur adipisic-ing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim
+      title_color: '#333333'
+      subtitle_color: '#6d6969'
+      line_color: '#80d6a3'
+    features: []
 ---
