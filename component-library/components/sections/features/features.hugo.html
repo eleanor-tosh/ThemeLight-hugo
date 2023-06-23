@@ -2,10 +2,10 @@
 <section id="features" style="background: {{ .background_color }}">
     <div class="container">
         {{ partial "bookshop" (slice "generic/heading" .heading )}}
-        <div class="row">
+        <div class="row" style="--features_heading_color: {{ .features_heading_color }}">
 
             {{ range .features }}
-            <div class="col-md-4 col-xs-6 col-sm-6" style="--features_heading_color: {{ .features_heading_color }}">
+            <div class="col-md-4 col-xs-6 col-sm-6">
                 <div class="feature-block text-center">
                     <div class="icon-box">
                         <i class="ion-easel"></i>
