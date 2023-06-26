@@ -209,4 +209,12 @@ content_blocks:
         text: test
         image: /img/testimonial4.jpg
         image_alt:
+  - _bookshop_name: sections/form
+    heading:
+      title: CONTACT US
+      subtitle: subtitlt
+      title_color:
+      subtitle_color:
+      line_color:
+    button:
 ---
