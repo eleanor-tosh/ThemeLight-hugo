@@ -132,4 +132,22 @@ content_blocks:
           minim veniam.
         features_heading_color: '#333333'
         features_text_color: '#6d6969'
+      - icon: paintbucket-sharp
+        icon_color: '#80d6a3'
+        heading: Outstanding Animation
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam.
+        features_heading_color: '#333333'
+        features_text_color: '#6d6969'
+      - icon: paintbrush-sharp
+        icon_color: '#80d6a3'
+        heading: Unlimited Colors
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam.
+        features_heading_color: '#333333'
+        features_text_color: '#6d6969'
 ---
