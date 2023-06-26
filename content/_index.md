@@ -229,4 +229,6 @@ content_blocks:
       hover_border_color: '#000000'
       open_in_new_tab: false
     border_color: '#f67532'
+  - _bookshop_name: sections/client-logo
+    text: Hello World!
 ---
