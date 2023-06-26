@@ -3,15 +3,15 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    {{ range .logos }}
+                    
                     <div id="Client_Logo">
-                        
+                        {{ range .logos }}
                         <div>
                             <a href="{{ .link }}" ><img src="{{ .image }}" alt="{{ .image_alt }}"></a>
                         </div>
-                        
+                        {{ end }} 
                     </div>
-                    {{ end }} 
+                    
                 </div>
             </div>
         </div>
