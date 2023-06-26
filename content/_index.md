@@ -75,6 +75,48 @@ content_blocks:
           minim veniam.
         features_heading_color: '#333333'
         features_text_color: '#6d6969'
+  - _bookshop_name: sections/counter
+    background_color: '#444444'
+    heading:
+      title: FUN FACTS
+      subtitle: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam.
+      title_color: '#ffffff'
+      subtitle_color: '#ffffff'
+      line_color: '#80d6a3'
+    numbers:
+      - number: 136
+        prefix:
+        suffix: K
+        text: Line Coded
+        number_color: '#ffffff'
+        icon: code-sharp
+        icon_color: '#80d6a3'
+      - number: 7800
+        prefix:
+        suffix: +
+        text: Lines Deleted
+        number_color: '#ffffff'
+        icon: cut-sharp
+        icon_color: '#80d6a3'
+      - number: 698
+        prefix:
+        suffix:
+        text: Hours Spent
+        number_color: '#ffffff'
+        icon: alarm-sharp
+        icon_color: '#80d6a3'
+      - number: 432
+        prefix:
+        suffix: cups
+        text: Coffee Drunk
+        number_color: '#ffffff'
+        icon: cafe-sharp
+        icon_color: '#80d6a3'
+    image: /img/desk.jpg
+    image_alt:
   - _bookshop_name: sections/client-logo
     logos:
       - image: /img/clientLogo/Generic_Logo.png
@@ -150,46 +192,29 @@ content_blocks:
           hover_label: '#333'
           hover_border: '#333'
           open_in_new_tab: false
-  - _bookshop_name: sections/counter
-    background_color: '#444444'
+  - _bookshop_name: sections/team
+    background_color: '#ffffff'
     heading:
-      title: FUN FACTS
+      title: CREATIVE TEAM
       subtitle: >-
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam.
-      title_color: '#ffffff'
-      subtitle_color: '#ffffff'
+      title_color: '#333333'
+      subtitle_color: '#6d6969'
       line_color: '#80d6a3'
-    numbers:
-      - number: 136
-        prefix:
-        suffix: K
-        text: Line Coded
-        number_color: '#ffffff'
-        icon: code-sharp
+    team:
+      - name: Tania Roberts
+        role: Manager
+        image: /img/team1.jpg
+        image_alt: >-
+          Tania Roberts smiling at the camers, weraing a black and white striped
+          blazer over a black top. Gold necklace with small round pendant. A
+          glass door or wall can be seen in the background.
+        description: >-
+          Dantes remained confused and silent by this explanation of the
+          thoughts which had unconsciously.
+        hover_border_color: '#80d6a3'
+        icon: sparkles-sharp
         icon_color: '#80d6a3'
-      - number: 7800
-        prefix:
-        suffix: +
-        text: Lines Deleted
-        number_color: '#ffffff'
-        icon: cut-sharp
-        icon_color: '#80d6a3'
-      - number: 698
-        prefix:
-        suffix:
-        text: Hours Spent
-        number_color: '#ffffff'
-        icon: alarm-sharp
-        icon_color: '#80d6a3'
-      - number: 432
-        prefix:
-        suffix: cups
-        text: Coffee Drunk
-        number_color: '#ffffff'
-        icon: cafe-sharp
-        icon_color: '#80d6a3'
-    image: /img/desk.jpg
-    image_alt:
 ---
