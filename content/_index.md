@@ -228,5 +228,5 @@ content_blocks:
       hover_label_color: '#000000'
       hover_border_color: '#000000'
       open_in_new_tab: false
-    border_color: '#80d6a3'
+    border_color: '#f67532'
 ---
