@@ -150,4 +150,18 @@ content_blocks:
           hover_label: '#333'
           hover_border: '#333'
           open_in_new_tab: false
+  - _bookshop_name: sections/counter
+    background_color: '#444444'
+    heading:
+      title: FUN FACTS
+      subtitle: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam.
+      title_color: '#ffffff'
+      subtitle_color: '#ffffff'
+      line_color: '#80d6a3'
+    numbers: []
+    image:
+    image_alt:
 ---
