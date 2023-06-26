@@ -66,7 +66,7 @@ content_blocks:
           minim veniam.
         features_heading_color: '#333333'
         features_text_color: '#6d6969'
-      - icon: paintbrush-sharp
+      - icon: brush-sharp
         icon_color: '#80d6a3'
         heading: Unlimited Colors
         text: >-
