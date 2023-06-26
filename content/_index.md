@@ -164,10 +164,17 @@ content_blocks:
     numbers:
       - number: 136
         prefix:
-        suffix: +
+        suffix: K
         text: Line Coded
         number_color: '#ffffff'
         icon: code-sharp
+        icon_color: '#80d6a3'
+      - number: 7800
+        prefix:
+        suffix: +
+        text: Lines Deleted
+        number_color: '#ffffff'
+        icon: cut-sharp
         icon_color: '#80d6a3'
     image: /img/desk.jpg
     image_alt:
