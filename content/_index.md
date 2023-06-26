@@ -161,7 +161,14 @@ content_blocks:
       title_color: '#ffffff'
       subtitle_color: '#ffffff'
       line_color: '#80d6a3'
-    numbers: []
-    image:
+    numbers:
+      - number: 136
+        prefix:
+        suffix: +
+        text: Line Coded
+        number_color: '#ffffff'
+        icon: code-sharp
+        icon_color: '#80d6a3'
+    image: /img/desk.jpg
     image_alt:
 ---
