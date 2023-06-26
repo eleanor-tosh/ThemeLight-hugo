@@ -10,12 +10,7 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   background_color: "#f9f9f9"
-  heading: 
-    title: 
-    subtitle: 
-    title_color: 
-    subtitle_color: 
-    line_color: 
+  heading: bookshop:generic/heading
   button: bookshop:generic/button
   border_color: "#80d6a3"
 
