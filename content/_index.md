@@ -216,7 +216,7 @@ content_blocks:
       subtitle: 'Subtitle - contact us immediately '
       title_color: '#333333'
       subtitle_color: '#ac1989'
-      line_color: '#58d93c'
+      line_color: '#1718b7'
     button:
       _bookshop_name: generic/button
       label: Submit
