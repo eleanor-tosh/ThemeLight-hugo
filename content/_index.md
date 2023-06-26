@@ -229,4 +229,14 @@ content_blocks:
       hover_border_color: '#000000'
       open_in_new_tab: false
     border_color: '#f67532'
+  - _bookshop_name: sections/client-logo
+    logos:
+      - _bookshop_name: generic/logo
+        image: /img/clientLogo/Generic_Logo.png
+        image_alt:
+        link: /
+      - _bookshop_name: generic/logo
+        image: /img/clientLogo/Generic_Logo.png
+        image_alt:
+        link: /
 ---
