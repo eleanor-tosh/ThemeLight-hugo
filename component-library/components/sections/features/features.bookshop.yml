@@ -17,7 +17,7 @@ blueprint:
     subtitle_color: "#6d6969"
     line_color: "#80d6a3"
   features:
-    - icon_path:
+    - icon:
       icon_color:
       heading: 
       text: 
