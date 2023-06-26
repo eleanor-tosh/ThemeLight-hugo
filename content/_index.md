@@ -181,14 +181,14 @@ content_blocks:
         suffix:
         text: Hours Spent
         number_color: '#ffffff'
-        icon:
+        icon: alarm-sharp
         icon_color: '#80d6a3'
       - number: 432
         prefix:
         suffix: cups
         text: Coffee Drunk
         number_color: '#ffffff'
-        icon:
+        icon: cafe-sharp
         icon_color: '#80d6a3'
     image: /img/desk.jpg
     image_alt:
