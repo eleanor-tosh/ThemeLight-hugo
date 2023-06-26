@@ -217,4 +217,16 @@ content_blocks:
         hover_border_color: '#80d6a3'
         icon: sparkles-sharp
         icon_color: '#80d6a3'
+      - name: Greg McGregor
+        role: Team Member
+        image: /img/team2.jpg
+        image_alt: >-
+          Greg McGregor slightly smiling at the camera. He is wearing thick
+          framed glasses, navy dress jackets and a white shirt.
+        description: >-
+          Dantes remained confused and silent by this explanation of the
+          thoughts which had unconsciously
+        hover_border_color: '#80d6a3'
+        icon: sparkles-sharp
+        icon_color: '#80d6a3'
 ---
