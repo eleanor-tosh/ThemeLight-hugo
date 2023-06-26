@@ -218,5 +218,15 @@ content_blocks:
       subtitle_color: '#ac1989'
       line_color: '#58d93c'
     button:
+      _bookshop_name: generic/button
+      label: Submit
+      link_url: /components
+      label_color: '#ffffff'
+      border_color: '#ffffff'
+      background_color: '#000000'
+      hover_background_color: '#ffffff'
+      hover_label_color: '#000000'
+      hover_border_color: '#000000'
+      open_in_new_tab: false
     border_color: '#80d6a3'
 ---
