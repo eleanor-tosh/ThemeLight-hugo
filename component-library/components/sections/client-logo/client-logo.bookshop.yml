@@ -10,13 +10,19 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   logos: 
-    - bookshop:generic/logo
+    - image: 
+      image_alt: 
+      link: "/"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   logos:
-    - bookshop:generic/logo
-    - bookshop:generic/logo
+    - image: "/img/clientLogo/Generic_Logo.png"
+      image_alt: "Client logo"
+      link: "/"
+    - image: "/img/clientLogo/Generic_Logo.png"
+      image_alt: "Client logo"
+      link: "/"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
