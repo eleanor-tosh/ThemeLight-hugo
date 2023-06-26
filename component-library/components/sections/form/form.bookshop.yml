@@ -9,13 +9,15 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  background_color: "#f9f9f9"
   heading: 
     title: 
     subtitle: 
     title_color: 
     subtitle_color: 
     line_color: 
-  button: 
+  button: bookshop:generic/button
+  border_color: "#80d6a3"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

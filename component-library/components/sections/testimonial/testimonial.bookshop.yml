@@ -9,6 +9,7 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  background_color: "#fff"
   heading: 
     title: 
     subtitle:  
