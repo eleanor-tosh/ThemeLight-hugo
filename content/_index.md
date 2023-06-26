@@ -117,6 +117,57 @@ content_blocks:
         icon_color: '#80d6a3'
     image: /img/desk.jpg
     image_alt:
+  - _bookshop_name: sections/team
+    background_color: '#ffffff'
+    heading:
+      title: CREATIVE TEAM
+      subtitle: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam.
+      title_color: '#333333'
+      subtitle_color: '#6d6969'
+      line_color: '#80d6a3'
+    team:
+      - name: Tania Roberts
+        role: Manager
+        image: /img/team1.jpg
+        image_alt: >-
+          Tania Roberts smiling at the camers, weraing a black and white striped
+          blazer over a black top. Gold necklace with small round pendant. A
+          glass door or wall can be seen in the background.
+        description: >-
+          Dantes remained confused and silent by this explanation of the
+          thoughts which had unconsciously.
+        hover_border_color: '#80d6a3'
+        icon: sparkles-sharp
+        icon_color: '#80d6a3'
+      - name: Greg McGregor
+        role: Team Member
+        image: /img/team2.jpg
+        image_alt: >-
+          Greg McGregor slightly smiling at the camera. He is wearing thick
+          framed glasses, navy dress jackets and a white shirt.
+        description: >-
+          Dantes remained confused and silent by this explanation of the
+          thoughts which had unconsciously
+        hover_border_color: '#80d6a3'
+        icon: sparkles-sharp
+        icon_color: '#80d6a3'
+      - name: Ellen Allan
+        role: Assistant
+        image: /img/team3.jpg
+        image_alt: >-
+          Ellen Allan smiling at the camera. She is wearing a grey jacket with
+          white shirt. She is holding a silver laptop in her lap, sitting in a
+          window frame with an orange wall behind her on one side and the window
+          on the other showing a view of an office building.
+        description: >-
+          Dantes remained confused and silent by this explanation of the
+          thoughts which had unconsciously.
+        hover_border_color: '#80d6a3'
+        icon: sparkles-sharp
+        icon_color: '#80d6a3'
   - _bookshop_name: sections/client-logo
     logos:
       - image: /img/clientLogo/Generic_Logo.png
@@ -192,55 +243,4 @@ content_blocks:
           hover_label: '#333'
           hover_border: '#333'
           open_in_new_tab: false
-  - _bookshop_name: sections/team
-    background_color: '#ffffff'
-    heading:
-      title: CREATIVE TEAM
-      subtitle: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam.
-      title_color: '#333333'
-      subtitle_color: '#6d6969'
-      line_color: '#80d6a3'
-    team:
-      - name: Tania Roberts
-        role: Manager
-        image: /img/team1.jpg
-        image_alt: >-
-          Tania Roberts smiling at the camers, weraing a black and white striped
-          blazer over a black top. Gold necklace with small round pendant. A
-          glass door or wall can be seen in the background.
-        description: >-
-          Dantes remained confused and silent by this explanation of the
-          thoughts which had unconsciously.
-        hover_border_color: '#80d6a3'
-        icon: sparkles-sharp
-        icon_color: '#80d6a3'
-      - name: Greg McGregor
-        role: Team Member
-        image: /img/team2.jpg
-        image_alt: >-
-          Greg McGregor slightly smiling at the camera. He is wearing thick
-          framed glasses, navy dress jackets and a white shirt.
-        description: >-
-          Dantes remained confused and silent by this explanation of the
-          thoughts which had unconsciously
-        hover_border_color: '#80d6a3'
-        icon: sparkles-sharp
-        icon_color: '#80d6a3'
-      - name: Ellen Allan
-        role: Assistant
-        image: /img/team3.jpg
-        image_alt: >-
-          Ellen Allan smiling at the camera. She is wearing a grey jacket with
-          white shirt. She is holding a silver laptop in her lap, sitting in a
-          window frame with an orange wall behind her on one side and the window
-          on the other showing a view of an office building.
-        description: >-
-          Dantes remained confused and silent by this explanation of the
-          thoughts which had unconsciously.
-        hover_border_color: '#80d6a3'
-        icon: sparkles-sharp
-        icon_color: '#80d6a3'
 ---
