@@ -9,7 +9,18 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  background_color: "#f1f1f1"
+  heading: 
+    _bookshop_name: generic/heading
+    title: "BLOG"
+    subtitle: "Dantes remained confused and silent by this explanation of the thoughts which had unconsciously Dantes remained confused and silent by this explanation of the thoughts which had unconsciously "
+    title_color: "#333"
+    subtitle_color: "#333"
+    line_color: "#80d6a3"
+  posts:
+    - bookshop:generic/blog-card
+    - bookshop:generic/blog-card
+    - bookshop:generic/blog-card
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
