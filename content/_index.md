@@ -229,4 +229,18 @@ content_blocks:
         hover_border_color: '#80d6a3'
         icon: sparkles-sharp
         icon_color: '#80d6a3'
+      - name: Ellen Allan
+        role: Assistant
+        image: /img/team3.jpg
+        image_alt: >-
+          Ellen Allan smiling at the camera. She is wearing a grey jacket with
+          white shirt. She is holding a silver laptop in her lap, sitting in a
+          window frame with an orange wall behind her on one side and the window
+          on the other showing a view of an office building.
+        description: >-
+          Dantes remained confused and silent by this explanation of the
+          thoughts which had unconsciously.
+        hover_border_color: '#80d6a3'
+        icon: sparkles-sharp
+        icon_color: '#80d6a3'
 ---
