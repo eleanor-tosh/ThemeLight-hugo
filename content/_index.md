@@ -210,11 +210,23 @@ content_blocks:
         image: /img/testimonial4.jpg
         image_alt:
   - _bookshop_name: sections/form
+    background_color: '#f9f9f9'
     heading:
-      title: CONTACT US
-      subtitle: subtitlt
-      title_color:
-      subtitle_color:
-      line_color:
+      title: Contact us
+      subtitle: 'Subtitle - contact us immediately '
+      title_color: '#333333'
+      subtitle_color: '#ac1989'
+      line_color: '#1718b7'
     button:
+      _bookshop_name: generic/button
+      label: Submit
+      link_url: /components
+      label_color: '#ffffff'
+      border_color: '#ffffff'
+      background_color: '#000000'
+      hover_background_color: '#ffffff'
+      hover_label_color: '#000000'
+      hover_border_color: '#000000'
+      open_in_new_tab: false
+    border_color: '#f67532'
 ---
