@@ -110,5 +110,5 @@ content_blocks:
       open_in_new_tab: false
     reversed: false
     background_color: '#6d6969'
-    scrolldown_to: /
+    scrolldown_to: '#portfolio'
 ---
