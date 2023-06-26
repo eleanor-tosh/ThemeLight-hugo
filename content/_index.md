@@ -243,4 +243,10 @@ content_blocks:
       - image: /img/clientLogo/Generic_Logo.png
         image_alt:
         link: /
+      - image: /img/clientLogo/Generic_Logo.png
+        image_alt:
+        link: /
+      - image: /img/clientLogo/Generic_Logo.png
+        image_alt:
+        link: /
 ---
