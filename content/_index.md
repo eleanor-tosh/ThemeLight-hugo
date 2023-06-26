@@ -209,4 +209,14 @@ content_blocks:
         text: test
         image: /img/testimonial4.jpg
         image_alt:
+  - _bookshop_name: sections/form
+    background_color: '#f9f9f9'
+    heading:
+      title: Contact us
+      subtitle: 'Subtitle - contact us immediately '
+      title_color: '#333333'
+      subtitle_color: '#ac1989'
+      line_color: '#58d93c'
+    button:
+    border_color: '#80d6a3'
 ---
