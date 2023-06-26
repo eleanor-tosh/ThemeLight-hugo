@@ -231,12 +231,16 @@ content_blocks:
     border_color: '#f67532'
   - _bookshop_name: sections/client-logo
     logos:
-      - _bookshop_name: generic/logo
-        image: /img/clientLogo/Generic_Logo.png
+      - image: /img/clientLogo/Generic_Logo.png
         image_alt:
         link: /
-      - _bookshop_name: generic/logo
-        image: /img/clientLogo/Generic_Logo.png
+      - image: /img/clientLogo/Generic_Logo.png
+        image_alt:
+        link: /
+      - image: /img/clientLogo/Generic_Logo.png
+        image_alt:
+        link: /
+      - image: /img/clientLogo/Generic_Logo.png
         image_alt:
         link: /
 ---
