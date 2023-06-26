@@ -249,4 +249,39 @@ content_blocks:
       hover_border_color: '#000000'
       open_in_new_tab: false
     border_color: '#f67532'
+  - _bookshop_name: sections/blog
+    background_color: '#f1f1f1'
+    heading:
+      _bookshop_name: generic/heading
+      title: BLOG
+      subtitle: >-
+        Dantes remained confused and silent by this explanation of the thoughts
+        which had unconsciously Dantes remained confused and silent by this
+        explanation of the thoughts which had unconsciously 
+      title_color: '#333333'
+      subtitle_color: '#333333'
+      line_color: '#80d6a3'
+    posts:
+      - _bookshop_name: generic/blog-card
+        title: One
+        title_color: '#333333'
+        line_color: '#333333'
+        image: /img/blog/blog1.jpg
+        image_alt:
+        author:
+        date: 2023-06-05T11:11:00Z
+        author_details_color: '#6d6969'
+        description: dcsdf
+        description_color: '#333333'
+        button:
+          _bookshop_name: generic/button
+          label: Read More
+          link_url: /components
+          label_color: '#ffffff'
+          border_color: '#333333'
+          background_color: '#333333'
+          hover_background: white
+          hover_label: '#333'
+          hover_border: '#333'
+          open_in_new_tab: false
 ---
