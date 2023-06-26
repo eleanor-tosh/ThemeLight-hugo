@@ -111,4 +111,25 @@ content_blocks:
           hover_label: '#333'
           hover_border: '#333'
           open_in_new_tab: false
+  - _bookshop_name: sections/features
+    background_color: '#ffffff'
+    heading:
+      title: OUR BEST SERVICES
+      subtitle: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam.
+      title_color: '#333333'
+      subtitle_color: '#6d6969'
+      line_color: '#80d6a3'
+    features:
+      - icon: easel-sharp
+        icon_color: '#80d6a3'
+        heading: Responsive Design
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam.
+        features_heading_color: '#333333'
+        features_text_color: '#6d6969'
 ---
