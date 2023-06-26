@@ -1,6 +1,41 @@
 ---
 title: Home
 content_blocks:
+  - _bookshop_name: sections/hero
+    title: Clean and Flexible Business Template
+    title_color: '#80d6a3'
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam.
+    text_color: '#ffffff'
+    image: /img/hero-banner.jpg
+    image_alt: Person working at a desk on a laptop, only hands and torso visible.
+    button_1:
+      _bookshop_name: generic/button
+      label: PURCHASE NOW
+      link_url: /
+      label_color: '#ffffff'
+      border_color: '#ffffff'
+      background_color: rgba(0, 0, 0, 0)
+      hover_background_color: rgba(0, 0, 0, 0)
+      hover_label_color: '#80d6a3'
+      hover_border_color: '#80d6a3'
+      open_in_new_tab: false
+    button_2:
+      _bookshop_name: generic/button
+      label: VIEW FEATURES
+      link_url: /components
+      label_color: '#ffffff'
+      border_color: '#ffffff'
+      background_color: rgba(0, 0, 0, 0)
+      hover_background_color: rgba(0, 0, 0, 0)
+      hover_label_color: '#80d6a3'
+      hover_border_color: '#80d6a3'
+      open_in_new_tab: false
+    reversed: false
+    background_color: '#6d6969'
+    scrolldown_to: '#portfolio'
   - _bookshop_name: sections/client-logo
     logos:
       - image: /img/clientLogo/Generic_Logo.png
@@ -76,39 +111,4 @@ content_blocks:
           hover_label: '#333'
           hover_border: '#333'
           open_in_new_tab: false
-  - _bookshop_name: sections/hero
-    title: Clean and Flexible Business Template
-    title_color: '#80d6a3'
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam.
-    text_color: '#ffffff'
-    image: /img/hero-banner.jpg
-    image_alt: Person working at a desk on a laptop, only hands and torso visible.
-    button_1:
-      _bookshop_name: generic/button
-      label: PURCHASE NOW
-      link_url: /
-      label_color: '#ffffff'
-      border_color: '#ffffff'
-      background_color: rgba(0, 0, 0, 0)
-      hover_background_color: rgba(0, 0, 0, 0)
-      hover_label_color: '#80d6a3'
-      hover_border_color: '#80d6a3'
-      open_in_new_tab: false
-    button_2:
-      _bookshop_name: generic/button
-      label: VIEW FEATURES
-      link_url: /components
-      label_color: '#ffffff'
-      border_color: '#ffffff'
-      background_color: rgba(0, 0, 0, 0)
-      hover_background_color: rgba(0, 0, 0, 0)
-      hover_label_color: '#80d6a3'
-      hover_border_color: '#80d6a3'
-      open_in_new_tab: false
-    reversed: false
-    background_color: '#6d6969'
-    scrolldown_to: '#portfolio'
 ---
