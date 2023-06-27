@@ -1,18 +1,18 @@
 logo: /img/logo.png
 items:
-  - link: '#banner'
+  - link: /#banner
     text: Home
-  - link: '#features'
+  - link: /#features
     text: Services
-  - link: '#portfolio'
+  - link: /#portfolio
     text: Portfolio
-  - link: '#team'
+  - link: /#team
     text: Team
-  - link: '#pricing-table'
+  - link: /#pricing-table
     text: Price
-  - link: '#blog'
+  - link: /#blog
     text: Blog
-  - link: '#testimonial'
+  - link: /#testimonial
     text: Testimonial
-  - link: '#contact-form'
+  - link: /#contact-form
     text: Contact
