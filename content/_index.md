@@ -330,7 +330,7 @@ content_blocks:
         image_alt: Harry wearing his wizarding hat, glasses and dark hoodie.
       - name: Anne Lewis
         text: >-
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commo.
@@ -364,18 +364,18 @@ content_blocks:
       title: Contact us
       subtitle: 'Subtitle - contact us immediately '
       title_color: '#333333'
-      subtitle_color: '#ac1989'
-      line_color: '#1718b7'
+      subtitle_color: '#6d6969'
+      line_color: '#80d6a3'
     button:
       _bookshop_name: generic/button
       label: Submit
       link_url: /components
       label_color: '#ffffff'
       border_color: '#ffffff'
-      background_color: '#000000'
+      background_color: '#80d6a3'
       hover_background_color: '#ffffff'
-      hover_label_color: '#000000'
-      hover_border_color: '#000000'
+      hover_label_color: '#80d6a3'
+      hover_border_color: '#80d6a3'
       open_in_new_tab: false
-    border_color: '#f67532'
+    border_color: '#80d6a3'
 ---
