@@ -380,6 +380,4 @@ content_blocks:
     border_color: '#80d6a3'
   - _bookshop_name: sections/narrow-image
     text: Hello World!
-  - _bookshop_name: sections/narrow-image
-    text: Hello World!
 ---
