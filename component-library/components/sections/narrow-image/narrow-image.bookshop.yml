@@ -3,17 +3,17 @@ spec:
   structures:
     - content_blocks
   label: "Narrow-image"
-  description:
-  icon:
+  description: Image to help divide up the page.
+  icon: "panorama_horizontal"
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  image: "/img/desk.jpj"
+  image: "/img/desk.jpg"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
- image: "/img/desk.jpj"
+ image: "/img/desk.jpg"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
