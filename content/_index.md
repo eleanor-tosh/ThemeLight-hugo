@@ -243,4 +243,16 @@ content_blocks:
           hover_label: '#333'
           hover_border: '#333'
           open_in_new_tab: false
+  - _bookshop_name: sections/pricing-table
+    background_color: '#80d6a3'
+    heading:
+      title: PRICING TABLE
+      subtitle: >-
+        Dantes remained confused and silent by this explanation of the thoughts
+        which had unconsciously Dantes remained confused and silent by this
+        explanation of the thoughts which had unconsciously.
+      title_color: '#333333'
+      subtitle_color: '#333333'
+      line_color: '#ffffff'
+    price_card: []
 ---
