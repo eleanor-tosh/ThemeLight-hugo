@@ -5,3 +5,4 @@ title: CC test post
 description: Test post
 image: /img/desk.jpg
 ---
+Blog main body text
