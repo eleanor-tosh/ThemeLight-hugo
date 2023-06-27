@@ -372,10 +372,10 @@ content_blocks:
       link_url: /components
       label_color: '#ffffff'
       border_color: '#ffffff'
-      background_color: '#000000'
+      background_color: '#80d6a3'
       hover_background_color: '#ffffff'
-      hover_label_color: '#000000'
-      hover_border_color: '#000000'
+      hover_label_color: '#80d6a3'
+      hover_border_color: '#80d6a3'
       open_in_new_tab: false
-    border_color: '#f67532'
+    border_color: '#80d6a3'
 ---
