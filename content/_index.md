@@ -361,4 +361,14 @@ content_blocks:
           aliquip ex ea commo.
         image: /img/testimonial3.jpg
         image_alt: Harry wearing his wizarding hat, glasses and dark hoodie.
+      - name: Anne Lewis
+        text: >-
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commo.
+        image: /img/testimonial4.jpg
+        image_alt: >-
+          Anne smiling at the camera, wearing a white t-shirt and hair tied in a
+          messy bun.
 ---
