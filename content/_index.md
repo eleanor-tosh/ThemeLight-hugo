@@ -256,6 +256,8 @@ content_blocks:
           open_in_new_tab: false
         text_color: '#333333'
         border_color: '#ffffff'
+  - _bookshop_name: sections/narrow-image
+    image: /img/desk.jpg
   - _bookshop_name: sections/blog
     background_color: '#f1f1f1'
     heading:
