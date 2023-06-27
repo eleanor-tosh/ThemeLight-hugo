@@ -198,10 +198,33 @@ content_blocks:
           border_color: rgba(0, 0, 0, 0)
           background_color: '#ffffff'
           hover_background_color: '#ffffff'
-          hover_label_color: rgba(0, 0, 0, 0)
-          hover_border_color: rgba(0, 0, 0, 0)
+          hover_label_color: '#000000'
+          hover_border_color: '#000000'
           open_in_new_tab: false
         text_color: '#333333'
+        border_color: '#ffffff'
+      - title: MEDIUM PACK
+        currency_unit: $
+        price: '60'
+        frequency: /month
+        list_1: Unlimited Downloads
+        list_2: Unlimited Uploads
+        list_3: Unlimited Email Accounts
+        list_4: Email Forwards
+        list_5: Cloud Storage
+        list_6: Screen Share
+        button:
+          _bookshop_name: generic/button
+          label: BUY NOW
+          link_url: /components
+          label_color: '#ffffff'
+          border_color: '#ffffff'
+          background_color: rgba(0, 0, 0, 0)
+          hover_background_color: rgba(0, 0, 0, 0)
+          hover_label_color: '#000000'
+          hover_border_color: '#000000'
+          open_in_new_tab: false
+        text_color: '#ffffff'
         border_color: '#ffffff'
   - _bookshop_name: sections/client-logo
     logos:
