@@ -2,20 +2,17 @@
 spec:
   structures:
     - content_blocks
-  label: "Video"
+  label: "Posts-list"
   description:
-  icon: "play_circle_filled"
+  icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: 
-  subtitle:
+  text: "Hello World!"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: "GET THE TEMPLATE"
-  subtitle: "Dantes remained confused and silent by this explanation of the"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
