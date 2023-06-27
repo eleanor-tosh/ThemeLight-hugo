@@ -2,7 +2,7 @@
   margin: 0 10px; }
   .c-blog-card .card {
     background: #fff;
-    margin: 20px 5px;
+    margin: 20px 0;
     width: 100%;
     height: 570px;
     border: 1px solid #6d6969;
