@@ -330,7 +330,7 @@ content_blocks:
         image_alt: Harry wearing his wizarding hat, glasses and dark hoodie.
       - name: Anne Lewis
         text: >-
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commo.
