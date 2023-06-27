@@ -64,7 +64,7 @@ preview:
       suffix: "cups"
       text: "Coffee Drunk"
       number_color: "#fff"
-      icon: "cofe-sharp"
+      icon: "cafe-sharp"
       icon_color: "#80d6a3"
   image: '/img/desk.jpg'
   image_alt: 'Birds eye view of table with desk items'
