@@ -4,6 +4,7 @@ author: "Bob Smart"
 title: Example blog post
 description: >-
   Example description goes here. This will give an idea of what the post is
+  about. This will give an idea of what the post is
   about.
 image: /img/blog/blog3.jpg
 ---
