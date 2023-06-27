@@ -1,6 +1,6 @@
 logo: /img/logo.png
 items:
-  - link: /#banner
+  - link: /
     text: Home
   - link: /#features
     text: Services
