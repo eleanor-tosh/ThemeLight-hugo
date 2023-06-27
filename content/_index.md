@@ -378,4 +378,6 @@ content_blocks:
       hover_border_color: '#80d6a3'
       open_in_new_tab: false
     border_color: '#80d6a3'
+  - _bookshop_name: sections/narrow-image
+    text: Hello World!
 ---
