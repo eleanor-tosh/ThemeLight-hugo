@@ -240,12 +240,12 @@ content_blocks:
           _bookshop_name: generic/button
           label: BUY NOW
           link_url: /components
-          label_color: '#ffffff'
-          border_color: '#ffffff'
-          background_color: rgba(0, 0, 0, 0)
-          hover_background_color: rgba(0, 0, 0, 0)
-          hover_label_color: '#000000'
-          hover_border_color: '#000000'
+          label_color: '#80d6a3'
+          border_color: '#80d6a3'
+          background_color: '#ffffff'
+          hover_background_color: '#ffffff'
+          hover_label_color: '#333333'
+          hover_border_color: '#333333'
           open_in_new_tab: false
         text_color: '#ffffff'
         border_color: '#ffffff'
