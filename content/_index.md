@@ -324,4 +324,33 @@ content_blocks:
           hover_label: '#333'
           hover_border: '#333'
           open_in_new_tab: false
+  - _bookshop_name: sections/testimonial
+    background_color: '#ffffff'
+    heading:
+      title: TESTIMONIALS
+      subtitle: >-
+        Dantes remained confused and silent by this explanation of the thoughts
+        which had unconsciously.
+      title_color: '#333333'
+      subtitle_color: '#6d6969'
+      line_color: '#80d6a3'
+    testimonials:
+      - name: Jonathan Andrew
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commo.
+        image: /img/testimonial1.jpg
+        image_alt: >-
+          Jonathan smiling at the camera wearing a grey top with blue shirt
+          collar peaking out the top.
+      - name: Amelia Scott
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commo
+        image: /img/testimonial2.jpg
+        image_alt: Amelia smiling at the camera, wearing red lipstick and black singlet.
 ---
