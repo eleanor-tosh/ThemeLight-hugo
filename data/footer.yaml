@@ -1,4 +1,11 @@
 ---
 logo: "/img/logo.png"
 text: "All rights reserved © 2015"
+socials:
+  - icon: "logo-twitter"
+    link: "https://twitter.com"
+  - icon: "logo-facebook"
+    link: "https://facebook.com"
+  - icon: "logo-linkedin"
+    link: "https://linkedin.com"
 ---

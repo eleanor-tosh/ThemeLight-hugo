@@ -867,6 +867,12 @@ footer p {
   line-height: 1;
   padding-top: 26px;
 }
+.socials a {
+ font-size: 32px;
+ color: #fff;
+ padding: 10px 5px;
+ display: inline-block
+}
 /* =====================
    Blog Post
    ===================== */
