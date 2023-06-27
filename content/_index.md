@@ -194,8 +194,8 @@ content_blocks:
           _bookshop_name: generic/button
           label: BUY NOW
           link_url: /components
-          label_color: rgba(0, 0, 0, 0)
-          border_color: rgba(0, 0, 0, 0)
+          label_color: '#80d6a3'
+          border_color: '#80d6a3'
           background_color: '#ffffff'
           hover_background_color: '#ffffff'
           hover_label_color: '#000000'
@@ -224,7 +224,7 @@ content_blocks:
           hover_label_color: '#000000'
           hover_border_color: '#000000'
           open_in_new_tab: false
-        text_color: '#ffffff'
+        text_color: '#333333'
         border_color: '#ffffff'
       - title: EXPERINCED PACK
         currency_unit: $
