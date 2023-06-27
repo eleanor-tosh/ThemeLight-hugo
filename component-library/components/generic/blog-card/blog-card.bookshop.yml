@@ -19,6 +19,7 @@ blueprint:
   author_details_color: "#6d6969"
   description: 
   description_color: "#333"
+  url:
   button: 
     _bookshop_name: generic/button
     label: "Read More"
@@ -43,6 +44,7 @@ preview:
   author_details_color: "#6d6969"
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque repudiandae nihil qui debitis atque necessitatibus aliquam, consequuntur autem!"
   description_color: "#333"
+  url: /
   button: 
     _bookshop_name: generic/button
     label: "Read More"

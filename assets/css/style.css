@@ -873,6 +873,16 @@ footer p {
  padding: 10px 5px;
  display: inline-block
 }
+
+#blog-post .blog-title {
+  padding-top: 150px;
+}
+
+#blog-post .single-content {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 60px 0;
+}
 /* =====================
    Blog Post
    ===================== */
