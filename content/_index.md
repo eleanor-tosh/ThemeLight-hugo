@@ -168,6 +168,41 @@ content_blocks:
         hover_border_color: '#80d6a3'
         icon: sparkles-sharp
         icon_color: '#80d6a3'
+  - _bookshop_name: sections/pricing-table
+    background_color: '#80d6a3'
+    heading:
+      title: PRICING TABLE
+      subtitle: >-
+        Dantes remained confused and silent by this explanation of the thoughts
+        which had unconsciously Dantes remained confused and silent by this
+        explanation of the thoughts which had unconsciously.
+      title_color: '#333333'
+      subtitle_color: '#333333'
+      line_color: '#ffffff'
+    price_card:
+      - title: STARTER PACK
+        currency_unit: $
+        price: '40'
+        frequency: /month
+        list_1: Unlimited Downloads
+        list_2: Unlimited Uploads
+        list_3: Unlimited Email Accounts
+        list_4: Email Forwards
+        list_5: Cloud Storage
+        list_6: Screen Share
+        button:
+          _bookshop_name: generic/button
+          label: BUY NOW
+          link_url: /components
+          label_color: rgba(0, 0, 0, 0)
+          border_color: rgba(0, 0, 0, 0)
+          background_color: '#ffffff'
+          hover_background_color: '#ffffff'
+          hover_label_color: rgba(0, 0, 0, 0)
+          hover_border_color: rgba(0, 0, 0, 0)
+          open_in_new_tab: false
+        text_color: '#333333'
+        border_color: '#ffffff'
   - _bookshop_name: sections/client-logo
     logos:
       - image: /img/clientLogo/Generic_Logo.png
@@ -243,16 +278,4 @@ content_blocks:
           hover_label: '#333'
           hover_border: '#333'
           open_in_new_tab: false
-  - _bookshop_name: sections/pricing-table
-    background_color: '#80d6a3'
-    heading:
-      title: PRICING TABLE
-      subtitle: >-
-        Dantes remained confused and silent by this explanation of the thoughts
-        which had unconsciously Dantes remained confused and silent by this
-        explanation of the thoughts which had unconsciously.
-      title_color: '#333333'
-      subtitle_color: '#333333'
-      line_color: '#ffffff'
-    price_card: []
 ---
