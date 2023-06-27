@@ -247,8 +247,8 @@ content_blocks:
           hover_label_color: '#333333'
           hover_border_color: '#333333'
           open_in_new_tab: false
-        text_color: '#ffffff'
-        border_color: '#ffffff'
+        text_color: '#333333'
+        border_color: '#333333'
   - _bookshop_name: sections/client-logo
     logos:
       - image: /img/clientLogo/Generic_Logo.png
