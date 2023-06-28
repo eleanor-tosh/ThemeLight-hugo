@@ -16,7 +16,7 @@ collections_config:
   data:
     output: false
     path: data
-  posts:
+  blog:
     output: true
     _enabled_editors:
       - content
