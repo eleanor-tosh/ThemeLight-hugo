@@ -1,5 +1,5 @@
 ---
-date: 2021-01-09T02:20:35Z
+date: 2023-06-27T14:20:00Z
 title: Example project
 description: Example project description
 image: /img/work1.jpg
