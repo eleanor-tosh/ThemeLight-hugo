@@ -21,6 +21,7 @@ blueprint:
     - bookshop:generic/blog-card
     - bookshop:generic/blog-card
     - bookshop:generic/blog-card
+  link_color: '#80d6a3'
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -36,6 +37,7 @@ preview:
     - bookshop:generic/blog-card
     - bookshop:generic/blog-card
     - bookshop:generic/blog-card
+  link_color: '#80d6a3'
 
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

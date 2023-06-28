@@ -293,6 +293,7 @@ content_blocks:
           hover_label: '#333'
           hover_border: '#333'
           open_in_new_tab: false
+    link_color: '#80d6a3'
   - _bookshop_name: sections/testimonial
     background_color: '#ffffff'
     heading:

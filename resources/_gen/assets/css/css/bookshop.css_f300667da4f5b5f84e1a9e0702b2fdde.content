@@ -133,23 +133,23 @@
 .c-counter ion-icon {
   font-size: 64px; }
 
-.c-features h4 {
-  font-size: 20px;
-  position: relative;
-  text-transform: none;
-  margin-bottom: 10px;
-  font-weight: 400;
-  color: var(--features_heading_color); }
-
-.c-features p {
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 300;
-  margin-top: 20px;
-  color: var(--features_text_color); }
-
-.c-features ion-icon {
-  font-size: 64px; }
+.c-features {
+  padding-bottom: 20px; }
+  .c-features h4 {
+    font-size: 20px;
+    position: relative;
+    text-transform: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: var(--features_heading_color); }
+  .c-features p {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: var(--features_text_color); }
+  .c-features ion-icon {
+    font-size: 64px; }
 
 .c-form--button {
   float: right; }
