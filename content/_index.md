@@ -270,29 +270,6 @@ content_blocks:
       title_color: '#333333'
       subtitle_color: '#333333'
       line_color: '#80d6a3'
-    posts:
-      - _bookshop_name: generic/blog-card
-        title: One
-        title_color: '#333333'
-        line_color: '#333333'
-        image: /img/blog/blog1.jpg
-        image_alt:
-        author:
-        date: 2023-06-05T11:11:00Z
-        author_details_color: '#6d6969'
-        description: dcsdf
-        description_color: '#333333'
-        button:
-          _bookshop_name: generic/button
-          label: Read More
-          link_url: /components
-          label_color: '#ffffff'
-          border_color: '#333333'
-          background_color: '#333333'
-          hover_background: white
-          hover_label: '#333'
-          hover_border: '#333'
-          open_in_new_tab: false
     link_color: '#80d6a3'
   - _bookshop_name: sections/testimonial
     background_color: '#ffffff'
@@ -394,4 +371,5 @@ content_blocks:
       subtitle_color: '#24ed0c'
       line_color: '#e95915'
     link_color: '#20dfc0'
+
 ---

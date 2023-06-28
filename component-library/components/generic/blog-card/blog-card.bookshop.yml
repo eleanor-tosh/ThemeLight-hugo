@@ -23,7 +23,7 @@ blueprint:
   button: 
     _bookshop_name: generic/button
     label: "Read More"
-    link_url: '/components'
+    link_url: 
     label_color: "white"
     border_color: "#333"
     background_color: "#333"
@@ -48,7 +48,7 @@ preview:
   button: 
     _bookshop_name: generic/button
     label: "Read More"
-    link_url: '/components'
+    link_url: '/'
     label_color: "white"
     border_color: "#333"
     background_color: "#333"
