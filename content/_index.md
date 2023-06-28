@@ -351,4 +351,15 @@ content_blocks:
       hover_border_color: '#80d6a3'
       open_in_new_tab: false
     border_color: '#80d6a3'
+  - _bookshop_name: sections/portfolio
+    background_color: '#ffffff'
+    link_color: '#80d6a3'
+    heading:
+      title: LATEST WORKS
+      subtitle: >-
+        Dantes remained confused and silent by this explanation of the thoughts
+        which had unconsciously.
+      title_color: '#333333'
+      subtitle_color: '#333333'
+      line_color: '#80d6a3'
 ---
