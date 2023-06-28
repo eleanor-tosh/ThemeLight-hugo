@@ -3,7 +3,7 @@ spec:
   structures:
     - content_blocks
   label: "Portfolio"
-  description: ""
+  description: "Displays project images. Title and description on hover"
   icon: "cases"
   tags: []
 
