@@ -4,9 +4,15 @@ url: /projects/
 content_blocks:
     - _bookshop_name: sections/hero
       title: Projects
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      title_color: '#ffffff'
+      text: All our projects can be found here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-      image: /img/hero-banner.jpg
-      image_alt: Person working
-      background_color: '#6d6969'
+      text_color: '#ffffff'
+      image: /img/project-banner.jpg
+      image_alt:
+      button_1:
+      button_2:
+      reversed: false
+      background_color:
+    - _bookshop_name: sections/project-list
 ---

@@ -2,12 +2,14 @@
 
 {{ if (eq .Section "blog") }}
 
-<div id="blog-post">
+<div id="blog-single">
   <div class="container">
     
     <div class="blog-title">
       {{ partial "bookshop" (slice "generic/heading" (dict "title" .Params.title "subtitle" .Params.description)) }}
+    
     </div>
+
     
     <div>
       <img src="{{ .Params.image }}" style="width: 100%">
@@ -17,6 +19,10 @@
       <p>{{ .Content }}</p>
     </div>
 
+    <div class="author">
+      <p>By {{ .Params.author }} on {{ .Params.date }}</p>
+    </div>
+   
   </div>
 </div>
 

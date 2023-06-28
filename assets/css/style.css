@@ -874,14 +874,19 @@ footer p {
  display: inline-block
 }
 
-#blog-post .blog-title {
+#blog-single .blog-title {
   padding-top: 150px;
 }
 
-#blog-post .single-content {
+#blog-single .single-content {
   font-size: 20px;
   line-height: 1.5;
   margin: 60px 0;
+}
+
+#blog-single .author {
+ padding-bottom: 50px;
+ text-align: center;
 }
 /* =====================
    Blog Post
@@ -944,7 +949,6 @@ footer p {
 /* =====================
    Blog Page
    ===================== */
-
 
 
 #blog-left{

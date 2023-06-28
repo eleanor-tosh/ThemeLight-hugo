@@ -5,16 +5,6 @@
                 <div class="title">
                     {{ partial "bookshop" (slice "generic/heading" .heading )}}
                 </div>
-{{/*  
-                {{ range .projects }}
-               <div class="block ">
-                  <div class="col-md-4 col">
-                       <div class="row">
-                         {{ partial "bookshop" (slice "generic/projects-card" . ) }}
-                       </div>
-                   </div>
-               </div>
-               {{ end }}  */}}
 
                  {{ range where site.RegularPages "Section" "projects" | first 6 }}
                 <div class="block ">
@@ -29,7 +19,7 @@
             </div>
         </div>
         <div>
-            <a href="/portfolio"><h2>See more...</h2></a>
+            <a href="/projects/"><h2>See more...</h2></a>
         </div>
     </div>
 </section>

@@ -1,0 +1,14 @@
+<div class="c-project-list">
+        <div class="container">
+            <div class="row">
+              {{ range where site.RegularPages "Section" "projects" }}  
+                <div class="col-md-4 col" style="padding: 0">
+        
+          {{ partial "bookshop" (slice "generic/projects-card" (dict "url" .RelPermalink "image" .Params.image "title" .Params.title
+          "description" .Params.description "date" .Date )) }}
+        
+                </div>
+                {{ end }}
+            </div>
+        </div>
+</div>
