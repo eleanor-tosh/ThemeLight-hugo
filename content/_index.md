@@ -259,19 +259,6 @@ content_blocks:
   - _bookshop_name: sections/narrow-image
     image: /img/color-pencils2.jpg
   - _bookshop_name: sections/blog
-    background_color: '#c6dc0e'
-    heading:
-      _bookshop_name: generic/heading
-      title: BLOG
-      subtitle: >-
-        Dantes remained confused and silent by this explanation of the thoughts
-        which had unconsciously Dantes remained confused and silent by this
-        explanation of the thoughts which had unconsciously 
-      title_color: '#b91ed6'
-      subtitle_color: '#24ed0c'
-      line_color: '#e95915'
-    link_color: '#20dfc0'
-  - _bookshop_name: sections/blog
     background_color: '#f1f1f1'
     heading:
       _bookshop_name: generic/heading
