@@ -16,11 +16,10 @@
                </div>
                {{ end }}  */}}
 
-                 {{ range (where site.RegularPages "section" "projects" | first 6) }}
+                 {{ range where site.RegularPages "Section" "projects" | first 6 }}
                 <div class="block ">
                    <div class="col-md-4 col">
                         <div class="row">
-                            <p>images</p>
                           {{ partial "bookshop" (slice "generic/projects-card" (dict "url" .RelPermalink "image" .Params.image "title" .Params.title "description" .Params.description)) }}
                         </div>
                     </div>

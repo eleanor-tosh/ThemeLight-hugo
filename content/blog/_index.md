@@ -7,7 +7,7 @@ content_blocks:
     title_color: '#ffffff'
     text: All our blog posts can be found here
     text_color: '#ffffff'
-    image: /img/desk.jpg
+    image: /img/blog/blog-banner.jpg
     image_alt:
     button_1:
     button_2:

@@ -16,7 +16,7 @@ blueprint:
   url: 
   title_color: "#333"
   description_color: "#333"
-  overlay_color: "white"
+  overlay_color: "#fff"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -27,7 +27,7 @@ preview:
   url: "/"
   title_color: "#333"
   description_color: "#333"
-  overlay_color: "white"
+  overlay_color: "#fff"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
