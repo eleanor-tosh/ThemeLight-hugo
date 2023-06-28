@@ -393,29 +393,6 @@ content_blocks:
       title_color: '#333333'
       subtitle_color: '#333333'
       line_color: '#e76324'
-    posts:
-      - _bookshop_name: generic/blog-card
-        title:
-        title_color: '#333333'
-        line_color: '#333333'
-        image:
-        image_alt:
-        author:
-        date:
-        author_details_color: '#6d6969'
-        description:
-        description_color: '#333333'
-        url:
-        button:
-          _bookshop_name: generic/button
-          label: Read More
-          link_url: /components
-          label_color: white
-          border_color: '#333'
-          background_color: '#333'
-          hover_background: white
-          hover_label: '#333'
-          hover_border: '#333'
-          open_in_new_tab: false
+    posts: []
     link_color: '#6b1db9'
 ---
