@@ -7,11 +7,12 @@
 collections_config:
   pages:
     output: true
-    filter: strict
     parse_branch_index: true
     path: content
-    exclude:
-      - components.md
+    filter:
+      base: strict
+      exclude:
+        - components.md
   data:
     output: false
     path: data
