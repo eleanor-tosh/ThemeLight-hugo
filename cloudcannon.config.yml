@@ -35,6 +35,7 @@ collection_groups:
     collections:
       - pages
       - projects
+      - blog
   - heading: Settings
     collections:
       - data
