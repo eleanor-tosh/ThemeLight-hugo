@@ -10,13 +10,33 @@ collections_config:
     filter: strict
     parse_branch_index: true
     path: content
+    exclude:
+      - components.md
   data:
     output: false
     path: data
+  posts:
+    output: true
+    _enabled_editors:
+      - content
+      - visual
+  projects:
+    output: true
+    _enabled_editors:
+      - content
+      - visual
+    _icon: 'work_outline'
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
 collection_groups:
+  - heading: Content
+    collections:
+      - pages
+      - projects
+  - heading: Settings
+    collections:
+      - data
 
 # Set this to true to disable auto-detection of collections.
 collections_config_override: false
