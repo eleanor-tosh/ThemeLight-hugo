@@ -17,8 +17,7 @@ blueprint:
     title_color: "#333"
     subtitle_color: "#333"
     line_color: "#80d6a3"
-  projects: 
-    - bookshop:generic/projects-card
+
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -31,8 +30,7 @@ preview:
     title_color: "#333"
     subtitle_color: "#333"
     line_color: "#80d6a3"
-  projects: 
-    - bookshop:generic/projects-card
+
 
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
