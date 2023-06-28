@@ -118,9 +118,11 @@ content_blocks:
     image: /img/desk.jpg
     image_alt:
   - _bookshop_name: sections/portfolio
+    background_color: "#fff"
+    link_color: '#80d6a3'
     heading:
       title: Portfolio
-      subtitle:
+      subtitle: Subtitle stuff here
       title_color:
       subtitle_color:
       line_color:

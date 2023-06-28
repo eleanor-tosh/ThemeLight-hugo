@@ -188,6 +188,9 @@
   .c-pricing-table .block {
     color: var(--text_color); }
 
+.c-project-list {
+  margin-top: 50px; }
+
 .c-team:hover {
   border: 3px solid var(--hover_border_color); }
 

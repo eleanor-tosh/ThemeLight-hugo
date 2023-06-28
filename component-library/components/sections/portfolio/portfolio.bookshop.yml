@@ -10,6 +10,7 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   background_color: "#fff"
+  link_color: '#80d6a3'
   heading: 
     title: 
     subtitle: 
@@ -22,6 +23,7 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   background_color: "#fff"
+  link_color: '#80d6a3'
   heading: 
     _bookshop_name: generic/heading
     title: "LATEST WORKS"
