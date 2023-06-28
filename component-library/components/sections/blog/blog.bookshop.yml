@@ -3,7 +3,7 @@ spec:
   structures:
     - content_blocks
   label: "Blog"
-  description:
+  description: "Section showing blog cards on a carousel. Click to see blog or more."
   icon: "view_carousel"
   tags: []
 

@@ -3,7 +3,7 @@ spec:
   structures:
     - content_blocks
   label: "Features"
-  description:
+  description: "grid with icon, subtitle and blurbs for displaying features or services"
   icon: "view_compact"
   tags: []
 

@@ -3,7 +3,7 @@ spec:
   structures:
     - content_blocks
   label: "Team"
-  description:
+  description: "Show off the team members with a little about each on hover"
   icon:
   tags: []
 

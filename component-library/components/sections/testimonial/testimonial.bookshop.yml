@@ -3,7 +3,7 @@ spec:
   structures:
     - content_blocks
   label: "Testimonial"
-  description:
+  description: "Share some testimonials: picture and quote"
   icon: "grid_view"
   tags: []
 

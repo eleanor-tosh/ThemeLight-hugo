@@ -3,7 +3,7 @@ spec:
   structures:
     - content_blocks
   label: "Counter"
-  description:
+  description: "Section showing some fun number with an icon"
   icon: "pin"
   tags: []
 
