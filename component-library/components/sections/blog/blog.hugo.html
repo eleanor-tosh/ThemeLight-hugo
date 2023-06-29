@@ -8,7 +8,7 @@
                 <div id="blog-post">
                   {{ range where site.RegularPages "Section" "blog" }} 
                     <div class="card">
-                        {{ partial "bookshop" (slice "generic/blog-card" (dict "url" .RelPermalink "image" .Params.image "title" .Params.title "description" .Params.description "Summary" .Summary "date" .Date "tags" .Params.tags)) }}
+                        {{ partial "bookshop" (slice "generic/blog-card" (dict "url" .RelPermalink "image" .Params.image "title" .Params.title "description" .Params.description "Summary" .Summary "date" .Date "author" .Params.author)) }}
                     </div>
                   {{ end }}
                 </div>

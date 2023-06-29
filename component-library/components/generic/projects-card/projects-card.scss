@@ -17,7 +17,7 @@
         opacity: 0;
         vertical-align: middle;
         transition: 0.3s;
-        background: var(--overlay_color);
+        background: #fff;
         
         &:hover{
             opacity: 0.9;
@@ -26,14 +26,14 @@
         h3 {
             margin: 50px 10px 20px;
             text-transform: uppercase;
-            color: var(--title_color);
+            color: #333;
         }
 
         p { 
             font-size: 18px;
             font-weight: 300;
             padding: 0px 10px;
-            color: var(--description_color);
+            color: #6d6969;
         }
     }
 

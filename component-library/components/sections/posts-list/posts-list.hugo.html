@@ -5,7 +5,7 @@
             <div class="col-md-4 col" style="padding: 0">
     
       {{ partial "bookshop" (slice "generic/blog-card" (dict "url" .RelPermalink "image" .Params.image "title" .Params.title
-      "description" .Params.description "Summary" .Summary "date" .Date "tags" .Params.tags)) }}
+      "description" .Params.description "Summary" .Summary "date" .Date "author" .Params.author)) }}
     
             </div>
             {{ end }}

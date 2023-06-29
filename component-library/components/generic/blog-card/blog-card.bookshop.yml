@@ -20,17 +20,7 @@ blueprint:
   description: 
   description_color: "#333"
   url:
-  button: 
-    _bookshop_name: generic/button
-    label: "Read More"
-    link_url: 
-    label_color: "white"
-    border_color: "#333"
-    background_color: "#333"
-    hover_background: "white"
-    hover_label: "#333"
-    hover_border: "#333"
-    open_in_new_tab: false
+   
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -45,17 +35,6 @@ preview:
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ex itaque repudiandae nihil qui debitis atque necessitatibus aliquam, consequuntur autem!"
   description_color: "#333"
   url: /
-  button: 
-    _bookshop_name: generic/button
-    label: "Read More"
-    link_url: '/'
-    label_color: "white"
-    border_color: "#333"
-    background_color: "#333"
-    hover_background: "white"
-    hover_label: "#333"
-    hover_border: "#333"
-    open_in_new_tab: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

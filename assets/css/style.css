@@ -916,7 +916,7 @@ footer p {
   color: #333;
 }
 #blog-post .content h4 a:hover {
- color: #80d6a3; 
+ /* color: #80d6a3;  */
 }
 #blog-post .content h4::before {
     content: '';

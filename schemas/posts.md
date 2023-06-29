@@ -2,6 +2,6 @@
 date:
 title:
 description:
-tags:
+author:
 image:
 ---

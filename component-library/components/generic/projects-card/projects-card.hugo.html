@@ -1,13 +1,13 @@
 {{ $c := "c-projects-card" }}
 
-<div class="{{ $c }}" style="--overlay_color: {{ .overlay_color }}">
+<div class="{{ $c }}">
     <div class="{{ $c }}__content">
         <div class="{{ $c }}__image"><img src="{{ .image }}" alt="{{ .image_alt }}"></div>
         <a href="{{ .url }}">
             <div class="{{ $c }}__overlay" >
-                <h3 style="--title_color: {{ .title_color }}">{{ .title }}</h3>
+                <h3>{{ .title }}</h3>
                 {{ if .description }}
-                    <p style="--description_color: {{ .description_color }}">{{ .description }}</p>
+                    <p>{{ .description }}</p>
                 {{ end }}
             </div>
         </a>

@@ -13,5 +13,6 @@ content_blocks:
     button_2:
     reversed: false
     background_color:
+   
   - _bookshop_name: sections/posts-list
 ---
