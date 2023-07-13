@@ -12,8 +12,8 @@ blueprint:
   background_color: "#fff"
   heading: 
     title: 
-    subtitle:  
     title_color: 
+    subtitle:  
     subtitle_color: 
     line_color: 
   testimonials:

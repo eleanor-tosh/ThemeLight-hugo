@@ -4,6 +4,4 @@ Template for Hugo. Browse through a [live demo](https://.cloudcannon.com/). This
 
 Fiction was made by [Themefisher](https://themefisher.com/) and converted to Hugo by [CloudCannon](https://cloudcannon.com/), a Jamstack platform for the whole team.
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/themelight-hugo-bookshop-template)
-
 For icons: [here](https://ionic.io/ionicons?_gl=1*51lgiu*_ga*NzgwNDE4OTQ2LjE2ODc0OTEwOTU.*_ga_REH9TJF6KF*MTY4NzQ5MTA5NS4xLjEuMTY4NzQ5MTM3NC4wLjAuMA..)

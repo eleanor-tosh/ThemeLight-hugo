@@ -11,11 +11,11 @@ blueprint:
   label: "Get Started Free"
   link_url: '/components'
   label_color: "white"
+  hover_label_color: "black"
   border_color: "white"
+  hover_border_color: "black"
   background_color: "black"
   hover_background_color: "white"
-  hover_label_color: "black"
-  hover_border_color: "black"
   open_in_new_tab: false
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -23,11 +23,11 @@ preview:
   label: "Get Started Free"
   link_url: '/components'
   label_color: "white"
+  hover_label_color: "#6d6969"
   border_color: "#80d6a3"
+  hover_border_color: "#80d6a3"
   background_color: "#80d6a3"
   hover_background_color: "white"
-  hover_label_color: "#6d6969"
-  hover_border_color: "#80d6a3"
   open_in_new_tab: false
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

@@ -1,0 +1,11 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary-1: #80d6a3;
+  --primary-2: #333;
+  --primary-3: #6d6969;
+  --secondary-1: ;
+  --secondary-2: ;
+  --secondary-3: ;
+  --secondary-4: ;
+  --secondary-5: ; }

@@ -1,0 +1,208 @@
+.c-blog-card {
+  margin: 0 10px; }
+  .c-blog-card .card {
+    background: #fff;
+    margin: 20px 0;
+    width: 100%;
+    height: 570px;
+    border: 1px solid #6d6969;
+    border-radius: 5px;
+    transition: all .2s ease-in-out; }
+  .c-blog-card .card:hover {
+    transform: scale(1.05); }
+  .c-blog-card .content {
+    padding: 30px 25px;
+    text-align: center; }
+  .c-blog-card .content h4 {
+    text-transform: capitalize;
+    position: relative;
+    margin: 20px 0 10px;
+    padding: 10px 0; }
+  .c-blog-card .content h4 a {
+    color: var(--title_color); }
+  .c-blog-card .content h4::before {
+    content: '';
+    position: absolute;
+    left: 45%;
+    top: -6px;
+    width: 30px;
+    height: 2px;
+    background-color: var(--line_color);
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all; }
+  .c-blog-card .content small {
+    color: var(--author_details_color); }
+  .c-blog-card .content p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: var(--description_color); }
+  .c-blog-card img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%; }
+
+.c-button {
+  border-radius: 25px;
+  margin: 0 7px;
+  padding: 10px 22px;
+  font-size: 14px;
+  transition: 0.3s;
+  color: var(--label_color);
+  border: 1px solid var(--border_color);
+  background-color: var(--background_color); }
+  .c-button:hover {
+    background-color: var(--hover_background_color);
+    color: var(--hover_label_color);
+    border: 1px solid var(--hover_border_color); }
+
+.c-heading .title h2 {
+  font-size: 25px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  color: var(--title_color); }
+
+.c-heading .title h2:before {
+  content: '';
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  top: 12px;
+  left: -60px;
+  background: var(--line_color); }
+
+.c-heading .title h2:after {
+  content: '';
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  top: 12px;
+  right: -60px;
+  background: var(--line_color); }
+
+.c-heading .title p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--subtitle_color); }
+
+.c-projects-card__content {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 15px; }
+
+.c-projects-card__overlay {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  vertical-align: middle;
+  transition: 0.3s;
+  background: #fff; }
+  .c-projects-card__overlay:hover {
+    opacity: 0.9; }
+  .c-projects-card__overlay h3 {
+    margin: 50px 10px 20px;
+    text-transform: uppercase;
+    color: #333; }
+  .c-projects-card__overlay p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 10px;
+    color: #6d6969; }
+
+.c-projects-card__image {
+  width: 350px;
+  height: 300px; }
+
+.c-projects-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.c-counter p {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 20px;
+  color: var(--number_color); }
+
+.c-counter span {
+  color: var(--number_color); }
+
+.c-counter ion-icon {
+  font-size: 64px; }
+
+.c-features {
+  padding-bottom: 20px; }
+  .c-features h4 {
+    font-size: 20px;
+    position: relative;
+    text-transform: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: var(--features_heading_color); }
+  .c-features p {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: var(--features_text_color); }
+  .c-features ion-icon {
+    font-size: 64px; }
+
+.c-form--button {
+  float: right; }
+
+.c-hero h1 {
+  color: var(--title_color); }
+
+.c-hero h2 {
+  color: var(--text_color); }
+
+.c-narrow-image {
+  height: 300px;
+  background-size: cover;
+  padding: 250px 0;
+  position: relative; }
+  .c-narrow-image:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.72); }
+
+.c-posts-list {
+  margin-top: 50px; }
+
+.c-pricing-table {
+  padding: 100px 0 127px;
+  background: var(--background_color); }
+  .c-pricing-table .block {
+    color: var(--text_color); }
+
+.c-project-list {
+  margin-top: 50px; }
+
+.c-team:hover {
+  border: 3px solid var(--hover_border_color); }
+
+.c-team ion-icon {
+  font-size: 64px;
+  padding: 20px; }
+
+.c-testimonial img {
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; }

@@ -12,16 +12,16 @@ blueprint:
   background_color: "#fff"
   heading: 
     title: 
-    subtitle: 
     title_color: "#333"
+    subtitle: 
     subtitle_color: "#6d6969"
     line_color: "#80d6a3"
   features:
     - icon:
       icon_color:
       heading: 
-      text: 
       features_heading_color: "#333"
+      text: 
       features_text_color: "#6d6969"
 
 

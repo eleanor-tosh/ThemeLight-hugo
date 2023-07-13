@@ -12,8 +12,8 @@ blueprint:
   background_color: "#444"
   heading: 
     title: 
-    subtitle: 
     title_color: "#fff"
+    subtitle: 
     subtitle_color: "#fff"
     line_color: "#80d6a3"
   numbers:

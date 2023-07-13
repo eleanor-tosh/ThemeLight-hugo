@@ -12,8 +12,8 @@ blueprint:
   background_color: "#80d6a3"
   heading: 
     title: 
-    subtitle: 
     title_color: "#333"
+    subtitle: 
     subtitle_color: "#333"
     line_color: "#fff"
   price_card:

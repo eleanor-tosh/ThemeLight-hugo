@@ -10,8 +10,8 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   title: 
-  subtitle: 
   title_color: "#333"
+  subtitle: 
   subtitle_color: "6d6969"
   line_color: "#80d6a3"
 
